@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+>>>>>>> c207a9690ac4fbcbac88b32293e4e953e98f23c2
 
 -- AstroCore provides a central place to modify mappings, vim options, autocommands, and more!
 -- Configuration documentation can be found with `:h astrocore`

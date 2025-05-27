@@ -10,7 +10,11 @@ fi
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+<<<<<<< HEAD
 export PATH="/usr/local/opt/expat/bin:/Users/tnoguchi/bin/:/opt/homebrew/bin:$PATH"
+=======
+export PATH="/usr/local/opt/expat/bin:/Users/tnoguchi/bin/:$PATH"
+>>>>>>> c207a9690ac4fbcbac88b32293e4e953e98f23c2
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
