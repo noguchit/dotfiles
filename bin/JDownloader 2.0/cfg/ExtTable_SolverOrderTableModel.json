@@ -1,0 +1,16 @@
+{
+  "WIDTH_COL_ExtTextColumn.jd.gui.swing.jdgui.views.myjd.panels.ConnectedDevicesTableModel$6" : 100,
+  "WIDTH_COL_ExtTextColumn.jd.gui.swing.jdgui.views.myjd.panels.ConnectedDevicesTableModel$4" : 100,
+  "WIDTH_COL_ExtTextColumn.jd.gui.swing.jdgui.views.myjd.panels.ConnectedDevicesTableModel$5" : 100,
+  "SORT_ORDER_ID" : null,
+  "VISABLE_COL_ExtTextColumn.jd.gui.swing.jdgui.views.myjd.panels.ConnectedDevicesTableModel$5" : true,
+  "VISABLE_COL_ExtTextColumn.jd.gui.swing.jdgui.views.myjd.panels.ConnectedDevicesTableModel$4" : true,
+  "VISABLE_COL_ExtTextColumn.jd.gui.swing.jdgui.views.myjd.panels.ConnectedDevicesTableModel$6" : true,
+  "POS_COL_0" : "",
+  "POS_COL_1" : "",
+  "VISABLE_COL_ExtComponentColumn.jd.gui.swing.jdgui.views.myjd.panels.ConnectedDevicesTableModel$7" : true,
+  "WIDTH_COL_ExtComponentColumn.jd.gui.swing.jdgui.views.myjd.panels.ConnectedDevicesTableModel$7" : 100,
+  "POS_COL_2" : "",
+  "SORTCOLUMN" : "ExtTextColumn.jd.gui.swing.jdgui.views.myjd.panels.ConnectedDevicesTableModel$4",
+  "POS_COL_3" : ""
+}

@@ -1,0 +1,228 @@
+[ {
+  "filetypeFilter" : {
+    "enabled" : false,
+    "audioFilesEnabled" : false,
+    "matchType" : "IS",
+    "useRegex" : false,
+    "hashEnabled" : false,
+    "videoFilesEnabled" : false,
+    "docFilesEnabled" : false,
+    "subFilesEnabled" : false,
+    "exeFilesEnabled" : false,
+    "archivesEnabled" : false,
+    "imagesEnabled" : false,
+    "customs" : null
+  },
+  "staticRule" : true,
+  "originFilter" : {
+    "enabled" : false,
+    "matchType" : "IS",
+    "origins" : null
+  },
+  "onlineStatusFilter" : {
+    "enabled" : false,
+    "matchType" : "IS",
+    "onlineStatus" : "OFFLINE"
+  },
+  "hosterURLFilter" : {
+    "enabled" : false,
+    "matchType" : "CONTAINS",
+    "regex" : null,
+    "useRegex" : false
+  },
+  "created" : 1594905946217,
+  "sourceURLFilter" : {
+    "enabled" : false,
+    "matchType" : "CONTAINS",
+    "regex" : null,
+    "useRegex" : false
+  },
+  "conditionFilter" : {
+    "enabled" : false,
+    "matchType" : "IS_TRUE",
+    "conditions" : null
+  },
+  "iconKey" : "download",
+  "accept" : true,
+  "valid" : true,
+  "packagenameFilter" : {
+    "enabled" : false,
+    "matchType" : "CONTAINS",
+    "regex" : null,
+    "useRegex" : false
+  },
+  "filenameFilter" : {
+    "enabled" : false,
+    "matchType" : "CONTAINS",
+    "regex" : null,
+    "useRegex" : false
+  },
+  "name" : "Direct HTTP",
+  "matchAlwaysFilter" : {
+    "enabled" : false
+  },
+  "id" : "DirectHTTPView",
+  "pluginStatusFilter" : {
+    "enabled" : true,
+    "matchType" : "ISNOT",
+    "pluginStatus" : "NO_DIRECT_HTTP"
+  },
+  "filesizeFilter" : {
+    "enabled" : false,
+    "from" : 0,
+    "matchType" : "BETWEEN",
+    "to" : 0
+  }
+}, {
+  "filetypeFilter" : {
+    "enabled" : false,
+    "audioFilesEnabled" : false,
+    "matchType" : "IS",
+    "useRegex" : false,
+    "hashEnabled" : false,
+    "videoFilesEnabled" : false,
+    "docFilesEnabled" : false,
+    "subFilesEnabled" : false,
+    "exeFilesEnabled" : false,
+    "archivesEnabled" : false,
+    "imagesEnabled" : false,
+    "customs" : null
+  },
+  "staticRule" : true,
+  "originFilter" : {
+    "enabled" : false,
+    "matchType" : "IS",
+    "origins" : null
+  },
+  "onlineStatusFilter" : {
+    "enabled" : true,
+    "matchType" : "IS",
+    "onlineStatus" : "OFFLINE"
+  },
+  "hosterURLFilter" : {
+    "enabled" : false,
+    "matchType" : "CONTAINS",
+    "regex" : null,
+    "useRegex" : false
+  },
+  "created" : 1594905946219,
+  "sourceURLFilter" : {
+    "enabled" : false,
+    "matchType" : "CONTAINS",
+    "regex" : null,
+    "useRegex" : false
+  },
+  "conditionFilter" : {
+    "enabled" : false,
+    "matchType" : "IS_TRUE",
+    "conditions" : null
+  },
+  "iconKey" : "error",
+  "enabled" : true,
+  "accept" : true,
+  "valid" : true,
+  "packagenameFilter" : {
+    "enabled" : false,
+    "matchType" : "CONTAINS",
+    "regex" : null,
+    "useRegex" : false
+  },
+  "filenameFilter" : {
+    "enabled" : false,
+    "matchType" : "CONTAINS",
+    "regex" : null,
+    "useRegex" : false
+  },
+  "name" : "Offline Files",
+  "matchAlwaysFilter" : {
+    "enabled" : false
+  },
+  "id" : "OfflineView",
+  "pluginStatusFilter" : {
+    "enabled" : false,
+    "matchType" : "IS",
+    "pluginStatus" : "PREMIUM"
+  },
+  "filesizeFilter" : {
+    "enabled" : false,
+    "from" : 0,
+    "matchType" : "BETWEEN",
+    "to" : 0
+  }
+}, {
+  "filetypeFilter" : {
+    "enabled" : false,
+    "audioFilesEnabled" : false,
+    "matchType" : "IS",
+    "useRegex" : false,
+    "hashEnabled" : false,
+    "videoFilesEnabled" : false,
+    "docFilesEnabled" : false,
+    "subFilesEnabled" : false,
+    "exeFilesEnabled" : false,
+    "archivesEnabled" : false,
+    "imagesEnabled" : false,
+    "customs" : null
+  },
+  "staticRule" : true,
+  "originFilter" : {
+    "enabled" : false,
+    "matchType" : "IS",
+    "origins" : null
+  },
+  "onlineStatusFilter" : {
+    "enabled" : false,
+    "matchType" : "IS",
+    "onlineStatus" : "OFFLINE"
+  },
+  "hosterURLFilter" : {
+    "enabled" : false,
+    "matchType" : "CONTAINS",
+    "regex" : null,
+    "useRegex" : false
+  },
+  "created" : 1594905946222,
+  "sourceURLFilter" : {
+    "enabled" : false,
+    "matchType" : "CONTAINS",
+    "regex" : null,
+    "useRegex" : false
+  },
+  "conditionFilter" : {
+    "enabled" : true,
+    "matchType" : "IS_TRUE",
+    "conditions" : [ "DOWNLOAD_LIST_DUPE" ]
+  },
+  "iconKey" : "copy",
+  "enabled" : true,
+  "accept" : true,
+  "valid" : true,
+  "packagenameFilter" : {
+    "enabled" : false,
+    "matchType" : "CONTAINS",
+    "regex" : null,
+    "useRegex" : false
+  },
+  "filenameFilter" : {
+    "enabled" : false,
+    "matchType" : "CONTAINS",
+    "regex" : null,
+    "useRegex" : false
+  },
+  "name" : "Already in Downloadlist",
+  "matchAlwaysFilter" : {
+    "enabled" : false
+  },
+  "id" : "DupesView",
+  "pluginStatusFilter" : {
+    "enabled" : false,
+    "matchType" : "IS",
+    "pluginStatus" : "PREMIUM"
+  },
+  "filesizeFilter" : {
+    "enabled" : false,
+    "from" : 0,
+    "matchType" : "BETWEEN",
+    "to" : 0
+  }
+} ]

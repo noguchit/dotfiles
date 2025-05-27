@@ -1,0 +1,4 @@
+------------------------Thread: 80:MacAntiStandBy.log-----------------------
+--ID:80TS:1722780892559-8/4/24 10:14:52 AM -  [org.jdownloader.extensions.antistandby.MacAntiStandBy(createProcess)] -> Call pmset nodile
+--ID:80TS:1722780892578-8/4/24 10:14:52 AM -  [org.jdownloader.extensions.antistandby.MacAntiStandBy(enableAntiStandby)] -> JDAntiStandby: Start
+--ID:80TS:1722781567871-8/4/24 10:26:07 AM -  [org.jdownloader.extensions.antistandby.MacAntiStandBy(enableAntiStandby)] -> JDAntiStandby: Stop

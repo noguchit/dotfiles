@@ -1,0 +1,7 @@
+{
+  "freshinstall" : false,
+  "forceshutdownenabled" : false,
+  "shutdownmode" : "SHUTDOWN",
+  "enabled" : false,
+  "shutdownactivebydefaultenabled" : false
+}

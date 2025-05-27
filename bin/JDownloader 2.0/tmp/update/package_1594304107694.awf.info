@@ -1,0 +1,10 @@
+{
+  "appID" : "JD",
+  "destRevision" : 14035,
+  "sourceRevision" : 14024,
+  "timestamp" : 1594304107695,
+  "installExtensions" : [ ],
+  "uninstallExtensions" : [ ],
+  "file" : "package_1594304107694.awf",
+  "installedExtensions" : [ "ffmpeg_10.10+" ]
+}

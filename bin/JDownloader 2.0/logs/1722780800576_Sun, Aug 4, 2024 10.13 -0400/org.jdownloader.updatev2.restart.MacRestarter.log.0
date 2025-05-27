@@ -1,0 +1,13 @@
+------------------------Thread: 1:org.jdownloader.updatev2.restart.MacRestarter.log-----------------------
+--ID:1TS:1722780800967-8/4/24 10:13:20 AM -  [org.jdownloader.updatev2.restart.Restarter(<init>)] -> Create Restarter
+------------------------Thread: 47:org.jdownloader.updatev2.restart.MacRestarter.log-----------------------
+--ID:47TS:1722780832944-8/4/24 10:13:52 AM -  [org.jdownloader.updatev2.restart.Restarter(restart)] -> RestartIt
+--ID:47TS:1722780832945-8/4/24 10:13:52 AM -  [org.jdownloader.updatev2.restart.MacRestarter(getApp)] -> Found Modulename: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app
+--ID:47TS:1722780832945-8/4/24 10:13:52 AM -  [org.jdownloader.updatev2.restart.MacRestarter(getApplicationStartCommands)] -> [open, -n, /Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app, --args]
+--ID:47TS:1722780832946-8/4/24 10:13:52 AM -  [org.jdownloader.updatev2.restart.Restarter(restart)] -> appcommands
+--ID:47TS:1722780832946-8/4/24 10:13:52 AM -  [org.jdownloader.updatev2.restart.Restarter(restart)] -> appcmd [open, -n, /Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app, --args]
+--ID:47TS:1722780832946-8/4/24 10:13:52 AM -  [org.jdownloader.updatev2.restart.Restarter(restart)] -> cmdline [open, -n, /Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app, --args]
+--ID:47TS:1722780832948-8/4/24 10:13:52 AM -  [org.jdownloader.updatev2.restart.MacRestarter(getApp)] -> Found Modulename: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app
+--ID:47TS:1722780832948-8/4/24 10:13:52 AM -  [org.jdownloader.updatev2.restart.Restarter(restart)] -> Start process
+--ID:47TS:1722780832953-8/4/24 10:13:52 AM -  [org.jdownloader.updatev2.restart.Restarter(restart)] -> Read errorstream
+--ID:47TS:1722780832954-8/4/24 10:13:52 AM -  [org.jdownloader.updatev2.restart.Restarter(restart)] -> Read inputstream

@@ -1,0 +1,6 @@
+------------------------Thread: 64:jd.controlling.downloadcontroller.DownloadController.log-----------------------
+--ID:64TS:1722780841314-8/4/24 10:14:01 AM -  [jd.controlling.downloadcontroller.DownloadController$7(run)] -> Init DownloadList
+--ID:64TS:1722780841319-8/4/24 10:14:01 AM -  [jd.controlling.downloadcontroller.DownloadController(findAvailableDownloadLists)] -> Collect Lists
+--ID:64TS:1722780841357-8/4/24 10:14:01 AM -  [jd.controlling.downloadcontroller.DownloadController(findAvailableDownloadLists)] -> Lists: [/Users/tnoguchi/bin/JDownloader 2.0/cfg/downloadList269.zip, /Users/tnoguchi/bin/JDownloader 2.0/cfg/downloadList268.zip, /Users/tnoguchi/bin/JDownloader 2.0/cfg/downloadList267.zip, /Users/tnoguchi/bin/JDownloader 2.0/cfg/downloadList266.zip, /Users/tnoguchi/bin/JDownloader 2.0/cfg/downloadList265.zip, /Users/tnoguchi/bin/JDownloader 2.0/cfg/downloadList264.zip]
+--ID:64TS:1722780841357-8/4/24 10:14:01 AM -  [jd.controlling.downloadcontroller.DownloadController(loadFile)] -> Load List: /Users/tnoguchi/bin/JDownloader 2.0/cfg/downloadList269.zip
+--ID:64TS:1722780842956-8/4/24 10:14:02 AM -  [jd.controlling.downloadcontroller.DownloadController$7(run)] -> LinkList found: 336/979

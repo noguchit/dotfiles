@@ -1,0 +1,23 @@
+------------------------Thread: 82:org.jdownloader.plugins.controller.host.PluginFinder.log-----------------------
+--ID:82TS:1722780843491-8/4/24 10:14:03 AM -  [org.jdownloader.plugins.controller.host.PluginFinder(_assignHost)] -> Could not assign any host for: d2l930y2yx77uc.cloudfront.net
+------------------------Thread: 83:org.jdownloader.plugins.controller.host.PluginFinder.log-----------------------
+--ID:83TS:1722780843516-8/4/24 10:14:03 AM -  [org.jdownloader.plugins.controller.host.PluginFinder(_assignHost)] -> Could not assign any host for: wrl.co.jp
+------------------------Thread: 91:org.jdownloader.plugins.controller.host.PluginFinder.log-----------------------
+--ID:91TS:1722780844446-8/4/24 10:14:04 AM -  [org.jdownloader.plugins.controller.host.PluginFinder(_assignHost)] -> Could not assign any host for: d291vdycu0ht11.cloudfront.net
+------------------------Thread: 90:org.jdownloader.plugins.controller.host.PluginFinder.log-----------------------
+--ID:90TS:1722780844413-8/4/24 10:14:04 AM -  [org.jdownloader.plugins.controller.host.PluginFinder(_assignHost)] -> Could not assign any host for: media-amazon.com
+--ID:90TS:1722780844405-8/4/24 10:14:04 AM -  [org.jdownloader.plugins.controller.host.PluginFinder(_assignHost)] -> Could not assign any host for: m.media-amazon.com
+------------------------Thread: 89:org.jdownloader.plugins.controller.host.PluginFinder.log-----------------------
+--ID:89TS:1722780844379-8/4/24 10:14:04 AM -  [org.jdownloader.plugins.controller.host.PluginFinder(_assignHost)] -> Could not assign any host for: s3-ap-northeast-1.amazonaws.com
+------------------------Thread: 88:org.jdownloader.plugins.controller.host.PluginFinder.log-----------------------
+--ID:88TS:1722780844344-8/4/24 10:14:04 AM -  [org.jdownloader.plugins.controller.host.PluginFinder(_assignHost)] -> Could not assign any host for: st-note.com
+--ID:88TS:1722780844343-8/4/24 10:14:04 AM -  [org.jdownloader.plugins.controller.host.PluginFinder(_assignHost)] -> Could not assign any host for: assets.st-note.com
+------------------------Thread: 87:org.jdownloader.plugins.controller.host.PluginFinder.log-----------------------
+--ID:87TS:1722780844328-8/4/24 10:14:04 AM -  [org.jdownloader.plugins.controller.host.PluginFinder(_assignHost)] -> Could not assign any host for: note.wrl.co.jp
+------------------------Thread: 86:org.jdownloader.plugins.controller.host.PluginFinder.log-----------------------
+--ID:86TS:1722780844279-8/4/24 10:14:04 AM -  [org.jdownloader.plugins.controller.host.PluginFinder(_assignHost)] -> Could not assign any host for: polyfill.io
+------------------------Thread: 89:org.jdownloader.plugins.controller.host.PluginFinder.log-----------------------
+--ID:89TS:1722780886493-8/4/24 10:14:46 AM -  [org.jdownloader.plugins.controller.host.PluginFinder(_assignHost)] -> Could not assign any host for: amazonaws.com
+------------------------Thread: 160:org.jdownloader.plugins.controller.host.PluginFinder.log-----------------------
+--ID:160TS:1722780925333-8/4/24 10:15:25 AM -  [org.jdownloader.plugins.controller.host.PluginFinder(_assignHost)] -> Could not assign any host for: pbs.twimg.com
+--ID:160TS:1722780925334-8/4/24 10:15:25 AM -  [org.jdownloader.plugins.controller.host.PluginFinder(_assignHost)] -> Could not assign any host for: twimg.com

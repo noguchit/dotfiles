@@ -1,0 +1,15 @@
+------------------------Thread: 67:org.jdownloader.extensions.ExtensionController.log-----------------------
+--ID:67TS:1722780841687-8/4/24 10:14:01 AM -  [org.jdownloader.extensions.ExtensionController(loadJared)] -> Extensions:[/Users/tnoguchi/bin/JDownloader 2.0/extensions/AntiShutdown.jar, /Users/tnoguchi/bin/JDownloader 2.0/extensions/Extraction.jar, /Users/tnoguchi/bin/JDownloader 2.0/extensions/JDShutdown.jar, /Users/tnoguchi/bin/JDownloader 2.0/extensions/JDGrowl.jar]
+--ID:67TS:1722780842019-8/4/24 10:14:02 AM -  [org.jdownloader.extensions.ExtensionController(initModule)] -> Load Extension: antistandby.AntiStandbyExtension
+--ID:67TS:1722780842506-8/4/24 10:14:02 AM -  [org.jdownloader.extensions.ExtensionController(initModule)] -> Loaded Extension: antistandby.AntiStandbyExtension Load Duration:487ms
+--ID:67TS:1722780842526-8/4/24 10:14:02 AM -  [org.jdownloader.extensions.ExtensionController(initModule)] -> Load Extension: extraction.ExtractionExtension
+--ID:67TS:1722780843533-8/4/24 10:14:03 AM -  [org.jdownloader.extensions.ExtensionController(initModule)] -> Loaded Extension: extraction.ExtractionExtension Load Duration:1007ms
+--ID:67TS:1722780843570-8/4/24 10:14:03 AM -  [org.jdownloader.extensions.ExtensionController(initModule)] -> Load Extension: growl.GrowlExtension
+--ID:67TS:1722780843645-8/4/24 10:14:03 AM -  [org.jdownloader.extensions.ExtensionController(initModule)] -> Loaded Extension: growl.GrowlExtension Load Duration:75ms
+--ID:67TS:1722780843652-8/4/24 10:14:03 AM -  [org.jdownloader.extensions.ExtensionController(initModule)] -> Load Extension: shutdown.ShutdownExtension
+--ID:67TS:1722780844742-8/4/24 10:14:04 AM -  [org.jdownloader.extensions.ExtensionController(initModule)] -> Loaded Extension: shutdown.ShutdownExtension Load Duration:1090ms
+--ID:67TS:1722780844751-8/4/24 10:14:04 AM -  [org.jdownloader.extensions.ExtensionController(init)] -> @ExtensionController: init in3102ms :4
+--ID:67TS:1722780844751-8/4/24 10:14:04 AM -  [org.jdownloader.extensions.ExtensionController(init)] -> @ExtensionController:Bye-bye, Standby!
+--ID:67TS:1722780844751-8/4/24 10:14:04 AM -  [org.jdownloader.extensions.ExtensionController(init)] -> @ExtensionController:Archive Extractor
+--ID:67TS:1722780844751-8/4/24 10:14:04 AM -  [org.jdownloader.extensions.ExtensionController(init)] -> @ExtensionController:Growl Notification
+--ID:67TS:1722780844751-8/4/24 10:14:04 AM -  [org.jdownloader.extensions.ExtensionController(init)] -> @ExtensionController:JD Shutdown

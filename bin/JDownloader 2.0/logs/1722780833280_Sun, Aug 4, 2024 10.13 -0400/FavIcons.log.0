@@ -1,0 +1,877 @@
+------------------------Thread: 27:FavIcons-----------------------
+--ID:27TS:1722780844268-8/4/24 10:14:04 AM -  [jd.controlling.faviconcontroller.FavIcons(createDefaultFavIcon)] -> createDefaultFavIcon: polyfill.io
+------------------------Thread: 86:FavIcons-----------------------
+--ID:86TS:1722780844281-8/4/24 10:14:04 AM -  [jd.controlling.faviconcontroller.FavIcons(downloadFavIcon)] -> Download FavIcon for polyfill.io
+--ID:86TS:1722780845526-8/4/24 10:14:05 AM -  [] -> Exception thrown at jd.http.Browser.openRequestConnection(Browser.java:2074):
+java.net.UnknownHostException: Could not resolve: -polyfill.io<->polyfill.io-
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:866)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:475)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.resolvHostIP(HTTPConnectionImpl.java:785)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getRemoteIPs(HTTPConnectionImpl.java:790)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.connect(HTTPConnectionImpl.java:921)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.finalizeConnect(HTTPConnectionImpl.java:1360)
+	at jd.http.Request.connect(Request.java:374)
+	at jd.http.Request.connect(Request.java:361)
+	at jd.http.Browser.openRequestConnection(Browser.java:2037)
+	at jd.http.Browser.openRequestConnection(Browser.java:1893)
+	at jd.http.Browser.getPage(Browser.java:1552)
+	at jd.http.Browser.getPage(Browser.java:1548)
+	at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+	at jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+--ID:86TS:1722780845527-8/4/24 10:14:05 AM -  [] -> Exception thrown at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:617):
+jd.http.Browser$BrowserException: Caller: jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+BrowserID:4|BrowserParentID:-1|RequestID:1|URL:https://polyfill.io/
+----------------Request Information-------------
+URL: https://polyfill.io/
+Host: polyfill.io
+Connection-Timeout: 10000ms
+Read-Timeout: 10000ms
+----------------Request-------------------------
+-------------Not Connected Yet!-----------------
+
+----------------Response Information------------
+-------------Not Connected Yet!------------------
+
+
+	at jd.http.Browser.openRequestConnection(Browser.java:2085)
+	at jd.http.Browser.openRequestConnection(Browser.java:1893)
+	at jd.http.Browser.getPage(Browser.java:1552)
+	at jd.http.Browser.getPage(Browser.java:1548)
+	at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+	at jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: Could not resolve: -polyfill.io<->polyfill.io-
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:866)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:475)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.resolvHostIP(HTTPConnectionImpl.java:785)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getRemoteIPs(HTTPConnectionImpl.java:790)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.connect(HTTPConnectionImpl.java:921)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.finalizeConnect(HTTPConnectionImpl.java:1360)
+	at jd.http.Request.connect(Request.java:374)
+	at jd.http.Request.connect(Request.java:361)
+	at jd.http.Browser.openRequestConnection(Browser.java:2037)
+	... 10 more
+
+--ID:86TS:1722780846542-8/4/24 10:14:06 AM -  [] -> Exception thrown at jd.http.Browser.openRequestConnection(Browser.java:2074):
+java.net.UnknownHostException: Could not resolve: -polyfill.io<->polyfill.io-
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:866)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:475)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.resolvHostIP(HTTPConnectionImpl.java:785)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getRemoteIPs(HTTPConnectionImpl.java:790)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.connect(HTTPConnectionImpl.java:921)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.finalizeConnect(HTTPConnectionImpl.java:1360)
+	at jd.http.Request.connect(Request.java:374)
+	at jd.http.Request.connect(Request.java:361)
+	at jd.http.Browser.openRequestConnection(Browser.java:2037)
+	at jd.http.Browser.openRequestConnection(Browser.java:1893)
+	at jd.http.Browser.getPage(Browser.java:1552)
+	at jd.http.Browser.getPage(Browser.java:1548)
+	at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+	at jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+--ID:86TS:1722780846543-8/4/24 10:14:06 AM -  [] -> Exception thrown at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:617):
+jd.http.Browser$BrowserException: Caller: jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+BrowserID:4|BrowserParentID:-1|RequestID:2|URL:http://polyfill.io/
+----------------Request Information-------------
+URL: http://polyfill.io/
+Host: polyfill.io
+Connection-Timeout: 10000ms
+Read-Timeout: 10000ms
+----------------Request-------------------------
+-------------Not Connected Yet!-----------------
+
+----------------Response Information------------
+-------------Not Connected Yet!------------------
+
+
+	at jd.http.Browser.openRequestConnection(Browser.java:2085)
+	at jd.http.Browser.openRequestConnection(Browser.java:1893)
+	at jd.http.Browser.getPage(Browser.java:1552)
+	at jd.http.Browser.getPage(Browser.java:1548)
+	at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+	at jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: Could not resolve: -polyfill.io<->polyfill.io-
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:866)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:475)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.resolvHostIP(HTTPConnectionImpl.java:785)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getRemoteIPs(HTTPConnectionImpl.java:790)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.connect(HTTPConnectionImpl.java:921)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.finalizeConnect(HTTPConnectionImpl.java:1360)
+	at jd.http.Request.connect(Request.java:374)
+	at jd.http.Request.connect(Request.java:361)
+	at jd.http.Browser.openRequestConnection(Browser.java:2037)
+	... 10 more
+
+--ID:86TS:1722780846543-8/4/24 10:14:06 AM -  [jd.controlling.faviconcontroller.FavIcons(downloadFavIcon)] -> Could not download FavIcon for polyfill.io
+------------------------Thread: 27:FavIcons-----------------------
+--ID:27TS:1722780844443-8/4/24 10:14:04 AM -  [jd.controlling.faviconcontroller.FavIcons(createDefaultFavIcon)] -> createDefaultFavIcon: d291vdycu0ht11.cloudfront.net
+------------------------Thread: 91:FavIcons-----------------------
+--ID:91TS:1722780844447-8/4/24 10:14:04 AM -  [jd.controlling.faviconcontroller.FavIcons(downloadFavIcon)] -> Download FavIcon for d291vdycu0ht11.cloudfront.net
+--ID:91TS:1722780846569-8/4/24 10:14:06 AM -  [jd.controlling.faviconcontroller.FavIcons(downloadFavIcon)] -> Could not download FavIcon for d291vdycu0ht11.cloudfront.net
+------------------------Thread: 44:FavIcons-----------------------
+--ID:44TS:1722780843440-8/4/24 10:14:03 AM -  [jd.controlling.faviconcontroller.FavIcons(createDefaultFavIcon)] -> createDefaultFavIcon: d2l930y2yx77uc.cloudfront.net
+------------------------Thread: 82:FavIcons-----------------------
+--ID:82TS:1722780843493-8/4/24 10:14:03 AM -  [jd.controlling.faviconcontroller.FavIcons(downloadFavIcon)] -> Download FavIcon for d2l930y2yx77uc.cloudfront.net
+--ID:82TS:1722780847494-8/4/24 10:14:07 AM -  [jd.controlling.faviconcontroller.FavIcons(downloadFavIcon)] -> Could not download FavIcon for d2l930y2yx77uc.cloudfront.net
+------------------------Thread: 27:FavIcons-----------------------
+--ID:27TS:1722780844399-8/4/24 10:14:04 AM -  [jd.controlling.faviconcontroller.FavIcons(createDefaultFavIcon)] -> createDefaultFavIcon: m.media-amazon.com
+------------------------Thread: 90:FavIcons-----------------------
+--ID:90TS:1722780844414-8/4/24 10:14:04 AM -  [jd.controlling.faviconcontroller.FavIcons(downloadFavIcon)] -> Download FavIcon for m.media-amazon.com
+--ID:90TS:1722780846202-8/4/24 10:14:06 AM -  [] -> Exception thrown at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:617):
+jd.http.Browser$BrowserException: Caller: jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+BrowserID:8|BrowserParentID:-1|RequestID:1|URL:https://m.media-amazon.com/
+----------------Request Information-------------
+URL: https://m.media-amazon.com/
+ConnectIP: m.media-amazon.com/23.46.155.220:443
+Connection-Timeout: 10000ms
+Read-Timeout: 10000ms
+----------------ConnectionExceptions-------------------------
+0:m.media-amazon.com/23.46.155.220|javax.net.ssl.SSLHandshakeException(Received fatal alert: handshake_failure)|retrySSL:Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@86cd113=(Handshake)enable AES_128_GCM for TLS1.2/TLS1.3
+----------------Request-------------------------
+GET / HTTP/1.1
+Host: m.media-amazon.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.16; rv:76.0) Gecko/20100101 Firefox/76.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: de,en-gb;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Cache-Control: no-cache
+
+----------------Response Information------------
+Connection-Time: 183ms
+Request-Time: 425ms
+----------------Response------------------------
+HTTP/1.1 400 Bad Request
+Server: Server
+Content-Type: text/plain
+Content-Length: 11
+Expires: Sun, 04 Aug 2024 15:06:33 GMT
+Cache-Control: max-age=3600,public
+X-Amz-IR-Id: 2b7184cf-3bfe-4f5c-86fe-5ebd497867a0
+Peer-Cache: Hit
+Date: Sun, 04 Aug 2024 14:14:06 GMT
+Connection: keep-alive
+Alt-Svc: h3=":443"; ma=93600
+X-Cache: Miss from akamai
+Strict-Transport-Security: max-age=86400
+Akamai-GRN: 0.dc082e17.1722780845.5e7f881a
+Server-Timing: provider;desc="ak"
+Timing-Allow-Origin: https://www.amazon.in, https://www.amazon.com
+Akamai-Cache-Status: NotCacheable from child
+Access-Control-Allow-Origin: *
+------------------------------------------------
+
+
+	at jd.http.Browser.loadConnection(Browser.java:1754)
+	at jd.http.Browser.getPage(Browser.java:1552)
+	at jd.http.Browser.getPage(Browser.java:1548)
+	at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+	at jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: 400 Bad Request
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getInputStream(HTTPConnectionImpl.java:1518)
+	at jd.http.URLConnectionAdapterDirectImpl.getInputStream(URLConnectionAdapterDirectImpl.java:166)
+	at jd.http.Request.read(Request.java:116)
+	at jd.http.Request.read(Request.java:917)
+	at jd.http.Browser.loadConnection(Browser.java:1741)
+	... 9 more
+
+--ID:90TS:1722780846759-8/4/24 10:14:06 AM -  [jd.controlling.faviconcontroller.FavIcons(downloadFavIcon)] -> Could not download FavIcon for m.media-amazon.com
+--ID:90TS:1722780846760-8/4/24 10:14:06 AM -  [jd.controlling.faviconcontroller.FavIcons(downloadFavIcon)] -> Download FavIcon for media-amazon.com
+--ID:90TS:1722780848061-8/4/24 10:14:08 AM -  [] -> Exception thrown at jd.http.Browser.openRequestConnection(Browser.java:2074):
+java.net.UnknownHostException: Could not resolve: -media-amazon.com<->media-amazon.com-
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:866)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:475)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.resolvHostIP(HTTPConnectionImpl.java:785)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getRemoteIPs(HTTPConnectionImpl.java:790)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.connect(HTTPConnectionImpl.java:921)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.finalizeConnect(HTTPConnectionImpl.java:1360)
+	at jd.http.Request.connect(Request.java:374)
+	at jd.http.Request.connect(Request.java:361)
+	at jd.http.Browser.openRequestConnection(Browser.java:2037)
+	at jd.http.Browser.openRequestConnection(Browser.java:1893)
+	at jd.http.Browser.getPage(Browser.java:1552)
+	at jd.http.Browser.getPage(Browser.java:1548)
+	at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+	at jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+--ID:90TS:1722780848061-8/4/24 10:14:08 AM -  [] -> Exception thrown at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:617):
+jd.http.Browser$BrowserException: Caller: jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+BrowserID:16|BrowserParentID:-1|RequestID:1|URL:https://media-amazon.com/
+----------------Request Information-------------
+URL: https://media-amazon.com/
+Host: media-amazon.com
+Connection-Timeout: 10000ms
+Read-Timeout: 10000ms
+----------------Request-------------------------
+-------------Not Connected Yet!-----------------
+
+----------------Response Information------------
+-------------Not Connected Yet!------------------
+
+
+	at jd.http.Browser.openRequestConnection(Browser.java:2085)
+	at jd.http.Browser.openRequestConnection(Browser.java:1893)
+	at jd.http.Browser.getPage(Browser.java:1552)
+	at jd.http.Browser.getPage(Browser.java:1548)
+	at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+	at jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: Could not resolve: -media-amazon.com<->media-amazon.com-
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:866)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:475)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.resolvHostIP(HTTPConnectionImpl.java:785)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getRemoteIPs(HTTPConnectionImpl.java:790)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.connect(HTTPConnectionImpl.java:921)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.finalizeConnect(HTTPConnectionImpl.java:1360)
+	at jd.http.Request.connect(Request.java:374)
+	at jd.http.Request.connect(Request.java:361)
+	at jd.http.Browser.openRequestConnection(Browser.java:2037)
+	... 10 more
+
+--ID:90TS:1722780849074-8/4/24 10:14:09 AM -  [] -> Exception thrown at jd.http.Browser.openRequestConnection(Browser.java:2074):
+java.net.UnknownHostException: Could not resolve: -media-amazon.com<->media-amazon.com-
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:866)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:475)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.resolvHostIP(HTTPConnectionImpl.java:785)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getRemoteIPs(HTTPConnectionImpl.java:790)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getKeepAliveSocket(HTTPConnectionImpl.java:535)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.connect(HTTPConnectionImpl.java:915)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.finalizeConnect(HTTPConnectionImpl.java:1360)
+	at jd.http.Request.connect(Request.java:374)
+	at jd.http.Request.connect(Request.java:361)
+	at jd.http.Browser.openRequestConnection(Browser.java:2037)
+	at jd.http.Browser.openRequestConnection(Browser.java:1893)
+	at jd.http.Browser.getPage(Browser.java:1552)
+	at jd.http.Browser.getPage(Browser.java:1548)
+	at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+	at jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+--ID:90TS:1722780849074-8/4/24 10:14:09 AM -  [] -> Exception thrown at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:617):
+jd.http.Browser$BrowserException: Caller: jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+BrowserID:16|BrowserParentID:-1|RequestID:2|URL:http://media-amazon.com/
+----------------Request Information-------------
+URL: http://media-amazon.com/
+Host: media-amazon.com
+Connection-Timeout: 10000ms
+Read-Timeout: 10000ms
+----------------Request-------------------------
+-------------Not Connected Yet!-----------------
+
+----------------Response Information------------
+-------------Not Connected Yet!------------------
+
+
+	at jd.http.Browser.openRequestConnection(Browser.java:2085)
+	at jd.http.Browser.openRequestConnection(Browser.java:1893)
+	at jd.http.Browser.getPage(Browser.java:1552)
+	at jd.http.Browser.getPage(Browser.java:1548)
+	at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+	at jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: Could not resolve: -media-amazon.com<->media-amazon.com-
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:866)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:475)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.resolvHostIP(HTTPConnectionImpl.java:785)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getRemoteIPs(HTTPConnectionImpl.java:790)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getKeepAliveSocket(HTTPConnectionImpl.java:535)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.connect(HTTPConnectionImpl.java:915)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.finalizeConnect(HTTPConnectionImpl.java:1360)
+	at jd.http.Request.connect(Request.java:374)
+	at jd.http.Request.connect(Request.java:361)
+	at jd.http.Browser.openRequestConnection(Browser.java:2037)
+	... 10 more
+
+--ID:90TS:1722780849074-8/4/24 10:14:09 AM -  [jd.controlling.faviconcontroller.FavIcons(downloadFavIcon)] -> Could not download FavIcon for media-amazon.com
+------------------------Thread: 27:FavIcons-----------------------
+--ID:27TS:1722780844339-8/4/24 10:14:04 AM -  [jd.controlling.faviconcontroller.FavIcons(createDefaultFavIcon)] -> createDefaultFavIcon: assets.st-note.com
+------------------------Thread: 88:FavIcons-----------------------
+--ID:88TS:1722780844344-8/4/24 10:14:04 AM -  [jd.controlling.faviconcontroller.FavIcons(downloadFavIcon)] -> Download FavIcon for assets.st-note.com
+--ID:88TS:1722780847202-8/4/24 10:14:07 AM -  [jd.controlling.faviconcontroller.FavIcons(downloadFavIcon)] -> Could not download FavIcon for assets.st-note.com
+--ID:88TS:1722780847203-8/4/24 10:14:07 AM -  [jd.controlling.faviconcontroller.FavIcons(downloadFavIcon)] -> Download FavIcon for st-note.com
+--ID:88TS:1722780848404-8/4/24 10:14:08 AM -  [] -> Exception thrown at jd.http.Browser.openRequestConnection(Browser.java:2074):
+java.net.UnknownHostException: Could not resolve: -st-note.com<->st-note.com-
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:866)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:475)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.resolvHostIP(HTTPConnectionImpl.java:785)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getRemoteIPs(HTTPConnectionImpl.java:790)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.connect(HTTPConnectionImpl.java:921)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.finalizeConnect(HTTPConnectionImpl.java:1360)
+	at jd.http.Request.connect(Request.java:374)
+	at jd.http.Request.connect(Request.java:361)
+	at jd.http.Browser.openRequestConnection(Browser.java:2037)
+	at jd.http.Browser.openRequestConnection(Browser.java:1893)
+	at jd.http.Browser.getPage(Browser.java:1552)
+	at jd.http.Browser.getPage(Browser.java:1548)
+	at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+	at jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+--ID:88TS:1722780848404-8/4/24 10:14:08 AM -  [] -> Exception thrown at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:617):
+jd.http.Browser$BrowserException: Caller: jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+BrowserID:19|BrowserParentID:-1|RequestID:1|URL:https://st-note.com/
+----------------Request Information-------------
+URL: https://st-note.com/
+Host: st-note.com
+Connection-Timeout: 10000ms
+Read-Timeout: 10000ms
+----------------Request-------------------------
+-------------Not Connected Yet!-----------------
+
+----------------Response Information------------
+-------------Not Connected Yet!------------------
+
+
+	at jd.http.Browser.openRequestConnection(Browser.java:2085)
+	at jd.http.Browser.openRequestConnection(Browser.java:1893)
+	at jd.http.Browser.getPage(Browser.java:1552)
+	at jd.http.Browser.getPage(Browser.java:1548)
+	at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+	at jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: Could not resolve: -st-note.com<->st-note.com-
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:866)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:475)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.resolvHostIP(HTTPConnectionImpl.java:785)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getRemoteIPs(HTTPConnectionImpl.java:790)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.connect(HTTPConnectionImpl.java:921)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.finalizeConnect(HTTPConnectionImpl.java:1360)
+	at jd.http.Request.connect(Request.java:374)
+	at jd.http.Request.connect(Request.java:361)
+	at jd.http.Browser.openRequestConnection(Browser.java:2037)
+	... 10 more
+
+--ID:88TS:1722780850089-8/4/24 10:14:10 AM -  [] -> Exception thrown at jd.http.Browser.openRequestConnection(Browser.java:2074):
+java.net.UnknownHostException: Could not resolve: -st-note.com<->st-note.com-
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:866)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:475)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.resolvHostIP(HTTPConnectionImpl.java:785)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getRemoteIPs(HTTPConnectionImpl.java:790)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getKeepAliveSocket(HTTPConnectionImpl.java:535)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.connect(HTTPConnectionImpl.java:915)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.finalizeConnect(HTTPConnectionImpl.java:1360)
+	at jd.http.Request.connect(Request.java:374)
+	at jd.http.Request.connect(Request.java:361)
+	at jd.http.Browser.openRequestConnection(Browser.java:2037)
+	at jd.http.Browser.openRequestConnection(Browser.java:1893)
+	at jd.http.Browser.getPage(Browser.java:1552)
+	at jd.http.Browser.getPage(Browser.java:1548)
+	at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+	at jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+--ID:88TS:1722780850089-8/4/24 10:14:10 AM -  [] -> Exception thrown at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:617):
+jd.http.Browser$BrowserException: Caller: jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+BrowserID:19|BrowserParentID:-1|RequestID:2|URL:http://st-note.com/
+----------------Request Information-------------
+URL: http://st-note.com/
+Host: st-note.com
+Connection-Timeout: 10000ms
+Read-Timeout: 10000ms
+----------------Request-------------------------
+-------------Not Connected Yet!-----------------
+
+----------------Response Information------------
+-------------Not Connected Yet!------------------
+
+
+	at jd.http.Browser.openRequestConnection(Browser.java:2085)
+	at jd.http.Browser.openRequestConnection(Browser.java:1893)
+	at jd.http.Browser.getPage(Browser.java:1552)
+	at jd.http.Browser.getPage(Browser.java:1548)
+	at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+	at jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: Could not resolve: -st-note.com<->st-note.com-
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:866)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:475)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.resolvHostIP(HTTPConnectionImpl.java:785)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getRemoteIPs(HTTPConnectionImpl.java:790)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getKeepAliveSocket(HTTPConnectionImpl.java:535)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.connect(HTTPConnectionImpl.java:915)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.finalizeConnect(HTTPConnectionImpl.java:1360)
+	at jd.http.Request.connect(Request.java:374)
+	at jd.http.Request.connect(Request.java:361)
+	at jd.http.Browser.openRequestConnection(Browser.java:2037)
+	... 10 more
+
+--ID:88TS:1722780850089-8/4/24 10:14:10 AM -  [jd.controlling.faviconcontroller.FavIcons(downloadFavIcon)] -> Could not download FavIcon for st-note.com
+------------------------Thread: 27:FavIcons-----------------------
+--ID:27TS:1722780844370-8/4/24 10:14:04 AM -  [jd.controlling.faviconcontroller.FavIcons(createDefaultFavIcon)] -> createDefaultFavIcon: s3-ap-northeast-1.amazonaws.com
+------------------------Thread: 89:FavIcons-----------------------
+--ID:89TS:1722780844387-8/4/24 10:14:04 AM -  [jd.controlling.faviconcontroller.FavIcons(downloadFavIcon)] -> Download FavIcon for s3-ap-northeast-1.amazonaws.com
+--ID:89TS:1722780847799-8/4/24 10:14:07 AM -  [] -> Exception thrown at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:633):
+java.io.IOException: redirect to different domain?aws.amazon.com!=s3-ap-northeast-1.amazonaws.com
+	at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:607)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+	at jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+--ID:89TS:1722780851067-8/4/24 10:14:11 AM -  [] -> Exception thrown at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:633):
+java.io.IOException: redirect to different domain?aws.amazon.com!=s3-ap-northeast-1.amazonaws.com
+	at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:607)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+	at jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+--ID:89TS:1722780851067-8/4/24 10:14:11 AM -  [jd.controlling.faviconcontroller.FavIcons(downloadFavIcon)] -> Could not download FavIcon for s3-ap-northeast-1.amazonaws.com
+--ID:89TS:1722780851067-8/4/24 10:14:11 AM -  [jd.controlling.faviconcontroller.FavIcons(downloadFavIcon)] -> Download FavIcon for amazonaws.com
+--ID:89TS:1722780883682-8/4/24 10:14:43 AM -  [] -> Exception thrown at jd.http.Browser.openRequestConnection(Browser.java:2074):
+org.bouncycastle.tls.TlsFatalAlert: handshake_failure(40)
+	at org.bouncycastle.tls.TlsProtocol.safeReadRecord(Unknown Source)
+	at org.bouncycastle.tls.TlsProtocol.blockForHandshake(Unknown Source)
+	at org.bouncycastle.tls.TlsClientProtocol.connect(Unknown Source)
+	at org.jdownloader.net.BCSSLSocketStreamFactory.create(BCSSLSocketStreamFactory.java:354)
+	at org.jdownloader.net.AutoBCSSLSocketStreamFactory.create(AutoBCSSLSocketStreamFactory.java:43)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.connect(HTTPConnectionImpl.java:1005)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.finalizeConnect(HTTPConnectionImpl.java:1360)
+	at jd.http.Request.connect(Request.java:374)
+	at jd.http.Request.connect(Request.java:361)
+	at jd.http.Browser.openRequestConnection(Browser.java:2037)
+	at jd.http.Browser.openRequestConnection(Browser.java:1893)
+	at jd.http.Browser.getPage(Browser.java:1552)
+	at jd.http.Browser.getPage(Browser.java:1548)
+	at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+	at jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+--ID:89TS:1722780883684-8/4/24 10:14:43 AM -  [] -> Exception thrown at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:617):
+jd.http.Browser$BrowserException: Caller: jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+BrowserID:22|BrowserParentID:-1|RequestID:1|URL:https://amazonaws.com/
+----------------Request Information-------------
+URL: https://amazonaws.com/
+Host: amazonaws.com
+Connection-Timeout: 10000ms
+Read-Timeout: 10000ms
+----------------ConnectionExceptions-------------------------
+0:amazonaws.com/72.21.210.29|javax.net.ssl.SSLHandshakeException(Remote host closed connection during handshake)|retrySSL:Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@86cd113=(Handshake)enable AES_128_GCM for TLS1.2/TLS1.3
+1:amazonaws.com/72.21.210.29|javax.net.ssl.SSLHandshakeException(Remote host closed connection during handshake)|retrySSL:Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@86cd113=(Handshake)enable GCM for TLS1.2/TLS1.3
+2:amazonaws.com/72.21.210.29|javax.net.ssl.SSLHandshakeException(Remote host closed connection during handshake)|retrySSL:Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@86cd113=(Handshake)disable TLS1.0/TLS1.1
+3:amazonaws.com/72.21.210.29|javax.net.ssl.SSLHandshakeException(Remote host closed connection during handshake)|retrySSL:Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@86cd113=(Handshake)disable TLS1.0/TLS1.1
+4:amazonaws.com/72.21.210.29:443|org.bouncycastle.tls.TlsFatalAlert(handshake_failure(40))|retrySSL:Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@86cd113=(Handshake)enable TLS1.3
+5:amazonaws.com/72.21.210.29:443|org.bouncycastle.tls.TlsFatalAlert(handshake_failure(40))|retrySSL:null
+6:amazonaws.com/207.171.166.22:443|org.bouncycastle.tls.TlsFatalAlert(handshake_failure(40))|retrySSL:null
+7:amazonaws.com/72.21.206.80:443|org.bouncycastle.tls.TlsFatalAlert(handshake_failure(40))|retrySSL:null
+----------------Request-------------------------
+-------------Not Connected Yet!-----------------
+
+----------------Response Information------------
+-------------Not Connected Yet!------------------
+
+
+	at jd.http.Browser.openRequestConnection(Browser.java:2085)
+	at jd.http.Browser.openRequestConnection(Browser.java:1893)
+	at jd.http.Browser.getPage(Browser.java:1552)
+	at jd.http.Browser.getPage(Browser.java:1548)
+	at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+	at jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.bouncycastle.tls.TlsFatalAlert: handshake_failure(40)
+	at org.bouncycastle.tls.TlsProtocol.safeReadRecord(Unknown Source)
+	at org.bouncycastle.tls.TlsProtocol.blockForHandshake(Unknown Source)
+	at org.bouncycastle.tls.TlsClientProtocol.connect(Unknown Source)
+	at org.jdownloader.net.BCSSLSocketStreamFactory.create(BCSSLSocketStreamFactory.java:354)
+	at org.jdownloader.net.AutoBCSSLSocketStreamFactory.create(AutoBCSSLSocketStreamFactory.java:43)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.connect(HTTPConnectionImpl.java:1005)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.finalizeConnect(HTTPConnectionImpl.java:1360)
+	at jd.http.Request.connect(Request.java:374)
+	at jd.http.Request.connect(Request.java:361)
+	at jd.http.Browser.openRequestConnection(Browser.java:2037)
+	... 10 more
+
+--ID:89TS:1722780886510-8/4/24 10:14:46 AM -  [] -> Exception thrown at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:633):
+java.io.IOException: redirect to different domain?aws.amazon.com!=amazonaws.com
+	at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:607)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+	at jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+--ID:89TS:1722780886510-8/4/24 10:14:46 AM -  [jd.controlling.faviconcontroller.FavIcons(downloadFavIcon)] -> Could not download FavIcon for amazonaws.com
+------------------------Thread: 27:FavIcons-----------------------
+--ID:27TS:1722780925313-8/4/24 10:15:25 AM -  [jd.controlling.faviconcontroller.FavIcons(createDefaultFavIcon)] -> createDefaultFavIcon: pbs.twimg.com
+------------------------Thread: 160:FavIcons-----------------------
+--ID:160TS:1722780925334-8/4/24 10:15:25 AM -  [jd.controlling.faviconcontroller.FavIcons(downloadFavIcon)] -> Download FavIcon for pbs.twimg.com
+--ID:160TS:1722780926654-8/4/24 10:15:26 AM -  [] -> Exception thrown at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:617):
+jd.http.Browser$BrowserException: Caller: jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+BrowserID:46|BrowserParentID:-1|RequestID:1|URL:https://pbs.twimg.com/
+----------------Request Information-------------
+URL: https://pbs.twimg.com/
+ConnectIP: pbs.twimg.com/151.101.88.159:443
+Connection-Timeout: 10000ms
+Read-Timeout: 10000ms
+----------------Request-------------------------
+GET / HTTP/1.1
+Host: pbs.twimg.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.16; rv:76.0) Gecko/20100101 Firefox/76.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: de,en-gb;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Cache-Control: no-cache
+
+----------------Response Information------------
+Connection-Time: 196ms
+Request-Time: 289ms
+----------------Response------------------------
+HTTP/1.1 400 Bad Request
+Connection: keep-alive
+Content-Length: 0
+perf: 7402827104
+cache-control: no-cache, no-store, max-age=0
+x-transaction-id: ab3cb3c103dd9df6
+timing-allow-origin: https://twitter.com, https://mobile.twitter.com
+strict-transport-security: max-age=631138519
+Accept-Ranges: bytes
+X-Content-Type-Options: nosniff
+Date: Sun, 04 Aug 2024 14:15:26 GMT
+X-Cache: MISS, MISS
+x-tw-cdn: FT
+x-served-by: cache-nrt-rjtf7700047-NRT, cache-itm1220051-ITM, cache-tw-ZZZ1
+Server-Timing: x-cache;desc=MISS, x-tw-cdn;desc=FT
+------------------------------------------------
+
+
+	at jd.http.Browser.loadConnection(Browser.java:1754)
+	at jd.http.Browser.getPage(Browser.java:1552)
+	at jd.http.Browser.getPage(Browser.java:1548)
+	at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+	at jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: 400 Bad Request
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getInputStream(HTTPConnectionImpl.java:1518)
+	at jd.http.URLConnectionAdapterDirectImpl.getInputStream(URLConnectionAdapterDirectImpl.java:166)
+	at jd.http.Request.read(Request.java:116)
+	at jd.http.Request.read(Request.java:917)
+	at jd.http.Browser.loadConnection(Browser.java:1741)
+	... 9 more
+
+--ID:160TS:1722780927209-8/4/24 10:15:27 AM -  [] -> Exception thrown at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:617):
+jd.http.Browser$BrowserException: Caller: jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+BrowserID:46|BrowserParentID:-1|RequestID:2|URL:http://pbs.twimg.com/
+----------------Request Information-------------
+URL: http://pbs.twimg.com/
+ConnectIP: pbs.twimg.com/151.101.88.159:80
+Connection-Timeout: 10000ms
+Read-Timeout: 10000ms
+----------------Request-------------------------
+GET / HTTP/1.1
+Host: pbs.twimg.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.16; rv:76.0) Gecko/20100101 Firefox/76.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: de,en-gb;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Cache-Control: no-cache
+Referer: https://pbs.twimg.com/
+
+----------------Response Information------------
+Connection-Time: 185ms
+Request-Time: 352ms
+----------------Response------------------------
+HTTP/1.1 400 Bad Request
+Connection: keep-alive
+Content-Length: 0
+perf: 7402827104
+cache-control: no-cache, no-store, max-age=0
+x-transaction-id: 1ec6259f8c9e4077
+timing-allow-origin: https://twitter.com, https://mobile.twitter.com
+strict-transport-security: max-age=631138519
+Accept-Ranges: bytes
+X-Content-Type-Options: nosniff
+Date: Sun, 04 Aug 2024 14:15:27 GMT
+X-Cache: MISS, MISS
+x-tw-cdn: FT
+x-served-by: cache-nrt-rjtf7700047-NRT, cache-itm1220047-ITM, cache-tw-ZZZ1
+Server-Timing: x-cache;desc=MISS, x-tw-cdn;desc=FT
+------------------------------------------------
+
+
+	at jd.http.Browser.loadConnection(Browser.java:1754)
+	at jd.http.Browser.getPage(Browser.java:1552)
+	at jd.http.Browser.getPage(Browser.java:1548)
+	at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+	at jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: 400 Bad Request
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getInputStream(HTTPConnectionImpl.java:1518)
+	at jd.http.URLConnectionAdapterDirectImpl.getInputStream(URLConnectionAdapterDirectImpl.java:166)
+	at jd.http.Request.read(Request.java:116)
+	at jd.http.Request.read(Request.java:917)
+	at jd.http.Browser.loadConnection(Browser.java:1741)
+	... 9 more
+
+--ID:160TS:1722780927209-8/4/24 10:15:27 AM -  [jd.controlling.faviconcontroller.FavIcons(downloadFavIcon)] -> Could not download FavIcon for pbs.twimg.com
+--ID:160TS:1722780927209-8/4/24 10:15:27 AM -  [jd.controlling.faviconcontroller.FavIcons(downloadFavIcon)] -> Download FavIcon for twimg.com
+--ID:160TS:1722780928511-8/4/24 10:15:28 AM -  [] -> Exception thrown at jd.http.Browser.openRequestConnection(Browser.java:2074):
+java.net.UnknownHostException: Could not resolve: -twimg.com<->twimg.com-
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:866)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:475)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.resolvHostIP(HTTPConnectionImpl.java:785)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getRemoteIPs(HTTPConnectionImpl.java:790)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.connect(HTTPConnectionImpl.java:921)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.finalizeConnect(HTTPConnectionImpl.java:1360)
+	at jd.http.Request.connect(Request.java:374)
+	at jd.http.Request.connect(Request.java:361)
+	at jd.http.Browser.openRequestConnection(Browser.java:2037)
+	at jd.http.Browser.openRequestConnection(Browser.java:1893)
+	at jd.http.Browser.getPage(Browser.java:1552)
+	at jd.http.Browser.getPage(Browser.java:1548)
+	at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+	at jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+--ID:160TS:1722780928511-8/4/24 10:15:28 AM -  [] -> Exception thrown at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:617):
+jd.http.Browser$BrowserException: Caller: jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+BrowserID:48|BrowserParentID:-1|RequestID:1|URL:https://twimg.com/
+----------------Request Information-------------
+URL: https://twimg.com/
+Host: twimg.com
+Connection-Timeout: 10000ms
+Read-Timeout: 10000ms
+----------------Request-------------------------
+-------------Not Connected Yet!-----------------
+
+----------------Response Information------------
+-------------Not Connected Yet!------------------
+
+
+	at jd.http.Browser.openRequestConnection(Browser.java:2085)
+	at jd.http.Browser.openRequestConnection(Browser.java:1893)
+	at jd.http.Browser.getPage(Browser.java:1552)
+	at jd.http.Browser.getPage(Browser.java:1548)
+	at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+	at jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: Could not resolve: -twimg.com<->twimg.com-
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:866)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:475)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.resolvHostIP(HTTPConnectionImpl.java:785)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getRemoteIPs(HTTPConnectionImpl.java:790)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.connect(HTTPConnectionImpl.java:921)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.finalizeConnect(HTTPConnectionImpl.java:1360)
+	at jd.http.Request.connect(Request.java:374)
+	at jd.http.Request.connect(Request.java:361)
+	at jd.http.Browser.openRequestConnection(Browser.java:2037)
+	... 10 more
+
+--ID:160TS:1722780929527-8/4/24 10:15:29 AM -  [] -> Exception thrown at jd.http.Browser.openRequestConnection(Browser.java:2074):
+java.net.UnknownHostException: Could not resolve: -twimg.com<->twimg.com-
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:866)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:475)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.resolvHostIP(HTTPConnectionImpl.java:785)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getRemoteIPs(HTTPConnectionImpl.java:790)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.connect(HTTPConnectionImpl.java:921)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.finalizeConnect(HTTPConnectionImpl.java:1360)
+	at jd.http.Request.connect(Request.java:374)
+	at jd.http.Request.connect(Request.java:361)
+	at jd.http.Browser.openRequestConnection(Browser.java:2037)
+	at jd.http.Browser.openRequestConnection(Browser.java:1893)
+	at jd.http.Browser.getPage(Browser.java:1552)
+	at jd.http.Browser.getPage(Browser.java:1548)
+	at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+	at jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+--ID:160TS:1722780929528-8/4/24 10:15:29 AM -  [] -> Exception thrown at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:617):
+jd.http.Browser$BrowserException: Caller: jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+BrowserID:48|BrowserParentID:-1|RequestID:2|URL:http://twimg.com/
+----------------Request Information-------------
+URL: http://twimg.com/
+Host: twimg.com
+Connection-Timeout: 10000ms
+Read-Timeout: 10000ms
+----------------Request-------------------------
+-------------Not Connected Yet!-----------------
+
+----------------Response Information------------
+-------------Not Connected Yet!------------------
+
+
+	at jd.http.Browser.openRequestConnection(Browser.java:2085)
+	at jd.http.Browser.openRequestConnection(Browser.java:1893)
+	at jd.http.Browser.getPage(Browser.java:1552)
+	at jd.http.Browser.getPage(Browser.java:1548)
+	at jd.controlling.faviconcontroller.FavIcons.download_FavIconTag(FavIcons.java:603)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:824)
+	at jd.controlling.faviconcontroller.FavIcons.downloadFavIcon(FavIcons.java:795)
+	at jd.controlling.faviconcontroller.FavIcons$4.run(FavIcons.java:348)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: Could not resolve: -twimg.com<->twimg.com-
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:866)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionUtils.resolvHostIP(HTTPConnectionUtils.java:475)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.resolvHostIP(HTTPConnectionImpl.java:785)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getRemoteIPs(HTTPConnectionImpl.java:790)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.connect(HTTPConnectionImpl.java:921)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.finalizeConnect(HTTPConnectionImpl.java:1360)
+	at jd.http.Request.connect(Request.java:374)
+	at jd.http.Request.connect(Request.java:361)
+	at jd.http.Browser.openRequestConnection(Browser.java:2037)
+	... 10 more
+
+--ID:160TS:1722780929528-8/4/24 10:15:29 AM -  [jd.controlling.faviconcontroller.FavIcons(downloadFavIcon)] -> Could not download FavIcon for twimg.com

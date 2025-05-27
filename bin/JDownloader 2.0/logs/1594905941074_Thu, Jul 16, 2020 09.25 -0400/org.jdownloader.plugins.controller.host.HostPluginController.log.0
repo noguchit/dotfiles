@@ -1,0 +1,10 @@
+------------------------Thread: 53:org.jdownloader.plugins.controller.host.HostPluginController.log-----------------------
+--ID:53TS:1594905945804-7/16/20 9:25:45 AM -  [org.jdownloader.plugins.controller.host.HostPluginController(init)] -> HostPluginController: init
+--ID:53TS:1594905945840-7/16/20 9:25:45 AM -  [org.jdownloader.plugins.controller.host.HostPluginController(init)] -> @HostPluginController: loadFromCache took 35ms for 3805|LastModified:1594408070000
+--ID:53TS:1594905945853-7/16/20 9:25:45 AM -  [org.jdownloader.plugins.controller.PluginScannerNIO(scan)] -> @PluginController(NIO): plugin cache valid|Size:3805|LastModified:1594408070000
+--ID:53TS:1594905945853-7/16/20 9:25:45 AM -  [org.jdownloader.plugins.controller.PluginScannerNIO(scan)] -> @PluginController(NIO): scan took 11ms for 3805
+--ID:53TS:1594905945854-7/16/20 9:25:45 AM -  [org.jdownloader.plugins.controller.host.HostPluginController(init)] -> @HostPluginController: update took 14ms for 3805|LastModified:1594408070000
+--ID:53TS:1594905945858-7/16/20 9:25:45 AM -  [org.jdownloader.plugins.controller.host.HostPluginController(init)] -> @HostPluginController: sort took 4ms for 3805
+--ID:53TS:1594905945858-7/16/20 9:25:45 AM -  [org.jdownloader.plugins.controller.host.HostPluginController(init)] -> @HostPlugin keep:DailyMotionComV2@40286|3:40286 instead DailyMotionCom@40341|2:40341
+--ID:53TS:1594905945860-7/16/20 9:25:45 AM -  [org.jdownloader.plugins.controller.host.HostPluginController(init)] -> @HostPluginController: mapping took 2ms for 3805
+--ID:53TS:1594905945860-7/16/20 9:25:45 AM -  [org.jdownloader.plugins.controller.host.HostPluginController(init)] -> @HostPluginController: init took 55ms for 3803

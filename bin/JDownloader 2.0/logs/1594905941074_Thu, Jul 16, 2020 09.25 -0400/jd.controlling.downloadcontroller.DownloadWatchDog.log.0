@@ -1,0 +1,57 @@
+------------------------Thread: 32:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:32TS:1594905945006-7/16/20 9:25:45 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog(<init>)] -> USE_AVAILABLE_ACCOUNTS: true
+------------------------Thread: 46:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:46TS:1594905963384-7/16/20 9:26:03 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$25(execute)] -> DownloadWatchDog: start
+------------------------Thread: 130:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:130TS:1594905963460-7/16/20 9:26:03 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog(attach)] -> Start new Download: Use Premium: true Host:DownloadCandidate:Vitamix Blender DVD -Click time below to forward to section (480p_30fps_H264-128kbit_AAC).mp4@youtube.com|Host youtube.com|Account:Plugin:youtube.com|Version:42536|Type:NONE|Account:null|Proxy:{
+  "proxy" : {
+    "proxy" : {
+      "username" : null,
+      "password" : null,
+      "port" : 80,
+      "address" : null,
+      "type" : "NONE",
+      "preferNativeImplementation" : false,
+      "resolveHostName" : false,
+      "connectMethodPrefered" : false
+    },
+    "rangeRequestsSupported" : true,
+    "filter" : null,
+    "pac" : false,
+    "reconnectSupported" : true,
+    "enabled" : true
+  },
+  "banlist" : "[]",
+  "class" : "jd.controlling.proxy.NoProxySelector"
+}
+------------------------Thread: 127:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:127TS:1594905963465-7/16/20 9:26:03 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$26(run)] -> Download To: /Users/tnoguchi/Downloads/Vitamix Blender DVD -Click time below to forward to section (480p_30fps_H264-128kbit_AAC).mp4
+------------------------Thread: 130:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:130TS:1594907068850-7/16/20 9:44:28 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog(setFinalLinkStatus)] -> DownloadCandidate:Vitamix Blender DVD -Click time below to forward to section (480p_30fps_H264-128kbit_AAC).mp4@youtube.com|Host youtube.com|Account:Plugin:youtube.com|Version:42536|Type:NONE|Account:null|Proxy:{
+  "proxy" : {
+    "proxy" : {
+      "username" : null,
+      "password" : null,
+      "port" : 80,
+      "address" : null,
+      "type" : "NONE",
+      "preferNativeImplementation" : false,
+      "resolveHostName" : false,
+      "connectMethodPrefered" : false
+    },
+    "rangeRequestsSupported" : true,
+    "filter" : null,
+    "pac" : false,
+    "reconnectSupported" : true,
+    "enabled" : true
+  },
+  "banlist" : "[]",
+  "class" : "jd.controlling.proxy.NoProxySelector"
+}->FINISHED
+--ID:130TS:1594907070111-7/16/20 9:44:30 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 3745 for new ActivationRequests
+--ID:130TS:1594907071365-7/16/20 9:44:31 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 2491 for new ActivationRequests
+--ID:130TS:1594907072618-7/16/20 9:44:32 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 1238 for new ActivationRequests
+--ID:130TS:1594907073870-7/16/20 9:44:33 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 0 for new ActivationRequests
+--ID:130TS:1594907073870-7/16/20 9:44:33 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Waited 5014 but no new ActivationRequests are available->Stop DownloadWatchDog
+--ID:130TS:1594907073871-7/16/20 9:44:33 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> DownloadWatchDog: stopping
+--ID:130TS:1594907073872-7/16/20 9:44:33 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> DownloadWatchDog: stopped

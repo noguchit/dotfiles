@@ -1,0 +1,111 @@
+------------------------Thread: 1:org.jdownloader.update.launcher.SecondLevelLauncher.log-----------------------
+--ID:1TS:1722780791578-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> JVM: -Dfile.encoding=UTF-8
+--ID:1TS:1722780791578-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> JVM: -Dexe4j.moduleName=/Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app
+--ID:1TS:1722780791578-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> JVM: -Xmx512m
+--ID:1TS:1722780791578-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> JVM: -Di4j.ownBundlePath=/Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app
+--ID:1TS:1722780791578-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> JVM: -Di4j.jreBundle=/Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app/../.install4j/jre.bundle
+--ID:1TS:1722780791578-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.runtime.name: Java(TM) SE Runtime Environment
+--ID:1TS:1722780791578-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: exe4j.moduleName: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app
+--ID:1TS:1722780791578-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: sun.boot.library.path: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib
+--ID:1TS:1722780791578-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.vm.version: 25.181-b13
+--ID:1TS:1722780791578-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: i4j.jreBundle: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app/../.install4j/jre.bundle
+--ID:1TS:1722780791578-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: gopherProxySet: false
+--ID:1TS:1722780791578-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.vm.vendor: Oracle Corporation
+--ID:1TS:1722780791578-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.vendor.url: http://java.oracle.com/
+--ID:1TS:1722780791579-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: path.separator: :
+--ID:1TS:1722780791579-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+--ID:1TS:1722780791579-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: file.encoding.pkg: sun.io
+--ID:1TS:1722780791579-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: com.sun.jndi.rmi.object.trustURLCodebase: false
+--ID:1TS:1722780791579-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: user.country: US
+--ID:1TS:1722780791579-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: sun.java.launcher: SUN_STANDARD
+--ID:1TS:1722780791579-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: sun.os.patch.level: unknown
+--ID:1TS:1722780791580-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: extlogmanager.avoidsystemclassloader.hack: sun.misc.Launcher$AppClassLoader@42a57993
+--ID:1TS:1722780791580-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.vm.specification.name: Java Virtual Machine Specification
+--ID:1TS:1722780791580-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: user.dir: /Users/tnoguchi/bin/JDownloader 2.0
+--ID:1TS:1722780791580-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.runtime.version: 1.8.0_181-b13
+--ID:1TS:1722780791580-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: i4j.ownBundlePath: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app
+--ID:1TS:1722780791580-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.awt.graphicsenv: sun.awt.CGraphicsEnvironment
+--ID:1TS:1722780791580-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.util.Arrays.useLegacyMergeSort: true
+--ID:1TS:1722780791581-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.endorsed.dirs: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/endorsed
+--ID:1TS:1722780791581-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: os.arch: x86_64
+--ID:1TS:1722780791581-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.io.tmpdir: /var/folders/_v/bfbxy_cj0mq0x8rfv1z2tjvw0000gn/T/
+--ID:1TS:1722780791581-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: line.separator: 
+
+--ID:1TS:1722780791581-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.vm.specification.vendor: Oracle Corporation
+--ID:1TS:1722780791582-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.util.logging.manager: org.appwork.utils.logging2.extmanager.ExtLogManager
+--ID:1TS:1722780791582-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: os.name: Mac OS X
+--ID:1TS:1722780791582-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: com.sun.jndi.ldap.object.trustURLCodebase: false
+--ID:1TS:1722780791582-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: sun.jnu.encoding: UTF-8
+--ID:1TS:1722780791582-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.net.preferIPv6Addresses: system
+--ID:1TS:1722780791582-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.library.path: /Users/tnoguchi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+--ID:1TS:1722780791582-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.specification.name: Java Platform API Specification
+--ID:1TS:1722780791582-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.class.version: 52.0
+--ID:1TS:1722780791583-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: sun.management.compiler: HotSpot 64-Bit Tiered Compilers
+--ID:1TS:1722780791583-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: org.appwork.LoggerFactory: org.appwork.utils.logging2.LogSourceRedirector
+--ID:1TS:1722780791583-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: os.version: 10.16
+--ID:1TS:1722780791583-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: classloader_00000001: org.jdownloader.update.launcher.CL2
+--ID:1TS:1722780791583-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.rmi.server.useCodebaseOnly: true
+--ID:1TS:1722780791583-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: classloader_00000000: org.jdownloader.update.launcher.ClassLoaderExtensionImpl
+--ID:1TS:1722780791583-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: user.home: /Users/tnoguchi
+--ID:1TS:1722780791583-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: user.timezone: America/Indiana/Indianapolis
+--ID:1TS:1722780791583-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.awt.printerjob: sun.lwawt.macosx.CPrinterJob
+--ID:1TS:1722780791583-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: file.encoding: UTF-8
+--ID:1TS:1722780791583-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.specification.version: 1.8
+--ID:1TS:1722780791583-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.class.path: /Users/tnoguchi/bin/JDownloader 2.0/tmp/update/self/JDU/JDownloader.jar
+--ID:1TS:1722780791583-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: user.name: tnoguchi
+--ID:1TS:1722780791583-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.vm.specification.version: 1.8
+--ID:1TS:1722780791583-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: sun.java.command: /Users/tnoguchi/bin/JDownloader 2.0/tmp/update/self/JDU/JDownloader.jar -selftest tmp/selftest_1722780790521 /Users/tnoguchi/bin/JDownloader 2.0
+--ID:1TS:1722780791583-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.home: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre
+--ID:1TS:1722780791583-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: sun.arch.data.model: 64
+--ID:1TS:1722780791583-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: user.language: en
+--ID:1TS:1722780791583-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.specification.vendor: Oracle Corporation
+--ID:1TS:1722780791583-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: awt.toolkit: sun.lwawt.macosx.LWCToolkit
+--ID:1TS:1722780791583-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.vm.info: mixed mode
+--ID:1TS:1722780791583-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.version: 1.8.0_181
+--ID:1TS:1722780791583-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.ext.dirs: /Users/tnoguchi/Library/Java/Extensions:/Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+--ID:1TS:1722780791584-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: sun.boot.class.path: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/resources.jar:/Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/rt.jar:/Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/sunrsasign.jar:/Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/jsse.jar:/Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/jce.jar:/Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/charsets.jar:/Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/jfr.jar:/Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/classes
+--ID:1TS:1722780791584-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.vendor: Oracle Corporation
+--ID:1TS:1722780791585-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: file.separator: /
+--ID:1TS:1722780791585-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: k: 0dd0ecf7f742873d745106adea00b64a
+--ID:1TS:1722780791585-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: com.sun.jndi.cosnaming.object.trustURLCodebase: false
+--ID:1TS:1722780791585-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.vendor.url.bug: http://bugreport.sun.com/bugreport/
+--ID:1TS:1722780791585-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: LOG_INIT_DONE: 2 instances
+--ID:1TS:1722780791585-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: sun.io.unicode.encoding: UnicodeBig
+--ID:1TS:1722780791585-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: sun.cpu.endian: little
+--ID:1TS:1722780791585-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: sun.cpu.isalist: 
+--ID:1TS:1722780791585-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: PATH: /usr/bin:/bin:/usr/sbin:/sbin
+--ID:1TS:1722780791585-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: __CFBundleIdentifier: org.jdownloader.launcher
+--ID:1TS:1722780791585-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: JAVA_MAIN_CLASS_83276: com.install4j.runtime.launcher.MacLauncher
+--ID:1TS:1722780791585-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: SHELL: /bin/zsh
+--ID:1TS:1722780791585-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: JAVA_MAIN_CLASS_83317: org.jdownloader.update.launcher.JDLauncher
+--ID:1TS:1722780791586-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: SECURITYSESSIONID: 186f4
+--ID:1TS:1722780791586-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: USER: tnoguchi
+--ID:1TS:1722780791586-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: LANG: en_US.UTF-8
+--ID:1TS:1722780791586-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: LaunchInstanceID: EBFED2E2-850C-451D-811C-CF5621B2C1F2
+--ID:1TS:1722780791586-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: TMPDIR: /var/folders/_v/bfbxy_cj0mq0x8rfv1z2tjvw0000gn/T/
+--ID:1TS:1722780791586-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: COMMAND_MODE: unix2003
+--ID:1TS:1722780791586-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: SSH_AUTH_SOCK: /private/tmp/com.apple.launchd.rfGdLqDVBk/Listeners
+--ID:1TS:1722780791586-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: DISPLAY: /private/tmp/com.apple.launchd.hr70dut0fz/org.xquartz:0
+--ID:1TS:1722780791586-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: XPC_FLAGS: 0x0
+--ID:1TS:1722780791586-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: __CF_USER_TEXT_ENCODING: 0x1F5:0x0:0x0
+--ID:1TS:1722780791586-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: LOGNAME: tnoguchi
+--ID:1TS:1722780791586-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: XPC_SERVICE_NAME: application.org.jdownloader.launcher.106166463.106166474
+--ID:1TS:1722780791586-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: HOME: /Users/tnoguchi
+--ID:1TS:1722780791594-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> jar:file:/Users/tnoguchi/bin/JDownloader%202.0/tmp/update/self/JDU/JDownloader.jar!/version.nfo:
+${updateclient.revision}
+--ID:1TS:1722780791598-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> ant-version: Apache Ant 1.10.5
+--ID:1TS:1722780791599-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> add-opens: java.desktop/javax.swing.plaf.synth java.desktop/javax.swin
+--ID:1TS:1722780791600-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> add-exports: java.desktop/sun.swing java.desktop/sun.swing.table java.
+--ID:1TS:1722780791600-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> created-by: Appwork GmbH and JDownloader Community
+--ID:1TS:1722780791600-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> manifest-version: 1.0
+--ID:1TS:1722780791600-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> main-class: org.jdownloader.update.launcher.JDLauncher
+--ID:1TS:1722780791602-8/4/24 10:13:11 AM -  [org.appwork.utils.Application(printSystemProperties)] -> /Users/tnoguchi/bin/JDownloader 2.0/tmp/update/self/JDU/JDownloader.jar- lastModified: 8/4/24 10:13:10 AM
+--ID:1TS:1722780791603-8/4/24 10:13:11 AM -  [org.jdownloader.update.launcher.SecondLevelLauncher(init)] -> Args: [-selftest, tmp/selftest_1722780790521, /Users/tnoguchi/bin/JDownloader 2.0]
+--ID:1TS:1722780791624-8/4/24 10:13:11 AM -  [org.jdownloader.update.launcher.SecondLevelLauncher(init)] -> Restart Controller init done in 21
+--ID:1TS:1722780791624-8/4/24 10:13:11 AM -  [org.jdownloader.update.launcher.SecondLevelLauncher(init)] -> Parse Arguments
+--ID:1TS:1722780791624-8/4/24 10:13:11 AM -  [org.jdownloader.update.launcher.SecondLevelLauncher(init)] -> Parameter Parse done in 0
+--ID:1TS:1722780791624-8/4/24 10:13:11 AM -  [org.jdownloader.update.launcher.SecondLevelLauncher(init)] -> Single Instance Controller
+--ID:1TS:1722780791649-8/4/24 10:13:11 AM -  [org.jdownloader.update.launcher.SecondLevelLauncher(init)] -> Single Instance init done in 25
+--ID:1TS:1722780791650-8/4/24 10:13:11 AM -  [org.jdownloader.update.launcher.SecondLevelLauncher(init)] -> Init UpdateManager
+--ID:1TS:1722780791826-8/4/24 10:13:11 AM -  [org.jdownloader.update.launcher.SecondLevelLauncher(init)] -> Update Manager init done in 176
+--ID:1TS:1722780791826-8/4/24 10:13:11 AM -  [org.jdownloader.update.launcher.SecondLevelLauncher(init)] -> Run Selftest

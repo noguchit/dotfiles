@@ -1,0 +1,6 @@
+------------------------Thread: 1:java.util.logging.LogManager$RootLogger@3b0fe47a.log-----------------------
+--ID:1TS:1722780835140-8/4/24 10:13:55 AM -  [com.sun.jna.Native(extractFromResourcePath)] -> Looking in classpath from sun.misc.Launcher$AppClassLoader@55f96302 for /com/sun/jna/darwin-x86-64/libjnidispatch.jnilib
+--ID:1TS:1722780835143-8/4/24 10:13:55 AM -  [com.sun.jna.Native(extractFromResourcePath)] -> Found library resource at jar:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/jna.jar!/com/sun/jna/darwin-x86-64/libjnidispatch.jnilib
+--ID:1TS:1722780835147-8/4/24 10:13:55 AM -  [com.sun.jna.Native(extractFromResourcePath)] -> Extracting library to /Users/tnoguchi/bin/JDownloader 2.0/tmp/jna/jna6477191735378181749.tmp
+--ID:1TS:1722780835148-8/4/24 10:13:55 AM -  [com.sun.jna.Native(loadNativeDispatchLibraryFromClasspath)] -> Trying /Users/tnoguchi/bin/JDownloader 2.0/tmp/jna/jna6477191735378181749.tmp
+--ID:1TS:1722780836148-8/4/24 10:13:56 AM -  [com.sun.jna.Native(loadNativeDispatchLibraryFromClasspath)] -> Found jnidispatch at /Users/tnoguchi/bin/JDownloader 2.0/tmp/jna/jna6477191735378181749.tmp

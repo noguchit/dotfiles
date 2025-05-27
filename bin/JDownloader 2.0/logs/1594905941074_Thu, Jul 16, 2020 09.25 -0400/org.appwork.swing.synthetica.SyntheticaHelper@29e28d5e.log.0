@@ -1,0 +1,5 @@
+------------------------Thread: 32:org.appwork.swing.synthetica.SyntheticaHelper@29e28d5e.log-----------------------
+--ID:32TS:1594905943231-7/16/20 9:25:43 AM -  [org.appwork.swing.synthetica.SyntheticaHelper(getFontScaleFaktor)] -> Get FontScale from Translationfile: 100
+--ID:32TS:1594905944944-7/16/20 9:25:44 AM -  [org.appwork.swing.synthetica.SyntheticaHelper(load)] -> FontScale: 100
+--ID:32TS:1594905944944-7/16/20 9:25:44 AM -  [org.appwork.swing.synthetica.SyntheticaHelper(load)] -> FontName: null
+--ID:32TS:1594905944944-7/16/20 9:25:44 AM -  [org.appwork.swing.synthetica.SyntheticaHelper(load)] -> FontSize: 11

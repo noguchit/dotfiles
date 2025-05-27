@@ -1,0 +1,7 @@
+------------------------Thread: 24:org.appwork.shutdown.ShutdownController.log-----------------------
+--ID:24TS:1722780799781-8/4/24 10:13:19 AM -  [org.appwork.shutdown.ShutdownController(log)] -> Request Shutdown: org.jdownloader.updatev2.SmartRlyExitRequest@142b6993
+------------------------Thread: 13:org.appwork.shutdown.ShutdownController.log-----------------------
+--ID:13TS:1722780799787-8/4/24 10:13:19 AM -  [org.appwork.shutdown.ShutdownController(log)] -> [1/9|Priority: 10000]ShutdownController: start item->ShutdownRunableEvent Priority: 10000
+--ID:13TS:1722780799795-8/4/24 10:13:19 AM -  [org.appwork.shutdown.ShutdownController(log)] -> [1/9|Priority: 10000]ShutdownController: item ended after->9
+--ID:13TS:1722780799796-8/4/24 10:13:19 AM -  [org.appwork.shutdown.ShutdownController(log)] -> [Done:1/9]
+--ID:13TS:1722780799796-8/4/24 10:13:19 AM -  [org.appwork.shutdown.ShutdownController(log)] -> [2/9|Priority: 10000]ShutdownController: start item->flushing logs to disk

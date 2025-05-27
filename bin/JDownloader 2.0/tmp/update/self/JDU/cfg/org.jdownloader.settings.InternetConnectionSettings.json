@@ -1,0 +1,7 @@
+{
+  "proxyvoleautodetectionenabled" : true,
+  "httpconnecttimeout" : 20000,
+  "preferredipversion" : "SYSTEM",
+  "localpacscript" : null,
+  "httpreadtimeout" : 60000
+}

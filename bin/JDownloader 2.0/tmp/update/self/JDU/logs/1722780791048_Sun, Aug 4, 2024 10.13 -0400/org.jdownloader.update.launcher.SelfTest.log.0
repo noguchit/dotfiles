@@ -1,0 +1,34 @@
+------------------------Thread: 1:org.jdownloader.update.launcher.SelfTest.log-----------------------
+--ID:1TS:1722780791830-8/4/24 10:13:11 AM -  [org.jdownloader.update.launcher.SelfTest(copyOptionalLAf)] -> Copy /Users/tnoguchi/bin/JDownloader 2.0/libs/laf/synthetica.jar to /Users/tnoguchi/bin/JDownloader 2.0/tmp/update/self/JDU/libs/laf/synthetica.jar
+--ID:1TS:1722780791835-8/4/24 10:13:11 AM -  [org.jdownloader.update.launcher.SelfTest(copyOptionalLAf)] -> Copy /Users/tnoguchi/bin/JDownloader 2.0/libs/laf/syntheticaJDCustom.jar to /Users/tnoguchi/bin/JDownloader 2.0/tmp/update/self/JDU/libs/laf/syntheticaJDCustom.jar
+--ID:1TS:1722780791836-8/4/24 10:13:11 AM -  [org.jdownloader.update.launcher.SelfTest(copyOptionalLAf)] -> Copy /Users/tnoguchi/bin/JDownloader 2.0/libs/laf/syntheticaSimple2D.jar to /Users/tnoguchi/bin/JDownloader 2.0/tmp/update/self/JDU/libs/laf/syntheticaSimple2D.jar
+--ID:1TS:1722780796859-8/4/24 10:13:16 AM -  [org.jdownloader.update.launcher.SelfTest(onSelfTestOK)] -> Write PollFile: /Users/tnoguchi/bin/JDownloader 2.0/tmp/selftest_1722780790521
+--ID:1TS:1722780799926-8/4/24 10:13:19 AM -  [org.jdownloader.update.launcher.SelfTest(onSelfTestOK)] -> PollFile Deletion detected: /Users/tnoguchi/bin/JDownloader 2.0/tmp/selftest_1722780790521
+--ID:1TS:1722780800085-8/4/24 10:13:20 AM -  [org.jdownloader.update.launcher.SelfTest(createBackup)] -> Create backup: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader.jar
+--ID:1TS:1722780800085-8/4/24 10:13:20 AM -  [org.jdownloader.update.launcher.SelfTest(createBackup)] -> Create backup at: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader.jar.backup.1
+--ID:1TS:1722780800085-8/4/24 10:13:20 AM -  [org.jdownloader.update.launcher.SelfTest(renameTo)] -> Rename /Users/tnoguchi/bin/JDownloader 2.0/JDownloader.jar to /Users/tnoguchi/bin/JDownloader 2.0/JDownloader.jar.backup.1
+--ID:1TS:1722780800085-8/4/24 10:13:20 AM -  [org.jdownloader.update.launcher.SelfTest(renameTo)] -> Rename Success: true
+--ID:1TS:1722780800085-8/4/24 10:13:20 AM -  [org.jdownloader.update.launcher.SelfTest(renameTo)] -> From Exists false (/Users/tnoguchi/bin/JDownloader 2.0/JDownloader.jar)
+--ID:1TS:1722780800085-8/4/24 10:13:20 AM -  [org.jdownloader.update.launcher.SelfTest(renameTo)] -> To Exists true (/Users/tnoguchi/bin/JDownloader 2.0/JDownloader.jar.backup.1)
+--ID:1TS:1722780800085-8/4/24 10:13:20 AM -  [org.jdownloader.update.launcher.SelfTest(createBackup)] -> Create backup: /Users/tnoguchi/bin/JDownloader 2.0/update/versioninfo/JDU/rev
+--ID:1TS:1722780800085-8/4/24 10:13:20 AM -  [org.jdownloader.update.launcher.SelfTest(createBackup)] -> Create backup at: /Users/tnoguchi/bin/JDownloader 2.0/update/versioninfo/JDU/rev.backup.1
+--ID:1TS:1722780800086-8/4/24 10:13:20 AM -  [org.jdownloader.update.launcher.SelfTest(renameTo)] -> Rename /Users/tnoguchi/bin/JDownloader 2.0/update/versioninfo/JDU/rev to /Users/tnoguchi/bin/JDownloader 2.0/update/versioninfo/JDU/rev.backup.1
+--ID:1TS:1722780800086-8/4/24 10:13:20 AM -  [org.jdownloader.update.launcher.SelfTest(renameTo)] -> Rename Success: true
+--ID:1TS:1722780800086-8/4/24 10:13:20 AM -  [org.jdownloader.update.launcher.SelfTest(renameTo)] -> From Exists false (/Users/tnoguchi/bin/JDownloader 2.0/update/versioninfo/JDU/rev)
+--ID:1TS:1722780800086-8/4/24 10:13:20 AM -  [org.jdownloader.update.launcher.SelfTest(renameTo)] -> To Exists true (/Users/tnoguchi/bin/JDownloader 2.0/update/versioninfo/JDU/rev.backup.1)
+--ID:1TS:1722780800086-8/4/24 10:13:20 AM -  [org.jdownloader.update.launcher.SelfTest(onSelfTestOK)] -> Rev Backup: /Users/tnoguchi/bin/JDownloader 2.0/update/versioninfo/JDU/rev.backup.1 exists: true( org-> /Users/tnoguchi/bin/JDownloader 2.0/update/versioninfo/JDU/rev
+--ID:1TS:1722780800086-8/4/24 10:13:20 AM -  [org.jdownloader.update.launcher.SelfTest(onSelfTestOK)] -> Jar Backup: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader.jar.backup.1 exists: true( org-> /Users/tnoguchi/bin/JDownloader 2.0/JDownloader.jar
+--ID:1TS:1722780800086-8/4/24 10:13:20 AM -  [org.jdownloader.update.launcher.SelfTest(onSelfTestOK)] -> Jar: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader.jar exists: false
+--ID:1TS:1722780800086-8/4/24 10:13:20 AM -  [org.jdownloader.update.launcher.SelfTest(onSelfTestOK)] -> /Users/tnoguchi/bin/JDownloader 2.0/tmp/update/self/JDU/rev > /Users/tnoguchi/bin/JDownloader 2.0/update/versioninfo/JDU/rev
+--ID:1TS:1722780800086-8/4/24 10:13:20 AM -  [org.jdownloader.update.launcher.SelfTest(onSelfTestOK)] -> Copy Logs
+--ID:1TS:1722780800087-8/4/24 10:13:20 AM -  [org.jdownloader.update.launcher.SelfTest(onSelfTestOK)] -> Copy LogFile /Users/tnoguchi/bin/JDownloader 2.0/tmp/update/self/JDU/self_14090_to_17549.log
+--ID:1TS:1722780800087-8/4/24 10:13:20 AM -  [org.jdownloader.update.launcher.SelfTest(delete)] -> Delete /Users/tnoguchi/bin/JDownloader 2.0/logs/updatehistory/self_14090_to_17549.log
+--ID:1TS:1722780800087-8/4/24 10:13:20 AM -  [org.jdownloader.update.launcher.SelfTest(delete)] -> Delete OK /Users/tnoguchi/bin/JDownloader 2.0/logs/updatehistory/self_14090_to_17549.log
+--ID:1TS:1722780800088-8/4/24 10:13:20 AM -  [org.jdownloader.update.launcher.SelfTest(onSelfTestOK)] -> Delete /Users/tnoguchi/bin/JDownloader 2.0/JDownloader.jar
+--ID:1TS:1722780800088-8/4/24 10:13:20 AM -  [org.jdownloader.update.launcher.SelfTest(delete)] -> Delete /Users/tnoguchi/bin/JDownloader 2.0/JDownloader.jar
+--ID:1TS:1722780800088-8/4/24 10:13:20 AM -  [org.jdownloader.update.launcher.SelfTest(delete)] -> Delete OK /Users/tnoguchi/bin/JDownloader 2.0/JDownloader.jar
+--ID:1TS:1722780800088-8/4/24 10:13:20 AM -  [org.jdownloader.update.launcher.SelfTest(onSelfTestOK)] -> Copy /Users/tnoguchi/bin/JDownloader 2.0/tmp/update/self/JDU/JDownloader.jar to /Users/tnoguchi/bin/JDownloader 2.0/JDownloader.jar
+--ID:1TS:1722780800132-8/4/24 10:13:20 AM -  [org.jdownloader.update.launcher.SelfTest(onSelfTestOK)] -> Finally
+--ID:1TS:1722780800169-8/4/24 10:13:20 AM -  [org.jdownloader.update.launcher.SelfTest(onSelfTestOK)] -> Jar Hash OK
+--ID:1TS:1722780800172-8/4/24 10:13:20 AM -  [org.jdownloader.update.launcher.SelfTest(onSelfTestOK)] -> REV Hash OK
+--ID:1TS:1722780800172-8/4/24 10:13:20 AM -  [org.jdownloader.update.launcher.SelfTest(onSelfTestOK)] -> Restart /Users/tnoguchi/bin/JDownloader 2.0 - /Users/tnoguchi/bin/JDownloader 2.0/JDownloader.jar

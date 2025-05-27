@@ -1,0 +1,7 @@
+# install4j response file for JDownloader 2.0
+addToDockAction$Boolean=false
+createDesktopLinkAction$Boolean=false
+executeLauncherAction$Boolean=true
+sys.adminRights$Boolean=false
+sys.installationDir=/Users/tnoguchi/bin/JDownloader 2.0
+sys.languageId=en

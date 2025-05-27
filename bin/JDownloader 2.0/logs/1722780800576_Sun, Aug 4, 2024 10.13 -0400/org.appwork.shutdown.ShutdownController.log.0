@@ -1,0 +1,14 @@
+------------------------Thread: 1:org.appwork.shutdown.ShutdownController.log-----------------------
+--ID:1TS:1722780832886-8/4/24 10:13:52 AM -  [org.appwork.shutdown.ShutdownController(log)] -> Request Shutdown: BasicRestartRequest []
+------------------------Thread: 40:org.appwork.shutdown.ShutdownController.log-----------------------
+--ID:40TS:1722780832887-8/4/24 10:13:52 AM -  [org.appwork.shutdown.ShutdownController(log)] -> Exit Now(Controller): Code: 0
+------------------------Thread: 1:org.appwork.shutdown.ShutdownController.log-----------------------
+--ID:1TS:1722780832888-8/4/24 10:13:52 AM -  [org.appwork.shutdown.ShutdownController(log)] -> Wait for ShutdownThread:Thread[ShutdownThread:1722780832887|BasicRestartRequest [],5,main]|waitDuration:0
+------------------------Thread: 40:org.appwork.shutdown.ShutdownController.log-----------------------
+--ID:40TS:1722780832889-8/4/24 10:13:52 AM -  [org.appwork.shutdown.ShutdownController(log)] -> [1/10|Priority: 10000]ShutdownController: start item->org.appwork.utils.swing.locationstore.LocationStorageManager Priority: 10000
+--ID:40TS:1722780832927-8/4/24 10:13:52 AM -  [org.appwork.shutdown.ShutdownController(log)] -> [1/10|Priority: 10000]ShutdownController: item ended after->38
+--ID:40TS:1722780832927-8/4/24 10:13:52 AM -  [org.appwork.shutdown.ShutdownController(log)] -> [Done:1/10]
+--ID:40TS:1722780832927-8/4/24 10:13:52 AM -  [org.appwork.shutdown.ShutdownController(log)] -> [2/10|Priority: 10000]ShutdownController: start item->org.appwork.utils.singleapp.SingleAppInstance$2 Priority: 10000
+--ID:40TS:1722780832929-8/4/24 10:13:52 AM -  [org.appwork.shutdown.ShutdownController(log)] -> [2/10|Priority: 10000]ShutdownController: item ended after->2
+--ID:40TS:1722780832929-8/4/24 10:13:52 AM -  [org.appwork.shutdown.ShutdownController(log)] -> [Done:2/10]
+--ID:40TS:1722780832929-8/4/24 10:13:52 AM -  [org.appwork.shutdown.ShutdownController(log)] -> [3/10|Priority: 10000]ShutdownController: start item->flushing logs to disk

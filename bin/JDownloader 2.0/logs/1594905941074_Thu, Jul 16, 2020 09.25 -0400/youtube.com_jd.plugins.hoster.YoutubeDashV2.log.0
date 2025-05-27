@@ -1,0 +1,579 @@
+------------------------Thread: 132:youtube.com_jd.plugins.hoster.YoutubeDashV2-----------------------
+--ID:132TS:1594905963466-7/16/20 9:26:03 AM -  [jd.controlling.downloadcontroller.SingleDownloadController(run)] -> StartDownloadMarker:1594905963466
+--ID:132TS:1594905963466-7/16/20 9:26:03 AM -  [jd.controlling.downloadcontroller.SingleDownloadController(run)] -> Start Download of:youtubev2://1qemLSu63d0/c6031188a11eb3093cf982cca425bafb | ID:1594905963466
+--ID:132TS:1594905963466-7/16/20 9:26:03 AM -  [jd.controlling.downloadcontroller.SingleDownloadController(download)] -> DownloadCandidate: DownloadCandidate:Vitamix Blender DVD -Click time below to forward to section (480p_30fps_H264-128kbit_AAC).mp4@youtube.com|Host youtube.com|Account:Plugin:youtube.com|Version:42536|Type:NONE|Account:null|Proxy:{
+  "proxy" : {
+    "proxy" : {
+      "username" : null,
+      "password" : null,
+      "port" : 80,
+      "address" : null,
+      "type" : "NONE",
+      "preferNativeImplementation" : false,
+      "resolveHostName" : false,
+      "connectMethodPrefered" : false
+    },
+    "rangeRequestsSupported" : true,
+    "filter" : null,
+    "pac" : false,
+    "reconnectSupported" : true,
+    "enabled" : true
+  },
+  "banlist" : "[]",
+  "class" : "jd.controlling.proxy.NoProxySelector"
+}
+--ID:132TS:1594905963472-7/16/20 9:26:03 AM -  [jd.plugins.hoster.YoutubeDashV2(requestFileInformation)] -> Try MP4_H264_480P_30FPS_AAC_128KBIT_DASH
+--ID:132TS:1594905963522-7/16/20 9:26:03 AM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.hoster.YoutubeDashV2.requestFileInformation(YoutubeDashV2.java:430)
+jd.plugins.hoster.YoutubeDashV2.handleDash(YoutubeDashV2.java:1558)
+jd.plugins.hoster.YoutubeDashV2.handlePremium(YoutubeDashV2.java:1839)
+jd.plugins.hoster.YoutubeDashV2.handleFree(YoutubeDashV2.java:1267)
+jd.plugins.PluginForHost.handle(PluginForHost.java:1176)
+jd.controlling.downloadcontroller.SingleDownloadController.download(SingleDownloadController.java:423)
+jd.controlling.downloadcontroller.SingleDownloadController.run(SingleDownloadController.java:605)
+BrowserID:7|BrowserParentID:-1|RequestID:1|URL:https://r5---sn-vgqsdn7s.googlevideo.com/videoplayback?expire=1594927557&ei=ZVUQX9fdBIvzigTis6DQBQ&ip=68.50.34.96&id=o-AFqma6vudbLuSjX85dOCdixyVEmIH2DZbqvB0TqE1sol&itag=135&aitags=133%2C134%2C135%2C160%2C242%2C243%2C244%2C278&source=youtube&requiressl=yes&mh=KV&mm=31%2C29&mn=sn-vgqsdn7s%2Csn-vgqs7nez&ms=au%2Crdu&mv=m&mvi=5&pl=16&initcwndbps=1980000&vprv=1&mime=video%2Fmp4&gir=yes&clen=225583276&dur=4791.686&lmt=1536282217102471&mt=1594905818&fvip=5&keepalive=yes&fexp=23883098&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIgNy4MrtjAux9KsTtC_1PEvkt8XxSLptnA4UGeTSBTRgoCIQDjNlT5iHgJs9d2ufIo9nr241J6WVXFGTM9BVt_IaPeIw%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAIai37HleHReUDavEeytSEnG5Q-vcUC0foYx4QJlPlp-AiEApIlYX9rRJsXZVJNr_MoFN_9KzDkJ6fvbTj384T1wxOE%3D
+----------------Request Information-------------
+URL: https://r5---sn-vgqsdn7s.googlevideo.com/videoplayback?expire=1594927557&ei=ZVUQX9fdBIvzigTis6DQBQ&ip=68.50.34.96&id=o-AFqma6vudbLuSjX85dOCdixyVEmIH2DZbqvB0TqE1sol&itag=135&aitags=133%2C134%2C135%2C160%2C242%2C243%2C244%2C278&source=youtube&requiressl=yes&mh=KV&mm=31%2C29&mn=sn-vgqsdn7s%2Csn-vgqs7nez&ms=au%2Crdu&mv=m&mvi=5&pl=16&initcwndbps=1980000&vprv=1&mime=video%2Fmp4&gir=yes&clen=225583276&dur=4791.686&lmt=1536282217102471&mt=1594905818&fvip=5&keepalive=yes&fexp=23883098&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIgNy4MrtjAux9KsTtC_1PEvkt8XxSLptnA4UGeTSBTRgoCIQDjNlT5iHgJs9d2ufIo9nr241J6WVXFGTM9BVt_IaPeIw%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAIai37HleHReUDavEeytSEnG5Q-vcUC0foYx4QJlPlp-AiEApIlYX9rRJsXZVJNr_MoFN_9KzDkJ6fvbTj384T1wxOE%3D
+URL-Parameters:
+   expire      : 1594927557
+   ei          : ZVUQX9fdBIvzigTis6DQBQ
+   ip          : 68.50.34.96
+   id          : o-AFqma6vudbLuSjX85dOCdixyVEmIH2DZbqvB0TqE1sol
+   itag        : 135
+   aitags      : 133,134,135,160,242,243,244,278
+   source      : youtube
+   requiressl  : yes
+   mh          : KV
+   mm          : 31,29
+   mn          : sn-vgqsdn7s,sn-vgqs7nez
+   ms          : au,rdu
+   mv          : m
+   mvi         : 5
+   pl          : 16
+   initcwndbps : 1980000
+   vprv        : 1
+   mime        : video/mp4
+   gir         : yes
+   clen        : 225583276
+   dur         : 4791.686
+   lmt         : 1536282217102471
+   mt          : 1594905818
+   fvip        : 5
+   keepalive   : yes
+   fexp        : 23883098
+   c           : WEB
+   sparams     : expire,ei,ip,id,aitags,source,requiressl,vprv,mime,gir,clen,dur,lmt
+   sig         : AOq0QJ8wRQIgNy4MrtjAux9KsTtC_1PEvkt8XxSLptnA4UGeTSBTRgoCIQDjNlT5iHgJs9d2ufIo9nr241J6WVXFGTM9BVt_IaPeIw==
+   lsparams    : mh,mm,mn,ms,mv,mvi,pl,initcwndbps
+   lsig        : AG3C_xAwRgIhAIai37HleHReUDavEeytSEnG5Q-vcUC0foYx4QJlPlp-AiEApIlYX9rRJsXZVJNr_MoFN_9KzDkJ6fvbTj384T1wxOE=
+SSLCipher: JVM|Protocol:TLSv1.2|CipherSuite:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+ConnectIP: r5---sn-vgqsdn7s.googlevideo.com/173.194.55.139:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+HEAD /videoplayback?expire=1594927557&ei=ZVUQX9fdBIvzigTis6DQBQ&ip=68.50.34.96&id=o-AFqma6vudbLuSjX85dOCdixyVEmIH2DZbqvB0TqE1sol&itag=135&aitags=133%2C134%2C135%2C160%2C242%2C243%2C244%2C278&source=youtube&requiressl=yes&mh=KV&mm=31%2C29&mn=sn-vgqsdn7s%2Csn-vgqs7nez&ms=au%2Crdu&mv=m&mvi=5&pl=16&initcwndbps=1980000&vprv=1&mime=video%2Fmp4&gir=yes&clen=225583276&dur=4791.686&lmt=1536282217102471&mt=1594905818&fvip=5&keepalive=yes&fexp=23883098&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIgNy4MrtjAux9KsTtC_1PEvkt8XxSLptnA4UGeTSBTRgoCIQDjNlT5iHgJs9d2ufIo9nr241J6WVXFGTM9BVt_IaPeIw%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAIai37HleHReUDavEeytSEnG5Q-vcUC0foYx4QJlPlp-AiEApIlYX9rRJsXZVJNr_MoFN_9KzDkJ6fvbTj384T1wxOE%3D HTTP/1.1
+Host: r5---sn-vgqsdn7s.googlevideo.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:67.0) Gecko/20100101 Firefox/67.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: de,en-gb;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Cache-Control: no-cache
+
+----------------Response Information------------
+Connection-Time: keep-Alive
+Request-Time: 49ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Last-Modified: Fri, 07 Sep 2018 01:03:37 GMT
+Content-Type: video/mp4
+Date: Thu, 16 Jul 2020 13:26:03 GMT
+Expires: Thu, 16 Jul 2020 13:26:03 GMT
+Cache-Control: private, max-age=21294
+Accept-Ranges: bytes
+Content-Length: 225583276
+Connection: keep-alive
+Alt-Svc: h3-27=":443"; ma=2592000,h3-25=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+X-Restrict-Formats-Hint: None
+X-Content-Type-Options: nosniff
+Server: gvs 1.0
+------------------------------------------------
+
+
+--ID:132TS:1594905963624-7/16/20 9:26:03 AM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.hoster.YoutubeDashV2.requestFileInformation(YoutubeDashV2.java:498)
+jd.plugins.hoster.YoutubeDashV2.handleDash(YoutubeDashV2.java:1558)
+jd.plugins.hoster.YoutubeDashV2.handlePremium(YoutubeDashV2.java:1839)
+jd.plugins.hoster.YoutubeDashV2.handleFree(YoutubeDashV2.java:1267)
+jd.plugins.PluginForHost.handle(PluginForHost.java:1176)
+jd.controlling.downloadcontroller.SingleDownloadController.download(SingleDownloadController.java:423)
+jd.controlling.downloadcontroller.SingleDownloadController.run(SingleDownloadController.java:605)
+BrowserID:7|BrowserParentID:-1|RequestID:2|URL:https://r5---sn-vgqsdn7s.googlevideo.com/videoplayback?expire=1594927557&ei=ZVUQX9fdBIvzigTis6DQBQ&ip=68.50.34.96&id=o-AFqma6vudbLuSjX85dOCdixyVEmIH2DZbqvB0TqE1sol&itag=140&source=youtube&requiressl=yes&mh=KV&mm=31%2C29&mn=sn-vgqsdn7s%2Csn-vgqs7nez&ms=au%2Crdu&mv=m&mvi=5&pl=16&initcwndbps=1980000&vprv=1&mime=audio%2Fmp4&gir=yes&clen=76105047&dur=4791.739&lmt=1536282798530771&mt=1594905818&fvip=5&keepalive=yes&fexp=23883098&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhALlfNXyADH0lBojFnnyhaQFws8zR_GyMUMAorwX0jVzIAiEA_gUjiERgI-v2I3G6vvOG86CzHTh-quON3X65Gy9kYkE%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAIai37HleHReUDavEeytSEnG5Q-vcUC0foYx4QJlPlp-AiEApIlYX9rRJsXZVJNr_MoFN_9KzDkJ6fvbTj384T1wxOE%3D
+----------------Request Information-------------
+URL: https://r5---sn-vgqsdn7s.googlevideo.com/videoplayback?expire=1594927557&ei=ZVUQX9fdBIvzigTis6DQBQ&ip=68.50.34.96&id=o-AFqma6vudbLuSjX85dOCdixyVEmIH2DZbqvB0TqE1sol&itag=140&source=youtube&requiressl=yes&mh=KV&mm=31%2C29&mn=sn-vgqsdn7s%2Csn-vgqs7nez&ms=au%2Crdu&mv=m&mvi=5&pl=16&initcwndbps=1980000&vprv=1&mime=audio%2Fmp4&gir=yes&clen=76105047&dur=4791.739&lmt=1536282798530771&mt=1594905818&fvip=5&keepalive=yes&fexp=23883098&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhALlfNXyADH0lBojFnnyhaQFws8zR_GyMUMAorwX0jVzIAiEA_gUjiERgI-v2I3G6vvOG86CzHTh-quON3X65Gy9kYkE%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAIai37HleHReUDavEeytSEnG5Q-vcUC0foYx4QJlPlp-AiEApIlYX9rRJsXZVJNr_MoFN_9KzDkJ6fvbTj384T1wxOE%3D
+URL-Parameters:
+   expire      : 1594927557
+   ei          : ZVUQX9fdBIvzigTis6DQBQ
+   ip          : 68.50.34.96
+   id          : o-AFqma6vudbLuSjX85dOCdixyVEmIH2DZbqvB0TqE1sol
+   itag        : 140
+   source      : youtube
+   requiressl  : yes
+   mh          : KV
+   mm          : 31,29
+   mn          : sn-vgqsdn7s,sn-vgqs7nez
+   ms          : au,rdu
+   mv          : m
+   mvi         : 5
+   pl          : 16
+   initcwndbps : 1980000
+   vprv        : 1
+   mime        : audio/mp4
+   gir         : yes
+   clen        : 76105047
+   dur         : 4791.739
+   lmt         : 1536282798530771
+   mt          : 1594905818
+   fvip        : 5
+   keepalive   : yes
+   fexp        : 23883098
+   c           : WEB
+   sparams     : expire,ei,ip,id,itag,source,requiressl,vprv,mime,gir,clen,dur,lmt
+   sig         : AOq0QJ8wRgIhALlfNXyADH0lBojFnnyhaQFws8zR_GyMUMAorwX0jVzIAiEA_gUjiERgI-v2I3G6vvOG86CzHTh-quON3X65Gy9kYkE=
+   lsparams    : mh,mm,mn,ms,mv,mvi,pl,initcwndbps
+   lsig        : AG3C_xAwRgIhAIai37HleHReUDavEeytSEnG5Q-vcUC0foYx4QJlPlp-AiEApIlYX9rRJsXZVJNr_MoFN_9KzDkJ6fvbTj384T1wxOE=
+SSLCipher: JVM|Protocol:TLSv1.2|CipherSuite:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+ConnectIP: r5---sn-vgqsdn7s.googlevideo.com/173.194.55.139:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+HEAD /videoplayback?expire=1594927557&ei=ZVUQX9fdBIvzigTis6DQBQ&ip=68.50.34.96&id=o-AFqma6vudbLuSjX85dOCdixyVEmIH2DZbqvB0TqE1sol&itag=140&source=youtube&requiressl=yes&mh=KV&mm=31%2C29&mn=sn-vgqsdn7s%2Csn-vgqs7nez&ms=au%2Crdu&mv=m&mvi=5&pl=16&initcwndbps=1980000&vprv=1&mime=audio%2Fmp4&gir=yes&clen=76105047&dur=4791.739&lmt=1536282798530771&mt=1594905818&fvip=5&keepalive=yes&fexp=23883098&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhALlfNXyADH0lBojFnnyhaQFws8zR_GyMUMAorwX0jVzIAiEA_gUjiERgI-v2I3G6vvOG86CzHTh-quON3X65Gy9kYkE%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAIai37HleHReUDavEeytSEnG5Q-vcUC0foYx4QJlPlp-AiEApIlYX9rRJsXZVJNr_MoFN_9KzDkJ6fvbTj384T1wxOE%3D HTTP/1.1
+Host: r5---sn-vgqsdn7s.googlevideo.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:67.0) Gecko/20100101 Firefox/67.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: de,en-gb;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Cache-Control: no-cache
+Referer: https://r5---sn-vgqsdn7s.googlevideo.com/videoplayback?expire=1594927557&ei=ZVUQX9fdBIvzigTis6DQBQ&ip=68.50.34.96&id=o-AFqma6vudbLuSjX85dOCdixyVEmIH2DZbqvB0TqE1sol&itag=135&aitags=133%2C134%2C135%2C160%2C242%2C243%2C244%2C278&source=youtube&requiressl=yes&mh=KV&mm=31%2C29&mn=sn-vgqsdn7s%2Csn-vgqs7nez&ms=au%2Crdu&mv=m&mvi=5&pl=16&initcwndbps=1980000&vprv=1&mime=video%2Fmp4&gir=yes&clen=225583276&dur=4791.686&lmt=1536282217102471&mt=1594905818&fvip=5&keepalive=yes&fexp=23883098&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIgNy4MrtjAux9KsTtC_1PEvkt8XxSLptnA4UGeTSBTRgoCIQDjNlT5iHgJs9d2ufIo9nr241J6WVXFGTM9BVt_IaPeIw%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAIai37HleHReUDavEeytSEnG5Q-vcUC0foYx4QJlPlp-AiEApIlYX9rRJsXZVJNr_MoFN_9KzDkJ6fvbTj384T1wxOE%3D
+
+----------------Response Information------------
+Connection-Time: keep-Alive
+Request-Time: 101ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Last-Modified: Fri, 07 Sep 2018 01:13:18 GMT
+Content-Type: audio/mp4
+Date: Thu, 16 Jul 2020 13:26:03 GMT
+Expires: Thu, 16 Jul 2020 13:26:03 GMT
+Cache-Control: private, max-age=21294
+Accept-Ranges: bytes
+Content-Length: 76105047
+Connection: keep-alive
+Alt-Svc: h3-27=":443"; ma=2592000,h3-25=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+X-Content-Type-Options: nosniff
+Server: gvs 1.0
+------------------------------------------------
+
+
+------------------------Thread: 130:youtube.com_jd.plugins.hoster.YoutubeDashV2-----------------------
+--ID:130TS:1594905963629-7/16/20 9:26:03 AM -  [jd.plugins.hoster.YoutubeDashV2$6(run)] -> Lock /Users/tnoguchi/Downloads/Vitamix Blender DVD -Click time below to forward to section (480p_30fps_H264-128kbit_AAC).mp4
+--ID:130TS:1594905963629-7/16/20 9:26:03 AM -  [jd.plugins.hoster.YoutubeDashV2$6(run)] -> Lock /Users/tnoguchi/Downloads/Vitamix Blender DVD -Click time below to forward to section (480p_30fps_H264-128kbit_AAC).mp4.part
+--ID:130TS:1594905963629-7/16/20 9:26:03 AM -  [jd.plugins.hoster.YoutubeDashV2$6(run)] -> Lock /Users/tnoguchi/Downloads/1qemLSu63d0_MP4_H264_480P_30FPS_AAC_128KBIT_DASH_08537c276d2414dfe2503452e3d37ec6.dashVideo
+--ID:130TS:1594905963629-7/16/20 9:26:03 AM -  [jd.plugins.hoster.YoutubeDashV2$6(run)] -> Lock /Users/tnoguchi/Downloads/1qemLSu63d0_MP4_H264_480P_30FPS_AAC_128KBIT_DASH_08537c276d2414dfe2503452e3d37ec6.dashVideo.part
+--ID:130TS:1594905963629-7/16/20 9:26:03 AM -  [jd.plugins.hoster.YoutubeDashV2$6(run)] -> Lock /Users/tnoguchi/Downloads/1qemLSu63d0_MP4_H264_480P_30FPS_AAC_128KBIT_DASH_08537c276d2414dfe2503452e3d37ec6.dashAudio
+--ID:130TS:1594905963629-7/16/20 9:26:03 AM -  [jd.plugins.hoster.YoutubeDashV2$6(run)] -> Lock /Users/tnoguchi/Downloads/1qemLSu63d0_MP4_H264_480P_30FPS_AAC_128KBIT_DASH_08537c276d2414dfe2503452e3d37ec6.dashAudio.part
+------------------------Thread: 132:youtube.com_jd.plugins.hoster.YoutubeDashV2-----------------------
+--ID:132TS:1594905963645-7/16/20 9:26:03 AM -  [jd.plugins.download.raf.OldRAFDownload(setResume)] -> Resumepoint not valid
+--ID:132TS:1594905963645-7/16/20 9:26:03 AM -  [jd.plugins.download.raf.OldRAFDownload(connect)] -> Connect...
+--ID:132TS:1594905963645-7/16/20 9:26:03 AM -  [jd.plugins.download.raf.OldRAFDownload(connect)] -> .....connectFirstRange
+--ID:132TS:1594905963774-7/16/20 9:26:03 AM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.OldRAFDownload.connectFirstRange(OldRAFDownload.java:337)
+jd.plugins.download.raf.OldRAFDownload.connect(OldRAFDownload.java:198)
+jd.plugins.download.raf.OldRAFDownload.connect(OldRAFDownload.java:168)
+jd.plugins.BrowserAdapter.openDownload(BrowserAdapter.java:229)
+jd.plugins.BrowserAdapter.openDownload(BrowserAdapter.java:197)
+jd.plugins.hoster.YoutubeDashV2.downloadDashStream(YoutubeDashV2.java:1244)
+jd.plugins.hoster.YoutubeDashV2.handleDash(YoutubeDashV2.java:1594)
+jd.plugins.hoster.YoutubeDashV2.handlePremium(YoutubeDashV2.java:1839)
+jd.plugins.hoster.YoutubeDashV2.handleFree(YoutubeDashV2.java:1267)
+jd.plugins.PluginForHost.handle(PluginForHost.java:1176)
+jd.controlling.downloadcontroller.SingleDownloadController.download(SingleDownloadController.java:423)
+jd.controlling.downloadcontroller.SingleDownloadController.run(SingleDownloadController.java:605)
+BrowserID:8|BrowserParentID:7|RequestID:1|URL:https://r5---sn-vgqsdn7s.googlevideo.com/videoplayback?expire=1594927557&ei=ZVUQX9fdBIvzigTis6DQBQ&ip=68.50.34.96&id=o-AFqma6vudbLuSjX85dOCdixyVEmIH2DZbqvB0TqE1sol&itag=135&aitags=133%2C134%2C135%2C160%2C242%2C243%2C244%2C278&source=youtube&requiressl=yes&mh=KV&mm=31%2C29&mn=sn-vgqsdn7s%2Csn-vgqs7nez&ms=au%2Crdu&mv=m&mvi=5&pl=16&initcwndbps=1980000&vprv=1&mime=video%2Fmp4&gir=yes&clen=225583276&dur=4791.686&lmt=1536282217102471&mt=1594905818&fvip=5&keepalive=yes&fexp=23883098&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIgNy4MrtjAux9KsTtC_1PEvkt8XxSLptnA4UGeTSBTRgoCIQDjNlT5iHgJs9d2ufIo9nr241J6WVXFGTM9BVt_IaPeIw%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAIai37HleHReUDavEeytSEnG5Q-vcUC0foYx4QJlPlp-AiEApIlYX9rRJsXZVJNr_MoFN_9KzDkJ6fvbTj384T1wxOE%3D
+----------------Request Information-------------
+URL: https://r5---sn-vgqsdn7s.googlevideo.com/videoplayback?expire=1594927557&ei=ZVUQX9fdBIvzigTis6DQBQ&ip=68.50.34.96&id=o-AFqma6vudbLuSjX85dOCdixyVEmIH2DZbqvB0TqE1sol&itag=135&aitags=133%2C134%2C135%2C160%2C242%2C243%2C244%2C278&source=youtube&requiressl=yes&mh=KV&mm=31%2C29&mn=sn-vgqsdn7s%2Csn-vgqs7nez&ms=au%2Crdu&mv=m&mvi=5&pl=16&initcwndbps=1980000&vprv=1&mime=video%2Fmp4&gir=yes&clen=225583276&dur=4791.686&lmt=1536282217102471&mt=1594905818&fvip=5&keepalive=yes&fexp=23883098&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIgNy4MrtjAux9KsTtC_1PEvkt8XxSLptnA4UGeTSBTRgoCIQDjNlT5iHgJs9d2ufIo9nr241J6WVXFGTM9BVt_IaPeIw%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAIai37HleHReUDavEeytSEnG5Q-vcUC0foYx4QJlPlp-AiEApIlYX9rRJsXZVJNr_MoFN_9KzDkJ6fvbTj384T1wxOE%3D
+URL-Parameters:
+   expire      : 1594927557
+   ei          : ZVUQX9fdBIvzigTis6DQBQ
+   ip          : 68.50.34.96
+   id          : o-AFqma6vudbLuSjX85dOCdixyVEmIH2DZbqvB0TqE1sol
+   itag        : 135
+   aitags      : 133,134,135,160,242,243,244,278
+   source      : youtube
+   requiressl  : yes
+   mh          : KV
+   mm          : 31,29
+   mn          : sn-vgqsdn7s,sn-vgqs7nez
+   ms          : au,rdu
+   mv          : m
+   mvi         : 5
+   pl          : 16
+   initcwndbps : 1980000
+   vprv        : 1
+   mime        : video/mp4
+   gir         : yes
+   clen        : 225583276
+   dur         : 4791.686
+   lmt         : 1536282217102471
+   mt          : 1594905818
+   fvip        : 5
+   keepalive   : yes
+   fexp        : 23883098
+   c           : WEB
+   sparams     : expire,ei,ip,id,aitags,source,requiressl,vprv,mime,gir,clen,dur,lmt
+   sig         : AOq0QJ8wRQIgNy4MrtjAux9KsTtC_1PEvkt8XxSLptnA4UGeTSBTRgoCIQDjNlT5iHgJs9d2ufIo9nr241J6WVXFGTM9BVt_IaPeIw==
+   lsparams    : mh,mm,mn,ms,mv,mvi,pl,initcwndbps
+   lsig        : AG3C_xAwRgIhAIai37HleHReUDavEeytSEnG5Q-vcUC0foYx4QJlPlp-AiEApIlYX9rRJsXZVJNr_MoFN_9KzDkJ6fvbTj384T1wxOE=
+SSLCipher: JVM|Protocol:TLSv1.2|CipherSuite:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+ConnectIP: r5---sn-vgqsdn7s.googlevideo.com/173.194.55.139:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /videoplayback?expire=1594927557&ei=ZVUQX9fdBIvzigTis6DQBQ&ip=68.50.34.96&id=o-AFqma6vudbLuSjX85dOCdixyVEmIH2DZbqvB0TqE1sol&itag=135&aitags=133%2C134%2C135%2C160%2C242%2C243%2C244%2C278&source=youtube&requiressl=yes&mh=KV&mm=31%2C29&mn=sn-vgqsdn7s%2Csn-vgqs7nez&ms=au%2Crdu&mv=m&mvi=5&pl=16&initcwndbps=1980000&vprv=1&mime=video%2Fmp4&gir=yes&clen=225583276&dur=4791.686&lmt=1536282217102471&mt=1594905818&fvip=5&keepalive=yes&fexp=23883098&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIgNy4MrtjAux9KsTtC_1PEvkt8XxSLptnA4UGeTSBTRgoCIQDjNlT5iHgJs9d2ufIo9nr241J6WVXFGTM9BVt_IaPeIw%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAIai37HleHReUDavEeytSEnG5Q-vcUC0foYx4QJlPlp-AiEApIlYX9rRJsXZVJNr_MoFN_9KzDkJ6fvbTj384T1wxOE%3D HTTP/1.1
+Host: r5---sn-vgqsdn7s.googlevideo.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:67.0) Gecko/20100101 Firefox/67.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: de,en-gb;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Cache-Control: no-cache
+Referer: https://r5---sn-vgqsdn7s.googlevideo.com/videoplayback?expire=1594927557&ei=ZVUQX9fdBIvzigTis6DQBQ&ip=68.50.34.96&id=o-AFqma6vudbLuSjX85dOCdixyVEmIH2DZbqvB0TqE1sol&itag=140&source=youtube&requiressl=yes&mh=KV&mm=31%2C29&mn=sn-vgqsdn7s%2Csn-vgqs7nez&ms=au%2Crdu&mv=m&mvi=5&pl=16&initcwndbps=1980000&vprv=1&mime=audio%2Fmp4&gir=yes&clen=76105047&dur=4791.739&lmt=1536282798530771&mt=1594905818&fvip=5&keepalive=yes&fexp=23883098&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhALlfNXyADH0lBojFnnyhaQFws8zR_GyMUMAorwX0jVzIAiEA_gUjiERgI-v2I3G6vvOG86CzHTh-quON3X65Gy9kYkE%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAIai37HleHReUDavEeytSEnG5Q-vcUC0foYx4QJlPlp-AiEApIlYX9rRJsXZVJNr_MoFN_9KzDkJ6fvbTj384T1wxOE%3D
+
+----------------Response Information------------
+Connection-Time: keep-Alive
+Request-Time: 128ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Last-Modified: Fri, 07 Sep 2018 01:03:37 GMT
+Content-Type: video/mp4
+Date: Thu, 16 Jul 2020 13:26:03 GMT
+Expires: Thu, 16 Jul 2020 13:26:03 GMT
+Cache-Control: private, max-age=21294
+Accept-Ranges: bytes
+Content-Length: 225583276
+Connection: keep-alive
+Alt-Svc: h3-27=":443"; ma=2592000,h3-25=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+X-Restrict-Formats-Hint: None
+X-Content-Type-Options: nosniff
+Server: gvs 1.0
+------------------------------------------------
+
+
+--ID:132TS:1594905963774-7/16/20 9:26:03 AM -  [jd.plugins.download.raf.OldRAFDownload(connectFirstRange)] -> FirstRange was openRange without any RangeRequest!
+--ID:132TS:1594905963774-7/16/20 9:26:03 AM -  [jd.plugins.download.raf.OldRAFDownload(connect)] -> 
+Caller: jd.plugins.download.raf.OldRAFDownload.connectFirstRange(OldRAFDownload.java:337)
+jd.plugins.download.raf.OldRAFDownload.connect(OldRAFDownload.java:198)
+jd.plugins.download.raf.OldRAFDownload.connect(OldRAFDownload.java:168)
+jd.plugins.BrowserAdapter.openDownload(BrowserAdapter.java:229)
+jd.plugins.BrowserAdapter.openDownload(BrowserAdapter.java:197)
+jd.plugins.hoster.YoutubeDashV2.downloadDashStream(YoutubeDashV2.java:1244)
+jd.plugins.hoster.YoutubeDashV2.handleDash(YoutubeDashV2.java:1594)
+jd.plugins.hoster.YoutubeDashV2.handlePremium(YoutubeDashV2.java:1839)
+jd.plugins.hoster.YoutubeDashV2.handleFree(YoutubeDashV2.java:1267)
+jd.plugins.PluginForHost.handle(PluginForHost.java:1176)
+jd.controlling.downloadcontroller.SingleDownloadController.download(SingleDownloadController.java:423)
+jd.controlling.downloadcontroller.SingleDownloadController.run(SingleDownloadController.java:605)
+BrowserID:8|BrowserParentID:7|RequestID:1|URL:https://r5---sn-vgqsdn7s.googlevideo.com/videoplayback?expire=1594927557&ei=ZVUQX9fdBIvzigTis6DQBQ&ip=68.50.34.96&id=o-AFqma6vudbLuSjX85dOCdixyVEmIH2DZbqvB0TqE1sol&itag=135&aitags=133%2C134%2C135%2C160%2C242%2C243%2C244%2C278&source=youtube&requiressl=yes&mh=KV&mm=31%2C29&mn=sn-vgqsdn7s%2Csn-vgqs7nez&ms=au%2Crdu&mv=m&mvi=5&pl=16&initcwndbps=1980000&vprv=1&mime=video%2Fmp4&gir=yes&clen=225583276&dur=4791.686&lmt=1536282217102471&mt=1594905818&fvip=5&keepalive=yes&fexp=23883098&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIgNy4MrtjAux9KsTtC_1PEvkt8XxSLptnA4UGeTSBTRgoCIQDjNlT5iHgJs9d2ufIo9nr241J6WVXFGTM9BVt_IaPeIw%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAIai37HleHReUDavEeytSEnG5Q-vcUC0foYx4QJlPlp-AiEApIlYX9rRJsXZVJNr_MoFN_9KzDkJ6fvbTj384T1wxOE%3D
+----------------Request Information-------------
+URL: https://r5---sn-vgqsdn7s.googlevideo.com/videoplayback?expire=1594927557&ei=ZVUQX9fdBIvzigTis6DQBQ&ip=68.50.34.96&id=o-AFqma6vudbLuSjX85dOCdixyVEmIH2DZbqvB0TqE1sol&itag=135&aitags=133%2C134%2C135%2C160%2C242%2C243%2C244%2C278&source=youtube&requiressl=yes&mh=KV&mm=31%2C29&mn=sn-vgqsdn7s%2Csn-vgqs7nez&ms=au%2Crdu&mv=m&mvi=5&pl=16&initcwndbps=1980000&vprv=1&mime=video%2Fmp4&gir=yes&clen=225583276&dur=4791.686&lmt=1536282217102471&mt=1594905818&fvip=5&keepalive=yes&fexp=23883098&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIgNy4MrtjAux9KsTtC_1PEvkt8XxSLptnA4UGeTSBTRgoCIQDjNlT5iHgJs9d2ufIo9nr241J6WVXFGTM9BVt_IaPeIw%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAIai37HleHReUDavEeytSEnG5Q-vcUC0foYx4QJlPlp-AiEApIlYX9rRJsXZVJNr_MoFN_9KzDkJ6fvbTj384T1wxOE%3D
+URL-Parameters:
+   expire      : 1594927557
+   ei          : ZVUQX9fdBIvzigTis6DQBQ
+   ip          : 68.50.34.96
+   id          : o-AFqma6vudbLuSjX85dOCdixyVEmIH2DZbqvB0TqE1sol
+   itag        : 135
+   aitags      : 133,134,135,160,242,243,244,278
+   source      : youtube
+   requiressl  : yes
+   mh          : KV
+   mm          : 31,29
+   mn          : sn-vgqsdn7s,sn-vgqs7nez
+   ms          : au,rdu
+   mv          : m
+   mvi         : 5
+   pl          : 16
+   initcwndbps : 1980000
+   vprv        : 1
+   mime        : video/mp4
+   gir         : yes
+   clen        : 225583276
+   dur         : 4791.686
+   lmt         : 1536282217102471
+   mt          : 1594905818
+   fvip        : 5
+   keepalive   : yes
+   fexp        : 23883098
+   c           : WEB
+   sparams     : expire,ei,ip,id,aitags,source,requiressl,vprv,mime,gir,clen,dur,lmt
+   sig         : AOq0QJ8wRQIgNy4MrtjAux9KsTtC_1PEvkt8XxSLptnA4UGeTSBTRgoCIQDjNlT5iHgJs9d2ufIo9nr241J6WVXFGTM9BVt_IaPeIw==
+   lsparams    : mh,mm,mn,ms,mv,mvi,pl,initcwndbps
+   lsig        : AG3C_xAwRgIhAIai37HleHReUDavEeytSEnG5Q-vcUC0foYx4QJlPlp-AiEApIlYX9rRJsXZVJNr_MoFN_9KzDkJ6fvbTj384T1wxOE=
+SSLCipher: JVM|Protocol:TLSv1.2|CipherSuite:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+ConnectIP: r5---sn-vgqsdn7s.googlevideo.com/173.194.55.139:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /videoplayback?expire=1594927557&ei=ZVUQX9fdBIvzigTis6DQBQ&ip=68.50.34.96&id=o-AFqma6vudbLuSjX85dOCdixyVEmIH2DZbqvB0TqE1sol&itag=135&aitags=133%2C134%2C135%2C160%2C242%2C243%2C244%2C278&source=youtube&requiressl=yes&mh=KV&mm=31%2C29&mn=sn-vgqsdn7s%2Csn-vgqs7nez&ms=au%2Crdu&mv=m&mvi=5&pl=16&initcwndbps=1980000&vprv=1&mime=video%2Fmp4&gir=yes&clen=225583276&dur=4791.686&lmt=1536282217102471&mt=1594905818&fvip=5&keepalive=yes&fexp=23883098&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIgNy4MrtjAux9KsTtC_1PEvkt8XxSLptnA4UGeTSBTRgoCIQDjNlT5iHgJs9d2ufIo9nr241J6WVXFGTM9BVt_IaPeIw%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAIai37HleHReUDavEeytSEnG5Q-vcUC0foYx4QJlPlp-AiEApIlYX9rRJsXZVJNr_MoFN_9KzDkJ6fvbTj384T1wxOE%3D HTTP/1.1
+Host: r5---sn-vgqsdn7s.googlevideo.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:67.0) Gecko/20100101 Firefox/67.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: de,en-gb;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Cache-Control: no-cache
+Referer: https://r5---sn-vgqsdn7s.googlevideo.com/videoplayback?expire=1594927557&ei=ZVUQX9fdBIvzigTis6DQBQ&ip=68.50.34.96&id=o-AFqma6vudbLuSjX85dOCdixyVEmIH2DZbqvB0TqE1sol&itag=140&source=youtube&requiressl=yes&mh=KV&mm=31%2C29&mn=sn-vgqsdn7s%2Csn-vgqs7nez&ms=au%2Crdu&mv=m&mvi=5&pl=16&initcwndbps=1980000&vprv=1&mime=audio%2Fmp4&gir=yes&clen=76105047&dur=4791.739&lmt=1536282798530771&mt=1594905818&fvip=5&keepalive=yes&fexp=23883098&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhALlfNXyADH0lBojFnnyhaQFws8zR_GyMUMAorwX0jVzIAiEA_gUjiERgI-v2I3G6vvOG86CzHTh-quON3X65Gy9kYkE%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAIai37HleHReUDavEeytSEnG5Q-vcUC0foYx4QJlPlp-AiEApIlYX9rRJsXZVJNr_MoFN_9KzDkJ6fvbTj384T1wxOE%3D
+
+----------------Response Information------------
+Connection-Time: keep-Alive
+Request-Time: 128ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Last-Modified: Fri, 07 Sep 2018 01:03:37 GMT
+Content-Type: video/mp4
+Date: Thu, 16 Jul 2020 13:26:03 GMT
+Expires: Thu, 16 Jul 2020 13:26:03 GMT
+Cache-Control: private, max-age=21294
+Accept-Ranges: bytes
+Content-Length: 225583276
+Connection: keep-alive
+Alt-Svc: h3-27=":443"; ma=2592000,h3-25=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+X-Restrict-Formats-Hint: None
+X-Content-Type-Options: nosniff
+Server: gvs 1.0
+------------------------------------------------
+
+
+--ID:132TS:1594905963774-7/16/20 9:26:03 AM -  [jd.plugins.download.raf.OldRAFDownload(startDownload)] -> Start Download
+------------------------Thread: 130:youtube.com_jd.plugins.hoster.YoutubeDashV2-----------------------
+--ID:130TS:1594905963781-7/16/20 9:26:03 AM -  [jd.plugins.download.raf.OldRAFDownload(createOutputChannel)] -> createOutputChannel for /Users/tnoguchi/Downloads/1qemLSu63d0_MP4_H264_480P_30FPS_AAC_128KBIT_DASH_08537c276d2414dfe2503452e3d37ec6.dashVideo
+------------------------Thread: 132:youtube.com_jd.plugins.hoster.YoutubeDashV2-----------------------
+--ID:132TS:1594905963786-7/16/20 9:26:03 AM -  [jd.plugins.download.raf.OldRAFDownload(setupChunks)] -> Setup virgin download
+--ID:132TS:1594905963786-7/16/20 9:26:03 AM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Start Download in 1 chunks. Chunksize: 225583276
+--ID:132TS:1594905963795-7/16/20 9:26:03 AM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 0: Thread[DownloadChunkRAF:1qemLSu63d0_MP4_H264_480P_30FPS_AAC_128KBIT_DASH_08537c276d2414dfe2503452e3d37ec6.dashVideo,1,main]
+--ID:132TS:1594905963795-7/16/20 9:26:03 AM -  [jd.plugins.download.raf.OldRAFDownload(waitForChunks)] -> Wait for chunks
+------------------------Thread: 135:youtube.com_jd.plugins.hoster.YoutubeDashV2-----------------------
+--ID:135TS:1594905963795-7/16/20 9:26:03 AM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 0 : 0 - -1
+--ID:135TS:1594905963796-7/16/20 9:26:03 AM -  [jd.plugins.download.raf.RAFChunk(copyConnection)] -> Takeover connection(no range) for Start:0|End:-1
+--ID:135TS:1594906792242-7/16/20 9:39:52 AM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:135TS:1594906792243-7/16/20 9:39:52 AM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:135TS:1594906792243-7/16/20 9:39:52 AM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 0 225583276 bytes
+------------------------Thread: 132:youtube.com_jd.plugins.hoster.YoutubeDashV2-----------------------
+--ID:132TS:1594906792243-7/16/20 9:39:52 AM -  [jd.plugins.download.raf.OldRAFDownload(onChunksReady)] -> All connections closed:00s
+--ID:132TS:1594906792245-7/16/20 9:39:52 AM -  [jd.plugins.download.raf.OldRAFDownload(closeOutputChannel)] -> Buffers forced to disk:00s
+--ID:132TS:1594906792245-7/16/20 9:39:52 AM -  [jd.plugins.download.raf.OldRAFDownload(closeOutputChannel)] -> File closed:00s
+--ID:132TS:1594906792245-7/16/20 9:39:52 AM -  [jd.plugins.download.raf.OldRAFDownload(handleErrors)] -> ExternalStop: false|VerifiedFilesize: 225583276|FileSize: 225583276|Loaded: 225583276
+--ID:132TS:1594906792245-7/16/20 9:39:52 AM -  [jd.plugins.download.raf.OldRAFDownload(handleErrors)] -> VerifiedFilesize: 225583276 Loaded: 225583276
+--ID:132TS:1594906792246-7/16/20 9:39:52 AM -  [jd.plugins.download.raf.OldRAFDownload(handleErrors)] -> ExternalStop: false|VerifiedFilesize: 225583276|FileSize: 225583276|Loaded: 225583276
+--ID:132TS:1594906792246-7/16/20 9:39:52 AM -  [jd.plugins.download.raf.OldRAFDownload(handleErrors)] -> VerifiedFilesize: 225583276 Loaded: 225583276
+--ID:132TS:1594906792247-7/16/20 9:39:52 AM -  [jd.plugins.download.raf.OldRAFDownload(setResume)] -> Resumepoint not valid
+--ID:132TS:1594906792247-7/16/20 9:39:52 AM -  [jd.plugins.download.raf.OldRAFDownload(connect)] -> Connect...
+--ID:132TS:1594906792247-7/16/20 9:39:52 AM -  [jd.plugins.download.raf.OldRAFDownload(connect)] -> .....connectFirstRange
+--ID:132TS:1594906792539-7/16/20 9:39:52 AM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.OldRAFDownload.connectFirstRange(OldRAFDownload.java:337)
+jd.plugins.download.raf.OldRAFDownload.connect(OldRAFDownload.java:198)
+jd.plugins.download.raf.OldRAFDownload.connect(OldRAFDownload.java:168)
+jd.plugins.BrowserAdapter.openDownload(BrowserAdapter.java:229)
+jd.plugins.BrowserAdapter.openDownload(BrowserAdapter.java:197)
+jd.plugins.hoster.YoutubeDashV2.downloadDashStream(YoutubeDashV2.java:1244)
+jd.plugins.hoster.YoutubeDashV2.handleDash(YoutubeDashV2.java:1610)
+jd.plugins.hoster.YoutubeDashV2.handlePremium(YoutubeDashV2.java:1839)
+jd.plugins.hoster.YoutubeDashV2.handleFree(YoutubeDashV2.java:1267)
+jd.plugins.PluginForHost.handle(PluginForHost.java:1176)
+jd.controlling.downloadcontroller.SingleDownloadController.download(SingleDownloadController.java:423)
+jd.controlling.downloadcontroller.SingleDownloadController.run(SingleDownloadController.java:605)
+BrowserID:9|BrowserParentID:7|RequestID:1|URL:https://r5---sn-vgqsdn7s.googlevideo.com/videoplayback?expire=1594927557&ei=ZVUQX9fdBIvzigTis6DQBQ&ip=68.50.34.96&id=o-AFqma6vudbLuSjX85dOCdixyVEmIH2DZbqvB0TqE1sol&itag=140&source=youtube&requiressl=yes&mh=KV&mm=31%2C29&mn=sn-vgqsdn7s%2Csn-vgqs7nez&ms=au%2Crdu&mv=m&mvi=5&pl=16&initcwndbps=1980000&vprv=1&mime=audio%2Fmp4&gir=yes&clen=76105047&dur=4791.739&lmt=1536282798530771&mt=1594905818&fvip=5&keepalive=yes&fexp=23883098&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhALlfNXyADH0lBojFnnyhaQFws8zR_GyMUMAorwX0jVzIAiEA_gUjiERgI-v2I3G6vvOG86CzHTh-quON3X65Gy9kYkE%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAIai37HleHReUDavEeytSEnG5Q-vcUC0foYx4QJlPlp-AiEApIlYX9rRJsXZVJNr_MoFN_9KzDkJ6fvbTj384T1wxOE%3D
+----------------Request Information-------------
+URL: https://r5---sn-vgqsdn7s.googlevideo.com/videoplayback?expire=1594927557&ei=ZVUQX9fdBIvzigTis6DQBQ&ip=68.50.34.96&id=o-AFqma6vudbLuSjX85dOCdixyVEmIH2DZbqvB0TqE1sol&itag=140&source=youtube&requiressl=yes&mh=KV&mm=31%2C29&mn=sn-vgqsdn7s%2Csn-vgqs7nez&ms=au%2Crdu&mv=m&mvi=5&pl=16&initcwndbps=1980000&vprv=1&mime=audio%2Fmp4&gir=yes&clen=76105047&dur=4791.739&lmt=1536282798530771&mt=1594905818&fvip=5&keepalive=yes&fexp=23883098&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhALlfNXyADH0lBojFnnyhaQFws8zR_GyMUMAorwX0jVzIAiEA_gUjiERgI-v2I3G6vvOG86CzHTh-quON3X65Gy9kYkE%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAIai37HleHReUDavEeytSEnG5Q-vcUC0foYx4QJlPlp-AiEApIlYX9rRJsXZVJNr_MoFN_9KzDkJ6fvbTj384T1wxOE%3D
+URL-Parameters:
+   expire      : 1594927557
+   ei          : ZVUQX9fdBIvzigTis6DQBQ
+   ip          : 68.50.34.96
+   id          : o-AFqma6vudbLuSjX85dOCdixyVEmIH2DZbqvB0TqE1sol
+   itag        : 140
+   source      : youtube
+   requiressl  : yes
+   mh          : KV
+   mm          : 31,29
+   mn          : sn-vgqsdn7s,sn-vgqs7nez
+   ms          : au,rdu
+   mv          : m
+   mvi         : 5
+   pl          : 16
+   initcwndbps : 1980000
+   vprv        : 1
+   mime        : audio/mp4
+   gir         : yes
+   clen        : 76105047
+   dur         : 4791.739
+   lmt         : 1536282798530771
+   mt          : 1594905818
+   fvip        : 5
+   keepalive   : yes
+   fexp        : 23883098
+   c           : WEB
+   sparams     : expire,ei,ip,id,itag,source,requiressl,vprv,mime,gir,clen,dur,lmt
+   sig         : AOq0QJ8wRgIhALlfNXyADH0lBojFnnyhaQFws8zR_GyMUMAorwX0jVzIAiEA_gUjiERgI-v2I3G6vvOG86CzHTh-quON3X65Gy9kYkE=
+   lsparams    : mh,mm,mn,ms,mv,mvi,pl,initcwndbps
+   lsig        : AG3C_xAwRgIhAIai37HleHReUDavEeytSEnG5Q-vcUC0foYx4QJlPlp-AiEApIlYX9rRJsXZVJNr_MoFN_9KzDkJ6fvbTj384T1wxOE=
+SSLCipher: JVM|Protocol:TLSv1.2|CipherSuite:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+ConnectIP: r5---sn-vgqsdn7s.googlevideo.com/173.194.55.139:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /videoplayback?expire=1594927557&ei=ZVUQX9fdBIvzigTis6DQBQ&ip=68.50.34.96&id=o-AFqma6vudbLuSjX85dOCdixyVEmIH2DZbqvB0TqE1sol&itag=140&source=youtube&requiressl=yes&mh=KV&mm=31%2C29&mn=sn-vgqsdn7s%2Csn-vgqs7nez&ms=au%2Crdu&mv=m&mvi=5&pl=16&initcwndbps=1980000&vprv=1&mime=audio%2Fmp4&gir=yes&clen=76105047&dur=4791.739&lmt=1536282798530771&mt=1594905818&fvip=5&keepalive=yes&fexp=23883098&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhALlfNXyADH0lBojFnnyhaQFws8zR_GyMUMAorwX0jVzIAiEA_gUjiERgI-v2I3G6vvOG86CzHTh-quON3X65Gy9kYkE%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAIai37HleHReUDavEeytSEnG5Q-vcUC0foYx4QJlPlp-AiEApIlYX9rRJsXZVJNr_MoFN_9KzDkJ6fvbTj384T1wxOE%3D HTTP/1.1
+Host: r5---sn-vgqsdn7s.googlevideo.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:67.0) Gecko/20100101 Firefox/67.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: de,en-gb;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Cache-Control: no-cache
+Referer: https://r5---sn-vgqsdn7s.googlevideo.com/videoplayback?expire=1594927557&ei=ZVUQX9fdBIvzigTis6DQBQ&ip=68.50.34.96&id=o-AFqma6vudbLuSjX85dOCdixyVEmIH2DZbqvB0TqE1sol&itag=135&aitags=133%2C134%2C135%2C160%2C242%2C243%2C244%2C278&source=youtube&requiressl=yes&mh=KV&mm=31%2C29&mn=sn-vgqsdn7s%2Csn-vgqs7nez&ms=au%2Crdu&mv=m&mvi=5&pl=16&initcwndbps=1980000&vprv=1&mime=video%2Fmp4&gir=yes&clen=225583276&dur=4791.686&lmt=1536282217102471&mt=1594905818&fvip=5&keepalive=yes&fexp=23883098&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIgNy4MrtjAux9KsTtC_1PEvkt8XxSLptnA4UGeTSBTRgoCIQDjNlT5iHgJs9d2ufIo9nr241J6WVXFGTM9BVt_IaPeIw%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAIai37HleHReUDavEeytSEnG5Q-vcUC0foYx4QJlPlp-AiEApIlYX9rRJsXZVJNr_MoFN_9KzDkJ6fvbTj384T1wxOE%3D
+
+----------------Response Information------------
+Connection-Time: keep-Alive
+Request-Time: 291ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Last-Modified: Fri, 07 Sep 2018 01:13:18 GMT
+Content-Type: audio/mp4
+Date: Thu, 16 Jul 2020 13:39:52 GMT
+Expires: Thu, 16 Jul 2020 13:39:52 GMT
+Cache-Control: private, max-age=20465
+Accept-Ranges: bytes
+Content-Length: 76105047
+Connection: keep-alive
+Alt-Svc: h3-27=":443"; ma=2592000,h3-25=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+X-Content-Type-Options: nosniff
+Server: gvs 1.0
+------------------------------------------------
+
+
+--ID:132TS:1594906792539-7/16/20 9:39:52 AM -  [jd.plugins.download.raf.OldRAFDownload(connectFirstRange)] -> FirstRange was openRange without any RangeRequest!
+--ID:132TS:1594906792539-7/16/20 9:39:52 AM -  [jd.plugins.download.raf.OldRAFDownload(connect)] -> 
+Caller: jd.plugins.download.raf.OldRAFDownload.connectFirstRange(OldRAFDownload.java:337)
+jd.plugins.download.raf.OldRAFDownload.connect(OldRAFDownload.java:198)
+jd.plugins.download.raf.OldRAFDownload.connect(OldRAFDownload.java:168)
+jd.plugins.BrowserAdapter.openDownload(BrowserAdapter.java:229)
+jd.plugins.BrowserAdapter.openDownload(BrowserAdapter.java:197)
+jd.plugins.hoster.YoutubeDashV2.downloadDashStream(YoutubeDashV2.java:1244)
+jd.plugins.hoster.YoutubeDashV2.handleDash(YoutubeDashV2.java:1610)
+jd.plugins.hoster.YoutubeDashV2.handlePremium(YoutubeDashV2.java:1839)
+jd.plugins.hoster.YoutubeDashV2.handleFree(YoutubeDashV2.java:1267)
+jd.plugins.PluginForHost.handle(PluginForHost.java:1176)
+jd.controlling.downloadcontroller.SingleDownloadController.download(SingleDownloadController.java:423)
+jd.controlling.downloadcontroller.SingleDownloadController.run(SingleDownloadController.java:605)
+BrowserID:9|BrowserParentID:7|RequestID:1|URL:https://r5---sn-vgqsdn7s.googlevideo.com/videoplayback?expire=1594927557&ei=ZVUQX9fdBIvzigTis6DQBQ&ip=68.50.34.96&id=o-AFqma6vudbLuSjX85dOCdixyVEmIH2DZbqvB0TqE1sol&itag=140&source=youtube&requiressl=yes&mh=KV&mm=31%2C29&mn=sn-vgqsdn7s%2Csn-vgqs7nez&ms=au%2Crdu&mv=m&mvi=5&pl=16&initcwndbps=1980000&vprv=1&mime=audio%2Fmp4&gir=yes&clen=76105047&dur=4791.739&lmt=1536282798530771&mt=1594905818&fvip=5&keepalive=yes&fexp=23883098&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhALlfNXyADH0lBojFnnyhaQFws8zR_GyMUMAorwX0jVzIAiEA_gUjiERgI-v2I3G6vvOG86CzHTh-quON3X65Gy9kYkE%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAIai37HleHReUDavEeytSEnG5Q-vcUC0foYx4QJlPlp-AiEApIlYX9rRJsXZVJNr_MoFN_9KzDkJ6fvbTj384T1wxOE%3D
+----------------Request Information-------------
+URL: https://r5---sn-vgqsdn7s.googlevideo.com/videoplayback?expire=1594927557&ei=ZVUQX9fdBIvzigTis6DQBQ&ip=68.50.34.96&id=o-AFqma6vudbLuSjX85dOCdixyVEmIH2DZbqvB0TqE1sol&itag=140&source=youtube&requiressl=yes&mh=KV&mm=31%2C29&mn=sn-vgqsdn7s%2Csn-vgqs7nez&ms=au%2Crdu&mv=m&mvi=5&pl=16&initcwndbps=1980000&vprv=1&mime=audio%2Fmp4&gir=yes&clen=76105047&dur=4791.739&lmt=1536282798530771&mt=1594905818&fvip=5&keepalive=yes&fexp=23883098&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhALlfNXyADH0lBojFnnyhaQFws8zR_GyMUMAorwX0jVzIAiEA_gUjiERgI-v2I3G6vvOG86CzHTh-quON3X65Gy9kYkE%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAIai37HleHReUDavEeytSEnG5Q-vcUC0foYx4QJlPlp-AiEApIlYX9rRJsXZVJNr_MoFN_9KzDkJ6fvbTj384T1wxOE%3D
+URL-Parameters:
+   expire      : 1594927557
+   ei          : ZVUQX9fdBIvzigTis6DQBQ
+   ip          : 68.50.34.96
+   id          : o-AFqma6vudbLuSjX85dOCdixyVEmIH2DZbqvB0TqE1sol
+   itag        : 140
+   source      : youtube
+   requiressl  : yes
+   mh          : KV
+   mm          : 31,29
+   mn          : sn-vgqsdn7s,sn-vgqs7nez
+   ms          : au,rdu
+   mv          : m
+   mvi         : 5
+   pl          : 16
+   initcwndbps : 1980000
+   vprv        : 1
+   mime        : audio/mp4
+   gir         : yes
+   clen        : 76105047
+   dur         : 4791.739
+   lmt         : 1536282798530771
+   mt          : 1594905818
+   fvip        : 5
+   keepalive   : yes
+   fexp        : 23883098
+   c           : WEB
+   sparams     : expire,ei,ip,id,itag,source,requiressl,vprv,mime,gir,clen,dur,lmt
+   sig         : AOq0QJ8wRgIhALlfNXyADH0lBojFnnyhaQFws8zR_GyMUMAorwX0jVzIAiEA_gUjiERgI-v2I3G6vvOG86CzHTh-quON3X65Gy9kYkE=
+   lsparams    : mh,mm,mn,ms,mv,mvi,pl,initcwndbps
+   lsig        : AG3C_xAwRgIhAIai37HleHReUDavEeytSEnG5Q-vcUC0foYx4QJlPlp-AiEApIlYX9rRJsXZVJNr_MoFN_9KzDkJ6fvbTj384T1wxOE=
+SSLCipher: JVM|Protocol:TLSv1.2|CipherSuite:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+ConnectIP: r5---sn-vgqsdn7s.googlevideo.com/173.194.55.139:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /videoplayback?expire=1594927557&ei=ZVUQX9fdBIvzigTis6DQBQ&ip=68.50.34.96&id=o-AFqma6vudbLuSjX85dOCdixyVEmIH2DZbqvB0TqE1sol&itag=140&source=youtube&requiressl=yes&mh=KV&mm=31%2C29&mn=sn-vgqsdn7s%2Csn-vgqs7nez&ms=au%2Crdu&mv=m&mvi=5&pl=16&initcwndbps=1980000&vprv=1&mime=audio%2Fmp4&gir=yes&clen=76105047&dur=4791.739&lmt=1536282798530771&mt=1594905818&fvip=5&keepalive=yes&fexp=23883098&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhALlfNXyADH0lBojFnnyhaQFws8zR_GyMUMAorwX0jVzIAiEA_gUjiERgI-v2I3G6vvOG86CzHTh-quON3X65Gy9kYkE%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAIai37HleHReUDavEeytSEnG5Q-vcUC0foYx4QJlPlp-AiEApIlYX9rRJsXZVJNr_MoFN_9KzDkJ6fvbTj384T1wxOE%3D HTTP/1.1
+Host: r5---sn-vgqsdn7s.googlevideo.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:67.0) Gecko/20100101 Firefox/67.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: de,en-gb;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Cache-Control: no-cache
+Referer: https://r5---sn-vgqsdn7s.googlevideo.com/videoplayback?expire=1594927557&ei=ZVUQX9fdBIvzigTis6DQBQ&ip=68.50.34.96&id=o-AFqma6vudbLuSjX85dOCdixyVEmIH2DZbqvB0TqE1sol&itag=135&aitags=133%2C134%2C135%2C160%2C242%2C243%2C244%2C278&source=youtube&requiressl=yes&mh=KV&mm=31%2C29&mn=sn-vgqsdn7s%2Csn-vgqs7nez&ms=au%2Crdu&mv=m&mvi=5&pl=16&initcwndbps=1980000&vprv=1&mime=video%2Fmp4&gir=yes&clen=225583276&dur=4791.686&lmt=1536282217102471&mt=1594905818&fvip=5&keepalive=yes&fexp=23883098&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIgNy4MrtjAux9KsTtC_1PEvkt8XxSLptnA4UGeTSBTRgoCIQDjNlT5iHgJs9d2ufIo9nr241J6WVXFGTM9BVt_IaPeIw%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAIai37HleHReUDavEeytSEnG5Q-vcUC0foYx4QJlPlp-AiEApIlYX9rRJsXZVJNr_MoFN_9KzDkJ6fvbTj384T1wxOE%3D
+
+----------------Response Information------------
+Connection-Time: keep-Alive
+Request-Time: 291ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Last-Modified: Fri, 07 Sep 2018 01:13:18 GMT
+Content-Type: audio/mp4
+Date: Thu, 16 Jul 2020 13:39:52 GMT
+Expires: Thu, 16 Jul 2020 13:39:52 GMT
+Cache-Control: private, max-age=20465
+Accept-Ranges: bytes
+Content-Length: 76105047
+Connection: keep-alive
+Alt-Svc: h3-27=":443"; ma=2592000,h3-25=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+X-Content-Type-Options: nosniff
+Server: gvs 1.0
+------------------------------------------------
+
+
+--ID:132TS:1594906792540-7/16/20 9:39:52 AM -  [jd.plugins.download.raf.OldRAFDownload(startDownload)] -> Start Download
+------------------------Thread: 130:youtube.com_jd.plugins.hoster.YoutubeDashV2-----------------------
+--ID:130TS:1594906792592-7/16/20 9:39:52 AM -  [jd.plugins.download.raf.OldRAFDownload(createOutputChannel)] -> createOutputChannel for /Users/tnoguchi/Downloads/1qemLSu63d0_MP4_H264_480P_30FPS_AAC_128KBIT_DASH_08537c276d2414dfe2503452e3d37ec6.dashAudio
+------------------------Thread: 132:youtube.com_jd.plugins.hoster.YoutubeDashV2-----------------------
+--ID:132TS:1594906792592-7/16/20 9:39:52 AM -  [jd.plugins.download.raf.OldRAFDownload(setupChunks)] -> Setup virgin download
+--ID:132TS:1594906792592-7/16/20 9:39:52 AM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Start Download in 1 chunks. Chunksize: 76105047
+--ID:132TS:1594906792592-7/16/20 9:39:52 AM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 0: Thread[DownloadChunkRAF:1qemLSu63d0_MP4_H264_480P_30FPS_AAC_128KBIT_DASH_08537c276d2414dfe2503452e3d37ec6.dashAudio,1,main]
+--ID:132TS:1594906792592-7/16/20 9:39:52 AM -  [jd.plugins.download.raf.OldRAFDownload(waitForChunks)] -> Wait for chunks
+------------------------Thread: 175:youtube.com_jd.plugins.hoster.YoutubeDashV2-----------------------
+--ID:175TS:1594906792592-7/16/20 9:39:52 AM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 0 : 0 - -1
+--ID:175TS:1594906792593-7/16/20 9:39:52 AM -  [jd.plugins.download.raf.RAFChunk(copyConnection)] -> Takeover connection(no range) for Start:0|End:-1
+--ID:175TS:1594907067188-7/16/20 9:44:27 AM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:175TS:1594907067188-7/16/20 9:44:27 AM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:175TS:1594907067188-7/16/20 9:44:27 AM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 0 76105047 bytes
+------------------------Thread: 132:youtube.com_jd.plugins.hoster.YoutubeDashV2-----------------------
+--ID:132TS:1594907067188-7/16/20 9:44:27 AM -  [jd.plugins.download.raf.OldRAFDownload(onChunksReady)] -> All connections closed:00s
+--ID:132TS:1594907067190-7/16/20 9:44:27 AM -  [jd.plugins.download.raf.OldRAFDownload(closeOutputChannel)] -> Buffers forced to disk:00s
+--ID:132TS:1594907067191-7/16/20 9:44:27 AM -  [jd.plugins.download.raf.OldRAFDownload(closeOutputChannel)] -> File closed:00s
+--ID:132TS:1594907067191-7/16/20 9:44:27 AM -  [jd.plugins.download.raf.OldRAFDownload(handleErrors)] -> ExternalStop: false|VerifiedFilesize: 76105047|FileSize: 76105047|Loaded: 76105047
+--ID:132TS:1594907067191-7/16/20 9:44:27 AM -  [jd.plugins.download.raf.OldRAFDownload(handleErrors)] -> VerifiedFilesize: 76105047 Loaded: 76105047
+--ID:132TS:1594907067191-7/16/20 9:44:27 AM -  [jd.plugins.download.raf.OldRAFDownload(handleErrors)] -> ExternalStop: false|VerifiedFilesize: 76105047|FileSize: 76105047|Loaded: 76105047
+--ID:132TS:1594907067191-7/16/20 9:44:27 AM -  [jd.plugins.download.raf.OldRAFDownload(handleErrors)] -> VerifiedFilesize: 76105047 Loaded: 76105047
+--ID:132TS:1594907067192-7/16/20 9:44:27 AM -  [jd.plugins.hoster.YoutubeDashV2$4(writeMetaFile)] -> Wrote meta to /Users/tnoguchi/bin/JDownloader 2.0/tmp/ffmpeg_meta_1594907067192
+--ID:132TS:1594907067193-7/16/20 9:44:27 AM -  [org.jdownloader.controlling.ffmpeg.FFmpeg(mux)] -> Mux:Video=/Users/tnoguchi/Downloads/1qemLSu63d0_MP4_H264_480P_30FPS_AAC_128KBIT_DASH_08537c276d2414dfe2503452e3d37ec6.dashVideo|Audio=/Users/tnoguchi/Downloads/1qemLSu63d0_MP4_H264_480P_30FPS_AAC_128KBIT_DASH_08537c276d2414dfe2503452e3d37ec6.dashAudio|Output=/Users/tnoguchi/Downloads/Vitamix Blender DVD -Click time below to forward to section (480p_30fps_H264-128kbit_AAC).mp4
+--ID:132TS:1594907067193-7/16/20 9:44:27 AM -  [org.jdownloader.controlling.ffmpeg.AbstractFFmpegBinary(runCommand)] -> runCommand(ProcessBuilderFactory):[/usr/local/Cellar/ffmpeg/4.2.2_2/bin/ffmpeg, -i, /Users/tnoguchi/Downloads/1qemLSu63d0_MP4_H264_480P_30FPS_AAC_128KBIT_DASH_08537c276d2414dfe2503452e3d37ec6.dashVideo, -i, /Users/tnoguchi/Downloads/1qemLSu63d0_MP4_H264_480P_30FPS_AAC_128KBIT_DASH_08537c276d2414dfe2503452e3d37ec6.dashAudio, -i, /Users/tnoguchi/bin/JDownloader 2.0/tmp/ffmpeg_meta_1594907067192, -map_metadata, 2, -map, 0:0, -c:v, copy, -map, 1:0, -c:a, copy, -f, mp4, /Users/tnoguchi/Downloads/Vitamix Blender DVD -Click time below to forward to section (480p_30fps_H264-128kbit_AAC).mp4, -y]
+--ID:132TS:1594907067193-7/16/20 9:44:27 AM -  [org.jdownloader.controlling.ffmpeg.AbstractFFmpegBinary(runCommand)] -> runCommand(ProcessBuilder):[/usr/local/Cellar/ffmpeg/4.2.2_2/bin/ffmpeg, -i, /Users/tnoguchi/Downloads/1qemLSu63d0_MP4_H264_480P_30FPS_AAC_128KBIT_DASH_08537c276d2414dfe2503452e3d37ec6.dashVideo, -i, /Users/tnoguchi/Downloads/1qemLSu63d0_MP4_H264_480P_30FPS_AAC_128KBIT_DASH_08537c276d2414dfe2503452e3d37ec6.dashAudio, -i, /Users/tnoguchi/bin/JDownloader 2.0/tmp/ffmpeg_meta_1594907067192, -map_metadata, 2, -map, 0:0, -c:v, copy, -map, 1:0, -c:a, copy, -f, mp4, /Users/tnoguchi/Downloads/Vitamix Blender DVD -Click time below to forward to section (480p_30fps_H264-128kbit_AAC).mp4, -y]
+--ID:132TS:1594907068834-7/16/20 9:44:28 AM -  [org.jdownloader.controlling.ffmpeg.AbstractFFmpegBinary(runCommand)] -> Wait for Reader:Thread[ffmpegReader:stdout,1,main]
+------------------------Thread: 187:youtube.com_jd.plugins.hoster.YoutubeDashV2-----------------------
+--ID:187TS:1594907068834-7/16/20 9:44:28 AM -  [org.jdownloader.controlling.ffmpeg.AbstractFFmpegBinary(readInputStreamToString)] -> Read(Stdout):0|Exited:true
+------------------------Thread: 188:youtube.com_jd.plugins.hoster.YoutubeDashV2-----------------------
+--ID:188TS:1594907068834-7/16/20 9:44:28 AM -  [org.jdownloader.controlling.ffmpeg.AbstractFFmpegBinary(readInputStreamToString)] -> Read(Stderr):4250|Exited:true
+------------------------Thread: 132:youtube.com_jd.plugins.hoster.YoutubeDashV2-----------------------
+--ID:132TS:1594907068834-7/16/20 9:44:28 AM -  [org.jdownloader.controlling.ffmpeg.AbstractFFmpegBinary(runCommand)] -> LastStdout(Exited):(0)
+--ID:132TS:1594907068834-7/16/20 9:44:28 AM -  [org.jdownloader.controlling.ffmpeg.AbstractFFmpegBinary(runCommand)] -> LastStderr(Exited):(0)frame=143607 fps=95556 q=-1.0 Lsize=  296782kB time=01:19:51.71 bitrate= 507.4kbits/s speed=3.19e+03x    
+video:218512kB audio:73460kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 1.647554%
+--ID:132TS:1594907068834-7/16/20 9:44:28 AM -  [org.jdownloader.controlling.ffmpeg.AbstractFFmpegBinary(runCommand)] -> ExitCode:0
+--ID:132TS:1594907068850-7/16/20 9:44:28 AM -  [jd.controlling.downloadcontroller.SingleDownloadController(run)] -> StopDownloadMarker:1594905963466
+------------------------Thread: 130:youtube.com_jd.plugins.hoster.YoutubeDashV2-----------------------
+--ID:130TS:1594907068851-7/16/20 9:44:28 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$27(execute)] -> Rename after Download?
+--ID:130TS:1594907068851-7/16/20 9:44:28 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$27(execute)] -> Desired Path: /Users/tnoguchi/Downloads/Vitamix Blender DVD -Click time below to forward to section (480p_30fps_H264-128kbit_AAC).mp4
+--ID:130TS:1594907068851-7/16/20 9:44:28 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$27(execute)] -> Actually Used path: /Users/tnoguchi/Downloads/Vitamix Blender DVD -Click time below to forward to section (480p_30fps_H264-128kbit_AAC).mp4

@@ -1,0 +1,6 @@
+------------------------Thread: 70:org.jdownloader.extensions.ExtensionController.log-----------------------
+--ID:70TS:1594905946728-7/16/20 9:25:46 AM -  [org.jdownloader.extensions.ExtensionController(init)] -> @ExtensionController: init in435ms :4
+--ID:70TS:1594905946728-7/16/20 9:25:46 AM -  [org.jdownloader.extensions.ExtensionController(init)] -> @ExtensionController:Bye-bye, Standby!
+--ID:70TS:1594905946728-7/16/20 9:25:46 AM -  [org.jdownloader.extensions.ExtensionController(init)] -> @ExtensionController:Archive Extractor
+--ID:70TS:1594905946728-7/16/20 9:25:46 AM -  [org.jdownloader.extensions.ExtensionController(init)] -> @ExtensionController:Growl Notification
+--ID:70TS:1594905946728-7/16/20 9:25:46 AM -  [org.jdownloader.extensions.ExtensionController(init)] -> @ExtensionController:JD Shutdown

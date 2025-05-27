@@ -1,0 +1,216 @@
+Fri May 08 11:13:24 EDT 2020
+Package: package_1588875939524.awf
+Install
+Write Revision: 13909
+----------------Plugins----------------
+   jd/plugins/decrypter/CatcutNet.class
+   jd/plugins/decrypter/CloudMailRuDecrypter.class
+   jd/plugins/decrypter/InstaGramComDecrypter.class
+   jd/plugins/decrypter/MixCloudCom.class
+   jd/plugins/decrypter/QqComDecrypter.class.removed
+   jd/plugins/hoster/AnonFileCom.class
+   jd/plugins/hoster/AnonFilesCom.class
+   jd/plugins/hoster/AsmfileCom.class
+   jd/plugins/hoster/AudioRokCom.class.removed
+   jd/plugins/hoster/BaixarPremiumNet.class
+   jd/plugins/hoster/BitSharesCom.class
+   jd/plugins/hoster/BitchuteCom.class
+   jd/plugins/hoster/CboxeraCom.class
+   jd/plugins/hoster/ConexaomegaCom.class
+   jd/plugins/hoster/ContasturboCom.class
+   jd/plugins/hoster/DdlTo.class
+   jd/plugins/hoster/DebridLinkFr.class
+   jd/plugins/hoster/FileBoomMe.class
+   jd/plugins/hoster/ImDbCom.class
+   jd/plugins/hoster/K2SApi$1.class
+   jd/plugins/hoster/K2SApi$2.class
+   jd/plugins/hoster/K2SApi$CAPTCHA.class
+   jd/plugins/hoster/K2SApi.class
+   jd/plugins/hoster/Keep2ShareCc$1.class
+   jd/plugins/hoster/Keep2ShareCc.class
+   jd/plugins/hoster/LinkSnappyCom$1.class
+   jd/plugins/hoster/LinkSnappyCom$LinkSnappyComConfig$TRANSLATION.class
+   jd/plugins/hoster/LinkSnappyCom$LinkSnappyComConfig.class
+   jd/plugins/hoster/LinkSnappyCom.class
+   jd/plugins/hoster/MegaConz.class
+   jd/plugins/hoster/MydebridCom.class
+   jd/plugins/hoster/Offline.class
+   jd/plugins/hoster/PornportalCom$1.class
+   jd/plugins/hoster/PornportalCom.class
+   jd/plugins/hoster/Publish2Me.class
+   jd/plugins/hoster/QqCom.class.removed
+   jd/plugins/hoster/SoundClickCom.class
+   jd/plugins/hoster/SpinrillaCom.class
+   jd/plugins/hoster/SslNewsInfo$SslNewsInfoConfigInterface.class.removed
+   jd/plugins/hoster/SslNewsInfo.class.removed
+   jd/plugins/hoster/StileProjectCom.class
+   jd/plugins/hoster/TezFilesCom.class
+   jd/plugins/hoster/UploaderJp.class
+----------------Extensions----------------
+----------------Direct Files----------------
+   build.json
+   translations/org/appwork/utils/locale/AWUTranslation.pt_BR.lng
+   translations/org/jdownloader/gui/translate/GuiTranslation.pt_BR.lng
+----------------Core Files----------------
+   Core.jar
+   JD: Core.jar/jd/controlling/linkcrawler/LinkCrawler.class
+   JD: Core.jar/jd/plugins/Account$1.class
+   JD: Core.jar/jd/plugins/Account$AccountError.class
+   JD: Core.jar/jd/plugins/Account$AccountType$1.class
+   JD: Core.jar/jd/plugins/Account$AccountType$2.class
+   JD: Core.jar/jd/plugins/Account$AccountType$3.class
+   JD: Core.jar/jd/plugins/Account$AccountType$4.class
+   JD: Core.jar/jd/plugins/Account$AccountType.class
+   JD: Core.jar/jd/plugins/Account.class
+   JD: Core.jar/org/jdownloader/captcha/v2/challenge/recaptcha/v2/AbstractRecaptchaV2$1.class
+   JD: Core.jar/org/jdownloader/captcha/v2/challenge/recaptcha/v2/AbstractRecaptchaV2.class
+   JD: Core.jar/org/jdownloader/gui/views/linkgrabber/quickfilter/FilterTable$1.class
+   JD: Core.jar/org/jdownloader/gui/views/linkgrabber/quickfilter/FilterTable$10.class
+   JD: Core.jar/org/jdownloader/gui/views/linkgrabber/quickfilter/FilterTable$2$1.class
+   JD: Core.jar/org/jdownloader/gui/views/linkgrabber/quickfilter/FilterTable$2.class
+   JD: Core.jar/org/jdownloader/gui/views/linkgrabber/quickfilter/FilterTable$3.class
+   JD: Core.jar/org/jdownloader/gui/views/linkgrabber/quickfilter/FilterTable$4.class
+   JD: Core.jar/org/jdownloader/gui/views/linkgrabber/quickfilter/FilterTable$5.class
+   JD: Core.jar/org/jdownloader/gui/views/linkgrabber/quickfilter/FilterTable$6.class
+   JD: Core.jar/org/jdownloader/gui/views/linkgrabber/quickfilter/FilterTable$7.class
+   JD: Core.jar/org/jdownloader/gui/views/linkgrabber/quickfilter/FilterTable$8.class
+   JD: Core.jar/org/jdownloader/gui/views/linkgrabber/quickfilter/FilterTable$9$1.class
+   JD: Core.jar/org/jdownloader/gui/views/linkgrabber/quickfilter/FilterTable$9.class
+   JD: Core.jar/org/jdownloader/gui/views/linkgrabber/quickfilter/FilterTable$FilterTableUpdater.class
+   JD: Core.jar/org/jdownloader/gui/views/linkgrabber/quickfilter/FilterTable.class
+   JD: Core.jar/org/jdownloader/plugins/components/FlexShareCore.class
+   JD: Core.jar/org/jdownloader/plugins/components/ImgShotCore.class
+   JD: Core.jar/org/jdownloader/plugins/components/UnknownHostingScriptCore.class
+   JD: Core.jar/org/jdownloader/plugins/components/UnknownVideohostingCore.class
+   JD: Core.jar/org/jdownloader/plugins/components/XFileSharingProBasic$1.class
+   JD: Core.jar/org/jdownloader/plugins/components/XFileSharingProBasic.class
+   JD: Core.jar/org/jdownloader/plugins/components/XFileSharingProBasicSpecialFilejoker.class
+   JD: Core.jar/org/jdownloader/plugins/components/YetiShareCore.class
+   JD: Core.jar/org/jdownloader/plugins/components/abstractSafeLinking.class
+   JD: Core.jar/org/jdownloader/plugins/components/antiDDoSForDecrypt$1.class
+   JD: Core.jar/org/jdownloader/plugins/components/antiDDoSForDecrypt.class
+   JD: Core.jar/org/jdownloader/plugins/components/antiDDoSForHost$1.class
+   JD: Core.jar/org/jdownloader/plugins/components/antiDDoSForHost.class
+   JD: Core.jar/org/jdownloader/plugins/components/config/Keep2shareConfig$TRANSLATION.class
+   JD: Core.jar/org/jdownloader/plugins/components/config/Keep2shareConfig.class
+   JD: Core.jar/org/jdownloader/plugins/components/config/Keep2shareConfigFileboom.class
+   JD: Core.jar/org/jdownloader/plugins/components/config/Keep2shareConfigPublish2.class
+   JD: Core.jar/org/jdownloader/plugins/components/config/Keep2shareConfigTezfiles.class
+   JD: Core.jar/org/jdownloader/plugins/components/google/GoogleHelper$1.class
+   JD: Core.jar/org/jdownloader/plugins/components/google/GoogleHelper$2$1.class
+   JD: Core.jar/org/jdownloader/plugins/components/google/GoogleHelper$2.class
+   JD: Core.jar/org/jdownloader/plugins/components/google/GoogleHelper$3$1.class
+   JD: Core.jar/org/jdownloader/plugins/components/google/GoogleHelper$3.class
+   JD: Core.jar/org/jdownloader/plugins/components/google/GoogleHelper.class
+   JD: Core.jar/org/jdownloader/plugins/controller/LazyPluginClass.class
+   JD: Core.jar/org/jdownloader/plugins/controller/PluginClassLoader$PluginClassLoaderChild.class
+   JD: Core.jar/org/jdownloader/plugins/controller/PluginClassLoader.class
+   JD: Core.jar/org/jdownloader/plugins/controller/PluginController$1.class
+   JD: Core.jar/org/jdownloader/plugins/controller/PluginController$CHECK_RESULT.class
+   JD: Core.jar/org/jdownloader/plugins/controller/PluginController$PluginClassInfo.class
+   JD: Core.jar/org/jdownloader/plugins/controller/PluginController.class
+   JD: Core.jar/org/jdownloader/plugins/controller/PluginScannerFiles.class
+   JD: Core.jar/org/jdownloader/plugins/controller/PluginScannerNIO.class
+   JD: Core.jar/org/jdownloader/plugins/controller/crawler/CrawlerPluginController$1.class
+   JD: Core.jar/org/jdownloader/plugins/controller/crawler/CrawlerPluginController.class
+   JD: Core.jar/org/jdownloader/plugins/controller/crawler/LazyCrawlerPluginCache$1.class.removed
+   JD: Core.jar/org/jdownloader/plugins/controller/crawler/LazyCrawlerPluginCache.class
+   JD: Core.jar/org/jdownloader/plugins/controller/host/HostPluginController$1.class
+   JD: Core.jar/org/jdownloader/plugins/controller/host/HostPluginController$3.class
+   JD: Core.jar/org/jdownloader/plugins/controller/host/HostPluginController$4.class
+   JD: Core.jar/org/jdownloader/plugins/controller/host/HostPluginController$5$1.class
+   JD: Core.jar/org/jdownloader/plugins/controller/host/HostPluginController$5.class
+   JD: Core.jar/org/jdownloader/plugins/controller/host/HostPluginController.class
+   JD: Core.jar/org/jdownloader/plugins/controller/host/LazyHostPluginCache$1.class
+   JD: Core.jar/org/jdownloader/plugins/controller/host/LazyHostPluginCache.class
+   JD: libs/JDHttp.jar/jd/http/Browser$1.class
+   JD: libs/JDHttp.jar/jd/http/Browser$2.class
+   JD: libs/JDHttp.jar/jd/http/Browser.class
+   libs/JDHttp.jar
+Package: package_1588883488674.awf
+Install
+Write Revision: 13910
+----------------Plugins----------------
+   jd/plugins/decrypter/XHamsterGallery.class
+   jd/plugins/hoster/DeimosClick.class
+   jd/plugins/hoster/MydebridCom.class
+   jd/plugins/hoster/XHamsterCom.class
+----------------Extensions----------------
+----------------Direct Files----------------
+   build.json
+----------------Core Files----------------
+Package: package_1588950798974.awf
+Install
+Write Revision: 13916
+----------------Plugins----------------
+   jd/plugins/decrypter/ArtstationCom.class
+   jd/plugins/decrypter/FolderWatchURL.class.removed
+   jd/plugins/decrypter/JhebergNet.class.removed
+   jd/plugins/decrypter/PixivNetGallery.class
+   jd/plugins/decrypter/Srnnks$DecryptRunnable.class
+   jd/plugins/decrypter/Srnnks.class
+   jd/plugins/decrypter/SrnnksCategory$Format.class
+   jd/plugins/decrypter/SrnnksCategory$IdNamePair.class
+   jd/plugins/decrypter/SrnnksCategory$Link.class
+   jd/plugins/decrypter/SrnnksCategory.class
+   jd/plugins/decrypter/XHamsterGallery.class
+   jd/plugins/hoster/ArtstationCom.class
+   jd/plugins/hoster/BaixarPremiumNetComprarpremiumCom.class
+   jd/plugins/hoster/BaixarPremiumNetContaComboComBr.class
+   jd/plugins/hoster/BtafileCom.class
+   jd/plugins/hoster/CocoleechCom.class
+   jd/plugins/hoster/ConexaomegaCom.class
+   jd/plugins/hoster/DailyuploadsCc.class.removed
+   jd/plugins/hoster/DailyuploadsNet.class
+   jd/plugins/hoster/DebridLinkFr.class
+   jd/plugins/hoster/DeimosClick.class
+   jd/plugins/hoster/EasyFilesPl.class
+   jd/plugins/hoster/FastixRu.class
+   jd/plugins/hoster/FfDownloaderCom.class
+   jd/plugins/hoster/FileBitPl.class
+   jd/plugins/hoster/FoxLeechCom.class
+   jd/plugins/hoster/GeT24Org.class
+   jd/plugins/hoster/JhebergNet.class.removed
+   jd/plugins/hoster/K2SApi$1.class
+   jd/plugins/hoster/K2SApi$2.class
+   jd/plugins/hoster/K2SApi$CAPTCHA.class
+   jd/plugins/hoster/K2SApi.class
+   jd/plugins/hoster/MegaDebridEu.class
+   jd/plugins/hoster/MegafilePL.class
+   jd/plugins/hoster/Mfhd.class.removed
+   jd/plugins/hoster/MobilismOrg.class
+   jd/plugins/hoster/MultiVipNet.class
+   jd/plugins/hoster/Multihoster8Com.class.removed
+   jd/plugins/hoster/NoPremiumPl.class
+   jd/plugins/hoster/OffCloudCom.class
+   jd/plugins/hoster/PobierzBiz.class
+   jd/plugins/hoster/PremboxCom.class
+   jd/plugins/hoster/PremiumaxNet.class
+   jd/plugins/hoster/RapideoPl.class
+   jd/plugins/hoster/Rapids24Pl.class
+   jd/plugins/hoster/RapidtrafficPl.class
+   jd/plugins/hoster/SimplyDebridCom.class
+   jd/plugins/hoster/SimplyPremiumCom.class
+   jd/plugins/hoster/SmoozedCom$1.class
+   jd/plugins/hoster/SmoozedCom$2.class
+   jd/plugins/hoster/SmoozedCom$3.class
+   jd/plugins/hoster/SmoozedCom$4.class
+   jd/plugins/hoster/SmoozedCom$5.class
+   jd/plugins/hoster/SmoozedCom$6.class
+   jd/plugins/hoster/SmoozedCom.class
+   jd/plugins/hoster/SugarSyncCom.class
+   jd/plugins/hoster/Tb7Pl.class
+   jd/plugins/hoster/TurbixPl.class
+   jd/plugins/hoster/TwojLimitPl.class
+   jd/plugins/hoster/UlabsDe.class
+   jd/plugins/hoster/UpToBoxCom$1.class
+   jd/plugins/hoster/UpToBoxCom$UptoboxAccountFactory$1.class
+   jd/plugins/hoster/UpToBoxCom$UptoboxAccountFactory.class
+   jd/plugins/hoster/UpToBoxCom.class
+   jd/plugins/hoster/XHamsterCom$1.class
+   jd/plugins/hoster/XHamsterCom.class
+   jd/plugins/hoster/Xt7Pl.class
+----------------Extensions----------------
+----------------Direct Files----------------
+   build.json
+----------------Core Files----------------

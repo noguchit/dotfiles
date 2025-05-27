@@ -1,0 +1,43 @@
+------------------------Thread: 1:Log.L.log-----------------------
+--ID:1TS:1722780800846-8/4/24 10:13:20 AM -  [org.appwork.loggingv3.LogV3(info)] -> Application Root: /Users/tnoguchi/bin/JDownloader 2.0
+--ID:1TS:1722780800916-8/4/24 10:13:20 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.update.lastchance.LastChanceConfig.json
+--ID:1TS:1722780801029-8/4/24 10:13:21 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.updatev2.UpdateSettings.json
+--ID:1TS:1722780801085-8/4/24 10:13:21 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Load JSon Storage from Classpath url: jar:file:/Users/tnoguchi/bin/JDownloader%202.0/JDownloader.jar!/cfg/updateclient/Setup.json
+--ID:1TS:1722780801089-8/4/24 10:13:21 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/updateclient/Setup.json
+--ID:1TS:1722780801090-8/4/24 10:13:21 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:org.appwork.updatesys.client.Setup|Path:/Users/tnoguchi/bin/JDownloader 2.0/cfg/updateclient/Setup
+------------------------Thread: 24:Log.L.log-----------------------
+--ID:24TS:1722780801104-8/4/24 10:13:21 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.settings.InternetConnectionSettings.json
+--ID:24TS:1722780801105-8/4/24 10:13:21 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:org.jdownloader.updatev2.InternetConnectionSettings|Path:/Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.settings.InternetConnectionSettings
+--ID:24TS:1722780801150-8/4/24 10:13:21 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Load JSon Storage from Classpath url: jar:file:/Users/tnoguchi/bin/JDownloader%202.0/JDownloader.jar!/cfg/updateclient/HttpSettings.json
+--ID:24TS:1722780801152-8/4/24 10:13:21 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/updateclient/HttpSettings.json
+--ID:24TS:1722780801153-8/4/24 10:13:21 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:org.appwork.updatesys.client.defaultimpl.http.UpdateHttpClientOptions|Path:/Users/tnoguchi/bin/JDownloader 2.0/cfg/updateclient/HttpSettings
+--ID:24TS:1722780801163-8/4/24 10:13:21 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/ProxySelector.json
+--ID:24TS:1722780801164-8/4/24 10:13:21 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:org.appwork.updatesys.client.defaultimpl.http.ProxySelectorSettings|Path:/Users/tnoguchi/bin/JDownloader 2.0/cfg/ProxySelector
+--ID:24TS:1722780801166-8/4/24 10:13:21 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/ProxySelector.proxies.json
+--ID:24TS:1722780801177-8/4/24 10:13:21 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/update/versioninfo/JD/extensions.json
+--ID:24TS:1722780801177-8/4/24 10:13:21 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:org.appwork.updatesys.client.extensions.ExtensionsStorage|Path:/Users/tnoguchi/bin/JDownloader 2.0/update/versioninfo/JD/extensions
+--ID:24TS:1722780801183-8/4/24 10:13:21 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/update/versioninfo/JD/extensions.installed.json
+--ID:24TS:1722780801183-8/4/24 10:13:21 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/update/versioninfo/JD/extensions.requestedinstalls.json
+--ID:24TS:1722780801195-8/4/24 10:13:21 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.appwork.updatesys.client.tracker.TrackConfig.json
+--ID:24TS:1722780801200-8/4/24 10:13:21 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/update/versioninfo/JDU/extensions.json
+--ID:24TS:1722780801200-8/4/24 10:13:21 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:org.appwork.updatesys.client.extensions.ExtensionsStorage|Path:/Users/tnoguchi/bin/JDownloader 2.0/update/versioninfo/JDU/extensions
+------------------------Thread: 26:Log.L.log-----------------------
+--ID:26TS:1722780817494-8/4/24 10:13:37 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Load Translation file:/Users/tnoguchi/bin/JDownloader%202.0/translations/org/jdownloader/updatev2/UpdaterTranslation.en.lng/null
+------------------------Thread: 29:Log.L.log-----------------------
+--ID:29TS:1722780817528-8/4/24 10:13:37 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/laf/JDDefaultLookAndFeel.json
+------------------------Thread: 26:Log.L.log-----------------------
+--ID:26TS:1722780817604-8/4/24 10:13:37 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(URL): jar:file:/Users/tnoguchi/bin/JDownloader%202.0/JDownloader.jar!/cfg/updateclient/Setup.updateservers.json
+--ID:26TS:1722780817729-8/4/24 10:13:37 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.settings.InternetConnectionSettings.customproxylist.json
+--ID:26TS:1722780817924-8/4/24 10:13:37 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Load Translation file:/Users/tnoguchi/bin/JDownloader%202.0/translations/org/appwork/utils/locale/AWUTranslation.en.lng/null
+------------------------Thread: 29:Log.L.log-----------------------
+--ID:29TS:1722780817934-8/4/24 10:13:37 AM -  [org.appwork.loggingv3.LogV3(info)] -> LaF init: org.jdownloader.gui.laf.jddefault.JDDefaultLookAndFeel
+--ID:29TS:1722780817969-8/4/24 10:13:37 AM -  [org.appwork.utils.logging2.extmanager.ExtLogManager(getLogger)] -> Ignored: de.javasoft.plaf.synthetica.SyntheticaLookAndFeel
+--ID:29TS:1722780817983-8/4/24 10:13:37 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Load Translation file:/Users/tnoguchi/bin/JDownloader%202.0/translations/org/appwork/swing/synthetica/LanguageFileSetup.en.lng/null
+--ID:29TS:1722780818083-8/4/24 10:13:38 AM -  [org.jdownloader.gui.laf.jddefault.JDDefaultLookAndFeel(load)] -> Custom LAF XML: /Users/tnoguchi/bin/JDownloader 2.0/cfg/laf/JDDefaultLookAndFeel.xml
+--ID:29TS:1722780818402-8/4/24 10:13:38 AM -  [org.appwork.utils.logging2.extmanager.ExtLogManager(getLogger)] -> Ignored: de.javasoft.plaf.synthetica.painter.ImagePainter
+--ID:29TS:1722780819335-8/4/24 10:13:39 AM -  [org.appwork.loggingv3.LogV3(info)] -> LAF Init duration: 1400ms
+--ID:29TS:1722780819351-8/4/24 10:13:39 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.update.gui.UpdFrameSettings.json
+------------------------Thread: 1:Log.L.log-----------------------
+--ID:1TS:1722780832887-8/4/24 10:13:52 AM -  [org.appwork.loggingv3.LogV3(info)] -> No Vetos
+--ID:1TS:1722780832887-8/4/24 10:13:52 AM -  [org.appwork.loggingv3.LogV3(info)] -> Fire onShutDownEvents:0
+--ID:1TS:1722780832887-8/4/24 10:13:52 AM -  [org.appwork.loggingv3.LogV3(info)] -> Create ExitThread

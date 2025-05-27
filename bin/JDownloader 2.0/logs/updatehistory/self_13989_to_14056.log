@@ -1,0 +1,27 @@
+Fri Jun 19 21:07:32 EDT 2020
+Package: updatePackage.awf
+   JD: JDownloader.jar/org/appwork/shutdown/ShutdownController$1.class
+   JD: JDownloader.jar/org/appwork/shutdown/ShutdownController$2.class
+   JD: JDownloader.jar/org/appwork/shutdown/ShutdownController$3.class
+   JD: JDownloader.jar/org/appwork/shutdown/ShutdownController$4.class
+   JD: JDownloader.jar/org/appwork/shutdown/ShutdownController$ShutdownEventWrapper.class
+   JD: JDownloader.jar/org/appwork/shutdown/ShutdownController.class
+   JD: JDownloader.jar/org/appwork/txtresource/TranslateResource.class
+   JD: JDownloader.jar/org/appwork/txtresource/TranslatedEntry.class
+   JD: JDownloader.jar/org/appwork/txtresource/TranslationHandler$1.class
+   JD: JDownloader.jar/org/appwork/txtresource/TranslationHandler.class
+   JD: JDownloader.jar/org/appwork/utils/locale/AWUTranslation.class
+   JD: JDownloader.jar/org/appwork/utils/swing/Graph$1$1.class
+   JD: JDownloader.jar/org/appwork/utils/swing/Graph$1$2.class
+   JD: JDownloader.jar/org/appwork/utils/swing/Graph$1.class
+   JD: JDownloader.jar/org/appwork/utils/swing/Graph.class
+   JD: JDownloader.jar/org/appwork/utils/swing/dialog/ExtFileChooserDialog$5$2$1$1.class
+   JD: JDownloader.jar/org/appwork/utils/swing/dialog/ExtFileChooserDialog$5$2$1.class
+   JD: JDownloader.jar/org/appwork/utils/swing/dialog/ExtFileChooserDialog$5$2$2.class
+   JD: JDownloader.jar/org/appwork/utils/swing/dialog/ExtFileChooserDialog$5$2.class
+   JD: JDownloader.jar/org/appwork/utils/swing/dialog/ExtFileChooserDialog$5.class
+   JD: JDownloader.jar/org/appwork/utils/swing/dialog/ExtFileChooserDialog$6.class
+   JD: JDownloader.jar/org/appwork/utils/swing/dialog/ExtFileChooserDialog$7.class
+   JD: JDownloader.jar/org/appwork/utils/swing/dialog/ExtFileChooserDialog$8.class
+   JD: JDownloader.jar/org/appwork/utils/swing/dialog/ExtFileChooserDialog$9.class
+   JD: JDownloader.jar/org/appwork/utils/swing/dialog/ExtFileChooserDialog.class

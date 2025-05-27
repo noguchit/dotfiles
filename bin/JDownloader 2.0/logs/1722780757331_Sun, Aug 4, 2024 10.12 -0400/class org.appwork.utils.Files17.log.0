@@ -1,0 +1,6 @@
+------------------------Thread: 24:class org.appwork.utils.Files17.log-----------------------
+--ID:24TS:1722780789746-8/4/24 10:13:09 AM -  [org.appwork.utils.Files17(guessRoot)] -> guessRoot:/Users/tnoguchi/bin/JDownloader 2.0/tmp/update/self/JDU|getFileStore:/Users/tnoguchi/bin/JDownloader 2.0/tmp/update/self/JDU|duration:8
+--ID:24TS:1722780789747-8/4/24 10:13:09 AM -  [org.appwork.utils.Files17(guessRoot)] -> guessRoot:/Users/tnoguchi/bin/JDownloader 2.0/tmp/update/self/JDU|getFileStores|duration:1
+--ID:24TS:1722780789747-8/4/24 10:13:09 AM -  [org.appwork.utils.Files17(guessRoot)] -> guessRoot:/Users/tnoguchi/bin/JDownloader 2.0/tmp/update/self/JDU|equals:/ (/dev/disk3s1s1)<->/ (/dev/disk3s1s1)|duration:0
+--ID:24TS:1722780789748-8/4/24 10:13:09 AM -  [org.appwork.utils.Files17(guessRoot)] -> guessRoot:/Users/tnoguchi/bin/JDownloader 2.0/tmp/update/self/JDU|getPath:/ (/dev/disk3s1s1)|duration:1
+--ID:24TS:1722780789748-8/4/24 10:13:09 AM -  [org.appwork.utils.Files17(guessRoot)] -> guessRoot:/Users/tnoguchi/bin/JDownloader 2.0/tmp/update/self/JDU|root:/|duration:10

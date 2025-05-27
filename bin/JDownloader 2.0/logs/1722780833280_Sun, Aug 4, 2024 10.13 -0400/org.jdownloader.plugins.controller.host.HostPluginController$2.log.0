@@ -1,0 +1,29 @@
+------------------------Thread: 24:org.jdownloader.plugins.controller.host.HostPluginController$2.log-----------------------
+--ID:24TS:1722780839052-8/4/24 10:13:59 AM -  [org.jdownloader.plugins.controller.host.HostPluginController$2(run)] -> HostPluginController: init
+--ID:24TS:1722780839066-8/4/24 10:13:59 AM -  [] -> Exception thrown at org.jdownloader.plugins.controller.host.HostPluginController$2.run(HostPluginController.java:119):
+java.io.IOException: Outdated CacheVersion:548963344|28279904152 (8/526447)
+	at org.jdownloader.plugins.controller.host.LazyHostPluginCache.read(LazyHostPluginCache.java:134)
+	at org.jdownloader.plugins.controller.host.HostPluginController.loadFromCache(HostPluginController.java:252)
+	at org.jdownloader.plugins.controller.host.HostPluginController.access$300(HostPluginController.java:44)
+	at org.jdownloader.plugins.controller.host.HostPluginController$2.run(HostPluginController.java:116)
+	at org.jdownloader.plugins.controller.host.HostPluginController$2.run(HostPluginController.java:102)
+	at org.appwork.utils.NonInterruptibleThread$2.call(NonInterruptibleThread.java:115)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Outdated CacheVersion:548963344|28279904152
+	at org.jdownloader.plugins.controller.host.LazyHostPluginCache.read(LazyHostPluginCache.java:55)
+	... 9 more
+
+--ID:24TS:1722780839069-8/4/24 10:13:59 AM -  [org.jdownloader.plugins.controller.host.HostPluginController$2(run)] -> @HostPluginController: cache failed!
+--ID:24TS:1722780839074-8/4/24 10:13:59 AM -  [org.jdownloader.plugins.controller.PluginScannerNIO(scan)] -> @PluginController(NIO): no plugin cache available|LastModified:-1
+--ID:24TS:1722780840306-8/4/24 10:14:00 AM -  [org.jdownloader.plugins.controller.PluginScannerNIO(scan)] -> @PluginController(NIO): scan took 1235ms for 1104
+--ID:24TS:1722780841011-8/4/24 10:14:01 AM -  [org.jdownloader.plugins.controller.host.HostPluginController$2(run)] -> @HostPluginController: update took 1941ms for 3404|LastModified:1722780832000
+--ID:24TS:1722780841018-8/4/24 10:14:01 AM -  [org.jdownloader.plugins.controller.host.HostPluginController$2(run)] -> @HostPluginController: sort took 7ms for 3404
+--ID:24TS:1722780841018-8/4/24 10:14:01 AM -  [org.jdownloader.plugins.controller.host.HostPluginController$2(run)] -> @HostPlugin replaced:DailyMotionCom@49243|2:49243 with DailyMotionComV2@47865|3:47865
+--ID:24TS:1722780841018-8/4/24 10:14:01 AM -  [org.jdownloader.plugins.controller.host.HostPluginController$2(run)] -> @HostPlugin keep:PowerFileCom@46119|3:46119 instead FileFactory@49212|2:49212
+--ID:24TS:1722780841018-8/4/24 10:14:01 AM -  [org.jdownloader.plugins.controller.host.HostPluginController$2(run)] -> @HostPlugin replaced:Offline@49492|3:49492 with Offline@49492|3:49492
+--ID:24TS:1722780841018-8/4/24 10:14:01 AM -  [org.jdownloader.plugins.controller.host.HostPluginController$2(run)] -> @HostPlugin replaced:Offline@49492|3:49492 with Offline@49492|3:49492
+--ID:24TS:1722780841019-8/4/24 10:14:01 AM -  [org.jdownloader.plugins.controller.host.HostPluginController$2(run)] -> @HostPluginController: mapping took 1ms for 3404
+--ID:24TS:1722780841019-8/4/24 10:14:01 AM -  [org.jdownloader.plugins.controller.host.HostPluginController$2(run)] -> @HostPluginController: init took 1967ms for 3399

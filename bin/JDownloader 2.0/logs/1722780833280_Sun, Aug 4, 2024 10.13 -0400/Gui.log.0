@@ -1,0 +1,15 @@
+------------------------Thread: 27:Gui.log-----------------------
+--ID:27TS:1722780838722-8/4/24 10:13:58 AM -  [jd.gui.swing.jdgui.JDGui(internalInitLocationAndDimension)] -> Check if Screen Location are ok java.awt.Point[x=298,y=23] - java.awt.Dimension[width=1336,height=1097]
+------------------------Thread: 49:Gui.log-----------------------
+--ID:49TS:1722780839085-8/4/24 10:13:59 AM -  [jd.gui.swing.jdgui.JDGui$27(run)] -> Update bug Finder
+--ID:49TS:1722780839088-8/4/24 10:13:59 AM -  [jd.gui.swing.jdgui.JDGui$27(run)] -> Find Counter
+--ID:49TS:1722780839094-8/4/24 10:13:59 AM -  [jd.gui.swing.jdgui.JDGui$27(run)] -> /Users/tnoguchi/bin/JDownloader 2.0/JDownloader.jar
+--ID:49TS:1722780839094-8/4/24 10:13:59 AM -  [jd.gui.swing.jdgui.JDGui$27(run)] -> Done: 1
+--ID:49TS:1722780840100-8/4/24 10:14:00 AM -  [jd.gui.swing.jdgui.JDGui$27(run)] -> Gogogo 1
+------------------------Thread: 27:Gui.log-----------------------
+--ID:27TS:1722780858773-8/4/24 10:14:18 AM -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: Mainframe has Focus: 
+--ID:27TS:1722780877835-8/4/24 10:14:37 AM -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: Mainframe has Focus: 
+--ID:27TS:1722780889936-8/4/24 10:14:49 AM -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: Mainframe has Focus: 
+--ID:27TS:1722780917700-8/4/24 10:15:17 AM -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: Mainframe has Focus: 
+--ID:27TS:1722781566067-8/4/24 10:26:06 AM -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: auto false
+--ID:27TS:1722784193718-8/4/24 11:09:53 AM -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: auto false

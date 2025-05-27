@@ -1,0 +1,784 @@
+JarHandlerWorkaroundOracle:setURLStreamHandlerFactory
+JarHandlerWorkaroundOracle:replaceLauncherFactory
+JarHandlerWorkaroundOracle:replaceURLClassPath
+JarHandlerWorkaroundOracle:replacejarHandler
+JarHandlerWorkaroundOracle:replaceLoaders:2
+JarHandlerWorkaroundOracle:replaceLoader:0:handler
+JarHandlerWorkaroundOracle:replaceLoader:0:handler:jar:file:/Users/tnoguchi/bin/JDownloader%202.0/.install4j/i4jruntime.jar!/
+JarHandlerWorkaroundOracle:replaceLoader:1:handler
+JarHandlerWorkaroundOracle:replaceLoader:1:handler:jar:file:/Users/tnoguchi/bin/JDownloader%202.0/JDownloader.jar!/
+MacOS: detected sw_vers:14.5
+INFO >> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.appwork.utils.logging2.LogConfig.json
+
+THREAD: 1
+1|Log.L.log 8/4/24 10:13:53 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Application Root: /Users/tnoguchi/bin/JDownloader 2.0
+SystemEntropyWorkaround:true
+Multiple LogControllers Detected: org.appwork.utils.logging2.extmanager.LoggerFactory|Mode:REPLACED
+Multiple LogControllers Detected: org.jdownloader.logging.LogController|org.jdownloader.logging.LogController@4e04a765
+1|Log.L.log 8/4/24 10:13:53 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.update.lastchance.LastChanceConfig.json
+
+THREAD: 1
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> JVM: -Dfile.encoding=UTF-8
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> JVM: -Dinstall4j.launcherId=7561
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> JVM: -Dinstall4j.swt=false
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> JVM: -Dexe4j.moduleName=/Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> JVM: -Xmx512m
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> JVM: -Di4j.ownBundlePath=/Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> JVM: -Di4j.jreBundle=/Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app/../.install4j/jre.bundle
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vendor: Oracle Corporation
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: sun.java.launcher: SUN_STANDARD
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: sun.management.compiler: HotSpot 64-Bit Tiered Compilers
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: extlogmanager.avoidsystemclassloader.hack: sun.misc.Launcher$AppClassLoader@55f96302
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: org.appwork.LoggerFactory: org.appwork.utils.logging2.LogSourceRedirector
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: os.name: Mac OS X
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> AUTO_WRAPPED>
+SysProp: sun.boot.class.path: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/resources.jar:/Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/rt.jar:/Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/sunrsasign.jar:/Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/jsse.jar:/User
+s/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/jce.jar:/Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/charsets.jar:/Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/jfr.jar:/Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/classe
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: com.sun.jndi.ldap.object.trustURLCodebase: false
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: install4j.launcherId: 7561
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vm.specification.vendor: Oracle Corporation
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: install4j.appDir: /Users/tnoguchi/bin/JDownloader 2.0/
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.runtime.version: 1.8.0_181-b13
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: classloader_00000001: org.jdownloader.update.launcher.CL2
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: classloader_00000000: org.jdownloader.update.launcher.ClassLoaderExtensionImpl
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: user.name: tnoguchi
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: com.sun.jndi.rmi.object.trustURLCodebase: false
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: user.language: en
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: sun.boot.library.path: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.version: 1.8.0_181
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.util.logging.manager: org.appwork.utils.logging2.extmanager.ExtLogManager
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: user.timezone: America/Indiana/Indianapolis
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: sun.arch.data.model: 64
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.endorsed.dirs: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/endorsed
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: sun.cpu.isalist: 
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: sun.jnu.encoding: UTF-8
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: file.encoding.pkg: sun.io
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: file.separator: /
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.specification.name: Java Platform API Specification
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.class.version: 52.0
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: user.country: US
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.home: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vm.info: mixed mode
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: os.version: 10.16
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: k: 0dd0ecf7f742873d745106adea00b64a
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: path.separator: :
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vm.version: 25.181-b13
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.rmi.server.useCodebaseOnly: true
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: i4j.ownBundlePath: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.awt.printerjob: sun.lwawt.macosx.CPrinterJob
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: sun.io.unicode.encoding: UnicodeBig
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: awt.toolkit: sun.lwawt.macosx.LWCToolkit
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: user.home: /Users/tnoguchi
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.specification.vendor: Oracle Corporation
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.library.path: /Users/tnoguchi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vendor.url: http://java.oracle.com/
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vm.vendor: Oracle Corporation
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: gopherProxySet: false
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.runtime.name: Java(TM) SE Runtime Environment
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: sun.java.command: com.install4j.runtime.launcher.MacLauncher
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.class.path: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app/../.install4j/i4jruntime.jar:/Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app/../JDownloader.jar
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: LOG_INIT_DONE: 2 instances
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vm.specification.name: Java Virtual Machine Specification
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: exe4j.moduleName: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vm.specification.version: 1.8
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: sun.cpu.endian: little
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: sun.os.patch.level: unknown
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.net.preferIPv6Addresses: system
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.io.tmpdir: /var/folders/_v/bfbxy_cj0mq0x8rfv1z2tjvw0000gn/T/
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vendor.url.bug: http://bugreport.sun.com/bugreport/
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: os.arch: x86_64
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.awt.graphicsenv: sun.awt.CGraphicsEnvironment
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.ext.dirs: /Users/tnoguchi/Library/Java/Extensions:/Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: user.dir: /Users/tnoguchi/bin/JDownloader 2.0
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: line.separator: 
+
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.util.Arrays.useLegacyMergeSort: true
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: i4j.jreBundle: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app/../.install4j/jre.bundle
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: com.sun.jndi.cosnaming.object.trustURLCodebase: false
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: file.encoding: UTF-8
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: install4j.swt: false
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: install4j.exeDir: /Users/tnoguchi/bin/JDownloader 2.0/
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.specification.version: 1.8
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: JAVA_MAIN_CLASS_83340: com.install4j.runtime.launcher.MacLauncher
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: PATH: /usr/bin:/bin:/usr/sbin:/sbin
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: __CFBundleIdentifier: org.jdownloader.launcher
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: JAVA_MAIN_CLASS_83363: com.install4j.runtime.launcher.MacLauncher
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: JAVA_MAIN_CLASS_83276: com.install4j.runtime.launcher.MacLauncher
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: SHELL: /bin/zsh
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: APP_ICON_83363: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app/Contents/Resources/app.icns
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: APP_NAME_83363: JDownloader2
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: SECURITYSESSIONID: 186f4
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: USER: tnoguchi
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: LANG: en_US.UTF-8
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: LaunchInstanceID: EBFED2E2-850C-451D-811C-CF5621B2C1F2
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: TMPDIR: /var/folders/_v/bfbxy_cj0mq0x8rfv1z2tjvw0000gn/T/
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: COMMAND_MODE: unix2003
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: SSH_AUTH_SOCK: /private/tmp/com.apple.launchd.rfGdLqDVBk/Listeners
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: DISPLAY: /private/tmp/com.apple.launchd.hr70dut0fz/org.xquartz:0
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: XPC_FLAGS: 0x0
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: __CF_USER_TEXT_ENCODING: 0x1F5:0x0:0x0
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: LOGNAME: tnoguchi
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: XPC_SERVICE_NAME: application.org.jdownloader.launcher.106166463.106166474.AD8C9802-9F05-49B4-9BBB-7A05C74E4C0B
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: HOME: /Users/tnoguchi
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> jar:file:/Users/tnoguchi/bin/JDownloader%202.0/JDownloader.jar!/version.nfo:
+${updateclient.revision}
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> file:/Users/tnoguchi/bin/JDownloader%202.0/build.json:
+{"JDownloaderServerOptionsRevision":5691,"buildTimestamp":1722611009116,"UpdateClientV2Revision":1061,"JDownloaderUpdaterRevision":5770,"AppWorkUtilsRevision":4055,"JDBrowserRevision":48227,"JDClosedRevision":961,"MyJDownloaderClientRevision":49320,"buildDate":"Fri Aug 02 17:03:29 CEST 2024","JDownloaderRevision":48254}
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> ant-version: Apache Ant 1.10.5
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> add-opens: java.desktop/javax.swing.plaf.synth java.desktop/javax.swin
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> add-exports: java.desktop/sun.swing java.desktop/sun.swing.table java.
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> created-by: Appwork GmbH and JDownloader Community
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> manifest-version: 1.0
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> main-class: org.jdownloader.update.launcher.JDLauncher
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> /Users/tnoguchi/bin/JDownloader 2.0/JDownloader.jar- lastModified: 8/4/24 10:13:20 AM
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.jdownloader.update.launcher.SecondLevelLauncher(init) ] -> Args: []
+1|org.jdownloader.updatev2.restart.MacRestarter.log 8/4/24 10:13:53 AM - INFO [ org.jdownloader.updatev2.restart.Restarter(<init>) ] -> Create Restarter
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.jdownloader.update.launcher.SecondLevelLauncher(init) ] -> Restart Controller init done in 20
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.jdownloader.update.launcher.SecondLevelLauncher(init) ] -> Parse Arguments
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.jdownloader.update.launcher.SecondLevelLauncher(init) ] -> Parameter Parse done in 0
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.jdownloader.update.launcher.SecondLevelLauncher(init) ] -> Single Instance Controller
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.jdownloader.update.launcher.SecondLevelLauncher(init) ] -> Single Instance init done in 42
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.jdownloader.update.launcher.SecondLevelLauncher(init) ] -> Init UpdateManager
+1|Log.L.log 8/4/24 10:13:53 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.updatev2.UpdateSettings.json
+1|Log.L.log 8/4/24 10:13:53 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Load JSon Storage from Classpath url: jar:file:/Users/tnoguchi/bin/JDownloader%202.0/JDownloader.jar!/cfg/updateclient/Setup.json
+1|Log.L.log 8/4/24 10:13:53 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/updateclient/Setup.json
+1|Log.L.log 8/4/24 10:13:53 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Init StorageHandler for Interface:org.appwork.updatesys.client.Setup|Path:/Users/tnoguchi/bin/JDownloader 2.0/cfg/updateclient/Setup
+1|org.jdownloader.update.UpdateManager.log 8/4/24 10:13:53 AM - FINE [ org.jdownloader.update.UpdateManager(<init>) ] -> ClientSetup 14
+
+THREAD: 24
+24|Log.L.log 8/4/24 10:13:53 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.settings.InternetConnectionSettings.json
+24|Log.L.log 8/4/24 10:13:53 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Init StorageHandler for Interface:org.jdownloader.updatev2.InternetConnectionSettings|Path:/Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.settings.InternetConnectionSettings
+24|Log.L.log 8/4/24 10:13:53 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Load JSon Storage from Classpath url: jar:file:/Users/tnoguchi/bin/JDownloader%202.0/JDownloader.jar!/cfg/updateclient/HttpSettings.json
+24|Log.L.log 8/4/24 10:13:53 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/updateclient/HttpSettings.json
+24|Log.L.log 8/4/24 10:13:53 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Init StorageHandler for Interface:org.appwork.updatesys.client.defaultimpl.http.UpdateHttpClientOptions|Path:/Users/tnoguchi/bin/JDownloader 2.0/cfg/updateclient/HttpSettings
+24|Log.L.log 8/4/24 10:13:53 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/ProxySelector.json
+24|Log.L.log 8/4/24 10:13:53 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Init StorageHandler for Interface:org.appwork.updatesys.client.defaultimpl.http.ProxySelectorSettings|Path:/Users/tnoguchi/bin/JDownloader 2.0/cfg/ProxySelector
+24|Log.L.log 8/4/24 10:13:53 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/ProxySelector.proxies.json
+24|Log.L.log 8/4/24 10:13:53 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/update/versioninfo/JD/extensions.json
+24|Log.L.log 8/4/24 10:13:53 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Init StorageHandler for Interface:org.appwork.updatesys.client.extensions.ExtensionsStorage|Path:/Users/tnoguchi/bin/JDownloader 2.0/update/versioninfo/JD/extensions
+24|Log.L.log 8/4/24 10:13:53 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/update/versioninfo/JD/extensions.installed.json
+24|Log.L.log 8/4/24 10:13:53 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/update/versioninfo/JD/extensions.requestedinstalls.json
+
+THREAD: 24
+24|org.jdownloader.update.UpdateManager.log 8/4/24 10:13:53 AM - INFO [ org.appwork.updatesys.client.extensions.ExtensionManager(init) ] -> Installed Extensions: [ffmpeg_10.10+, shutdown, antishutdown]
+24|org.jdownloader.update.UpdateManager.log 8/4/24 10:13:53 AM - INFO [ org.appwork.updatesys.client.extensions.ExtensionManager(init) ] -> Requested Extension Installations: []
+24|org.jdownloader.update.UpdateManager.log 8/4/24 10:13:53 AM - INFO [ org.appwork.updatesys.client.extensions.ExtensionManager(init) ] -> Requested Extension Uninstalls: []
+24|org.jdownloader.update.UpdateManager.log 8/4/24 10:13:53 AM - INFO [ org.jdownloader.update.JDUpdateClient$JDExtensionManager(init) ] -> Installed Extensions: [ffmpeg_10.10+, shutdown, antishutdown]
+24|org.jdownloader.update.UpdateManager.log 8/4/24 10:13:53 AM - INFO [ org.appwork.updatesys.client.FileList(<init>) ] -> FileList at /Users/tnoguchi/bin/JDownloader 2.0/update/versioninfo/JD/filelist.txt Size: 506929
+24|Log.L.log 8/4/24 10:13:53 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.appwork.updatesys.client.tracker.TrackConfig.json
+
+THREAD: 1
+1|org.jdownloader.update.UpdateManager.log 8/4/24 10:13:53 AM - FINE [ org.jdownloader.update.UpdateManager(<init>) ] -> Client 104
+24|Log.L.log 8/4/24 10:13:53 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/update/versioninfo/JDU/extensions.json
+24|Log.L.log 8/4/24 10:13:53 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Init StorageHandler for Interface:org.appwork.updatesys.client.extensions.ExtensionsStorage|Path:/Users/tnoguchi/bin/JDownloader 2.0/update/versioninfo/JDU/extensions
+
+THREAD: 24
+24|org.jdownloader.update.UpdateManager.log 8/4/24 10:13:53 AM - INFO [ org.appwork.updatesys.client.extensions.ExtensionManager(init) ] -> Installed Extensions: []
+24|org.jdownloader.update.UpdateManager.log 8/4/24 10:13:53 AM - INFO [ org.appwork.updatesys.client.extensions.ExtensionManager(init) ] -> Requested Extension Installations: []
+24|org.jdownloader.update.UpdateManager.log 8/4/24 10:13:53 AM - INFO [ org.appwork.updatesys.client.extensions.ExtensionManager(init) ] -> Requested Extension Uninstalls: []
+24|org.jdownloader.update.UpdateManager.log 8/4/24 10:13:53 AM - INFO [ org.appwork.updatesys.client.FileList(<init>) ] -> FileList at /Users/tnoguchi/bin/JDownloader 2.0/update/versioninfo/JDU/filelist.txt Size: 97
+
+THREAD: 1
+1|org.jdownloader.update.UpdateManager.log 8/4/24 10:13:53 AM - FINE [ org.jdownloader.update.UpdateManager(<init>) ] -> selfUpdateClient 4
+1|org.jdownloader.update.UpdateManager.log 8/4/24 10:13:53 AM - FINE [ org.jdownloader.update.UpdateManager(<init>) ] -> LastChanceInit 0
+1|org.jdownloader.update.UpdateManager.log 8/4/24 10:13:53 AM - FINE [ org.jdownloader.update.UpdateManager(<init>) ] -> setUpdateOnExitFlag 0
+1|org.jdownloader.update.UpdateManager.log 8/4/24 10:13:53 AM - FINE [ org.jdownloader.update.UpdateManager(<init>) ] -> CreateGui 4
+1|org.jdownloader.update.UpdateManager.log 8/4/24 10:13:53 AM - FINE [ org.jdownloader.update.UpdateManager(<init>) ] -> DefaultHandler 1
+1|org.jdownloader.update.UpdateManager.log 8/4/24 10:13:53 AM - FINE [ org.jdownloader.update.UpdateManager(<init>) ] -> SetDefaultHandler 0
+1|org.jdownloader.update.UpdateManager.log 8/4/24 10:13:53 AM - FINE [ org.jdownloader.update.UpdateManager(<init>) ] -> ProxySelector 0
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:53 AM - INFO [ org.jdownloader.update.launcher.SecondLevelLauncher(init) ] -> Update Manager init done in 183
+1|org.jdownloader.update.UpdateManager.log 8/4/24 10:13:53 AM - INFO [ org.jdownloader.update.UpdateManager(finish) ] -> Current State: 
+1|org.jdownloader.update.UpdateManager.log 8/4/24 10:13:53 AM - INFO [ org.jdownloader.update.UpdateManager(finish) ] -> Do Not ask Flag: false
+1|org.jdownloader.update.UpdateManager.log 8/4/24 10:13:53 AM - INFO [ org.jdownloader.update.UpdateManager(finish) ] -> AUTO_WRAPPED>
+Settings: {
+ "countdownforinstallupdatesonexitbubble"         : 10000,
+ "autohideguiiftherearenoupdatesenabled"          : false,
+ "proxydialogonnoconnectionenabled"               : true,
+ "selftestwritetimeout"                           : 60000,
+ "lastsuccessfulconnection"                       : 1722780821264,
+ "updateinterval"                                 : 600000,
+ "autohideguiifsilentupdateswereinstalledenabled" : false,
+ "doaskmebeforeinstallinganupdateenabled"         : false,
+ "build"                                          : "{\r\n \"JDownloaderServerOptionsRevision\" : 5691,\r\n \"buildTimestamp\"                   : 1722611009116,\r\n \"UpdateClientV2Revision\"           : 1061,\r\n \"JDownloaderUpdaterRevision\"       : 5770,\r\n \"AppWorkUtilsRevision\"             : 4055,\r\n \"JDBrowserRevision\"                : 48227,\r\n \"JDClosedRevision\"                 
+: 961,\r\n \"MyJDownloaderClientRevision\"      : 49320,\r\n \"buildDate\"                        : \"Fri Aug 02 17:03:29 CEST 2024\",\r\n \"JDownloaderRevision\"              : 48254\r\n}",
+ "jardiffenabled"                                 : true,
+ "updateguialwaysontop"                           : true,
+ "installupdatesonexitenabled"                    : true,
+ "doaskbeforedownloadinganupdate"                 : false,
+ "installupdatessilentlyifpossibleenabled"        : true,
+ "autoupdatecheckenabled"                         : true,
+ "installupdatesonexitpanelvisible"               : true,
+ "selftestpolltimeout"                            : 60000
+
+1|org.jdownloader.update.UpdateManager.log 8/4/24 10:13:53 AM - INFO [ org.jdownloader.update.UpdateManager(finish) ] -> Client Revision: 17514
+1|org.jdownloader.update.UpdateManager.log 8/4/24 10:13:53 AM - INFO [ org.jdownloader.update.UpdateManager(finish) ] -> Client Revision incl. Pending Installpackages: 17514
+1|org.jdownloader.update.UpdateManager.log 8/4/24 10:13:53 AM - INFO [ org.jdownloader.update.UpdateManager(finish) ] -> Updater Client Revision: 17549
+1|org.jdownloader.update.UpdateManager.log 8/4/24 10:13:53 AM - INFO [ org.jdownloader.update.UpdateManager(finish) ] -> Updater Client Revision incl. Pending Installpackages: 17549
+1|org.jdownloader.update.UpdateManager.log 8/4/24 10:13:53 AM - INFO [ org.jdownloader.update.UpdateManager(finish) ] -> AWF Packages pending: []
+1|org.jdownloader.update.UpdateManager.log 8/4/24 10:13:53 AM - INFO [ org.jdownloader.update.UpdateManager(finish) ] -> SelfUpdate pending: false ([self_14090_to_17549.log])
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 8/4/24 10:13:54 AM - INFO [ org.jdownloader.update.launcher.SecondLevelLauncher(init) ] -> Finished Installation
+1|org.jdownloader.update.UpdateManager.log 8/4/24 10:13:54 AM - INFO [ org.jdownloader.update.UpdateManager(setLaunchState) ] -> Launchstate: LAUNCHING_JD
+
+THREAD: 1
+1|Log.L.log 8/4/24 10:13:54 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Application Root: /Users/tnoguchi/bin/JDownloader 2.0
+SevenZipJBinding: null
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/Core.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/Dynamics.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/Filters.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/JAntiCaptcha.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/JDGUI.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/JDHttp.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/JDUtils.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/UPNP/cling-core.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/UPNP/cling-support.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/UPNP/seamless-http.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/UPNP/seamless-util.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/UPNP/seamless-xml.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/bcpkix-jdk15on.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/bcprov-jdk15on.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/bctls-jdk15on.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/bcutil-jdk15on.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/brotli.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/cons.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/htmlunit-core-js.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/image4j.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/jna.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/jna_platform.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/js.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/jsvg.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/jsyntaxpane.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/laf/synthetica.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/laf/syntheticaJDCustom.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/laf/syntheticaSimple2D.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/sevenzipjbinding.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/sevenzipjbindingMac.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/svgSalamander.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/libs/zip4j.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/extensions/AntiShutdown.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/extensions/Extraction.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/extensions/JDGrowl.jar
+Add via Application.addUrlToClassPath:file:/Users/tnoguchi/bin/JDownloader%202.0/extensions/JDShutdown.jar
+1|Log.L.log 8/4/24 10:13:54 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Application Root: /Users/tnoguchi/bin/JDownloader 2.0
+1|Log.L.log 8/4/24 10:13:54 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.settings.GraphicalUserInterfaceSettings.json
+1|Log.L.log 8/4/24 10:13:54 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Load Translation file:/Users/tnoguchi/bin/JDownloader%202.0/translations/org/jdownloader/gui/translate/GuiTranslation.en.lng/null
+1|StartupParameterHandler.log 8/4/24 10:13:54 AM - INFO [ org.jdownloader.startup.ParameterHandler(onStartup) ] -> Startup: []
+1|StartupParameterHandler.log 8/4/24 10:13:54 AM - INFO [ org.jdownloader.startup.ParameterHandler(onStartup) ] -> Remove ConsoleHandler
+1|Log.L.log 8/4/24 10:13:54 AM - FINER [ org.appwork.utils.logging2.extmanager.ExtLogManager(getLogger) ] -> Ignored: disabled
+1|Log.L.log 8/4/24 10:13:54 AM - FINER [ org.appwork.utils.logging2.extmanager.ExtLogManager(getLogger) ] -> Ignored: jdk.internal.dynalink.support.Guards
+
+THREAD: 31
+31|Log.L.log 8/4/24 10:13:55 AM - INFO [ jd.SecondLevelLaunch$1(run) ] -> MAC Bundle Identifier: org.jdownloader.launcher
+31|Log.L.log 8/4/24 10:13:55 AM - INFO [ jd.SecondLevelLaunch$1(run) ] -> Use found Bundle Identifier: org.jdownloader.launcher
+31|Log.L.log 8/4/24 10:13:55 AM - INFO [ jd.SecondLevelLaunch$1(run) ] -> Try to disable AppNap
+
+THREAD: 1
+1|Log.L.log 8/4/24 10:13:55 AM - INFO [ jd.SecondLevelLaunch(mainStart) ] -> setExecutable:true
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> LOG_INIT_DONE=2 instances
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> apple.awt.application.name=JDownloader
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> apple.laf.useScreenMenuBar=true
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> awt.toolkit=sun.lwawt.macosx.LWCToolkit
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> classloader_00000000=org.jdownloader.update.launcher.ClassLoaderExtensionImpl
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> classloader_00000001=org.jdownloader.update.launcher.CL2
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> com.apple.macos.useScreenMenuBar=true
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> com.apple.mrj.application.apple.menu.about.name=JDownloader
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> com.sun.jndi.cosnaming.object.trustURLCodebase=false
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> com.sun.jndi.ldap.object.trustURLCodebase=false
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> com.sun.jndi.rmi.object.trustURLCodebase=false
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> exe4j.moduleName=/Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> extlogmanager.avoidsystemclassloader.hack=sun.misc.Launcher$AppClassLoader@55f96302
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> file.encoding=UTF-8
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> file.encoding.pkg=sun.io
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> file.separator=/
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> ftpStyle=new
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> gopherProxySet=false
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> i4j.jreBundle=/Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app/../.install4j/jre.bundle
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> i4j.ownBundlePath=/Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> install4j.appDir=/Users/tnoguchi/bin/JDownloader 2.0/
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> install4j.exeDir=/Users/tnoguchi/bin/JDownloader 2.0/
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> install4j.launcherId=7561
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> install4j.swt=false
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.class.path=/Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app/../.install4j/i4jruntime.jar:/Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app/../JDownloader.jar
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.class.version=52.0
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.endorsed.dirs=/Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/endorsed
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.ext.dirs=/Users/tnoguchi/Library/Java/Extensions:/Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.home=/Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.io.tmpdir=/var/folders/_v/bfbxy_cj0mq0x8rfv1z2tjvw0000gn/T/
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.library.path=/Users/tnoguchi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.net.preferIPv6Addresses=system
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.rmi.server.useCodebaseOnly=true
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.runtime.name=Java(TM) SE Runtime Environment
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.runtime.version=1.8.0_181-b13
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.specification.name=Java Platform API Specification
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.specification.vendor=Oracle Corporation
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.specification.version=1.8
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.util.Arrays.useLegacyMergeSort=true
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.util.logging.manager=org.appwork.utils.logging2.extmanager.ExtLogManager
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.vendor=Oracle Corporation
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.vendor.url=http://java.oracle.com/
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.version=1.8.0_181
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.vm.info=mixed mode
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.vm.specification.name=Java Virtual Machine Specification
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.vm.specification.vendor=Oracle Corporation
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.vm.specification.version=1.8
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.vm.vendor=Oracle Corporation
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.vm.version=25.181-b13
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> jd.build.builddate=Fri Aug 02 17:03:29 CEST 2024
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> jd.build.buildtimestamp=1722611009116
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> jd.randomNumber=5487900020853943486
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> jd.revision.appworkutilsrevision=4055
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> jd.revision.jdbrowserrevision=48227
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> jd.revision.jdclosedrevision=961
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> jd.revision.jdownloaderrevision=48254
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> jd.revision.jdownloaderserveroptionsrevision=5691
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> jd.revision.jdownloaderupdaterrevision=5770
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> jd.revision.myjdownloaderclientrevision=49320
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> jd.revision.updateclientv2revision=1061
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> k=0dd0ecf7f742873d745106adea00b64a
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> line.separator=
+
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> org.appwork.LoggerFactory=org.appwork.utils.logging2.LogSourceRedirector
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> org.jdownloader.revision=JDownloader2
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> os.arch=x86_64
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> os.name=Mac OS X
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> os.version=10.16
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> path.separator=:
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> sun.arch.data.model=64
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> sun.awt.enableExtraMouseButtons=true
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> AUTO_WRAPPED>
+sun.boot.class.path=/Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/resources.jar:/Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/rt.jar:/Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/sunrsasign.jar:/Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/jsse.jar:/Users/tnoguchi
+/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/jce.jar:/Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/charsets.jar:/Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/jfr.jar:/Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/classe
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> sun.boot.library.path=/Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> sun.cpu.endian=little
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> sun.cpu.isalist=
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> sun.font.fontmanager=sun.font.CFontManager
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> sun.io.unicode.encoding=UnicodeBig
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> sun.java.command=com.install4j.runtime.launcher.MacLauncher
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> sun.java.launcher=SUN_STANDARD
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> sun.jnu.encoding=UTF-8
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> sun.os.patch.level=unknown
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> sun.swing.enableImprovedDragGesture=true
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> uid=1_VEyMrwt2wWpo2ai/pZrm+ovXR/ADpxUrzcVAQVjFxsc=
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> user.country=US
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> user.dir=/Users/tnoguchi/bin/JDownloader 2.0
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> user.home=/Users/tnoguchi
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> user.language=en
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> user.name=tnoguchi
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> user.timezone=America/Indiana/Indianapolis
+1|Log.L.log 8/4/24 10:13:55 AM - INFO [ jd.SecondLevelLaunch(mainStart) ] -> OS:MAC|MAC_SONOMA|64bit:true
+1|Log.L.log 8/4/24 10:13:55 AM - INFO [ jd.SecondLevelLaunch(mainStart) ] -> CPU:X86|64bit:true
+1|Log.L.log 8/4/24 10:13:55 AM - INFO [ jd.SecondLevelLaunch(mainStart) ] -> JVM:18181013|1.8.0_181-b13|64bit:true
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> VMArgs: [-Dfile.encoding=UTF-8, -Dinstall4j.launcherId=7561, -Dinstall4j.swt=false, -Dexe4j.moduleName=/Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app, -Xmx512m, -Di4j.ownBundlePath=/Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app, -Di4j.jreBundle=/Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app/../.install4j/jre.bundle]
+1|Log.L.log 8/4/24 10:13:55 AM - INFO [ jd.SecondLevelLaunch(mainStart) ] -> MaxMemory=477626368bytes (455Megabytes)
+1|Log.L.log 8/4/24 10:13:55 AM - INFO [ jd.SecondLevelLaunch(mainStart) ] -> JDownloader2
+1|Log.L.log 8/4/24 10:13:55 AM - INFO [ jd.SecondLevelLaunch(go) ] -> Initialize JDownloader2
+1|Log.L.log 8/4/24 10:13:55 AM - FINER [ org.appwork.utils.logging2.extmanager.ExtLogManager(getLogger) ] -> Ignored: com.sun.jna.Native
+
+THREAD: 31
+31|Log.L.log 8/4/24 10:13:55 AM - INFO [ jd.SecondLevelLaunch$1(run) ] -> Disable AppNap:
+31|Log.L.log 8/4/24 10:13:55 AM - INFO [ jd.SecondLevelLaunch$1(run) ] -> Try to set AppleWindowTabbingMode to manual
+31|Log.L.log 8/4/24 10:13:55 AM - INFO [ jd.SecondLevelLaunch$1(run) ] -> Set AppleWindowTabbingMode to manual:
+31|Log.L.log 8/4/24 10:13:55 AM - INFO [ jd.SecondLevelLaunch$1(run) ] -> Try to set NSRequiresAquaSystemAppearance to NO
+31|Log.L.log 8/4/24 10:13:55 AM - INFO [ jd.SecondLevelLaunch$1(run) ] -> Set NSRequiresAquaSystemAppearance::
+31|Log.L.log 8/4/24 10:13:55 AM - INFO [ jd.SecondLevelLaunch$1(run) ] -> App Defaults: 
+{
+    AppleWindowTabbingMode = manual;
+    NSAppSleepDisabled = 1;
+    NSRequiresAquaSystemAppearance = 0;
+}
+
+THREAD: 1
+1|Log.L.log 8/4/24 10:13:56 AM - FINER [ org.appwork.utils.logging2.extmanager.ExtLogManager(getLogger) ] -> Ignored: com.sun.jna.Structure
+Cryptography restrictions removal not needed
+
+THREAD: 27
+27|Log.L.log 8/4/24 10:13:56 AM - INFO [ jd.SecondLevelLaunch$8(edtRun) ] -> LAF INIT
+
+THREAD: 1
+1|Log.L.log 8/4/24 10:13:56 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.settings.SilentModeSettings.json
+
+THREAD: 33
+33|Log.L.log 8/4/24 10:13:56 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.settings.GeneralSettings.json
+
+THREAD: 27
+27|Log.L.log 8/4/24 10:13:56 AM - INFO [ jd.gui.swing.laf.LookAndFeelController(setUIManager) ] -> Use Look & Feel: org.jdownloader.gui.laf.jddefault.JDDefaultLookAndFeel
+27|Log.L.log 8/4/24 10:13:56 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/laf/JDDefaultLookAndFeel.json
+27|Log.L.log 8/4/24 10:13:56 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> LaF init: org.jdownloader.gui.laf.jddefault.JDDefaultLookAndFeel
+27|Log.L.log 8/4/24 10:13:56 AM - FINER [ org.appwork.utils.logging2.extmanager.ExtLogManager(getLogger) ] -> Ignored: de.javasoft.plaf.synthetica.SyntheticaLookAndFeel
+27|Log.L.log 8/4/24 10:13:56 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Load Translation file:/Users/tnoguchi/bin/JDownloader%202.0/translations/org/appwork/swing/synthetica/LanguageFileSetup.en.lng/null
+27|Log.L.log 8/4/24 10:13:56 AM - INFO [ org.jdownloader.gui.laf.jddefault.JDDefaultLookAndFeel(load) ] -> Custom LAF XML: /Users/tnoguchi/bin/JDownloader 2.0/cfg/laf/JDDefaultLookAndFeel.xml
+
+THREAD: 33
+33|Log.L.log 8/4/24 10:13:56 AM - FINER [ org.appwork.utils.logging2.extmanager.ExtLogManager(getLogger) ] -> Ignored: org.bouncycastle.jce.provider.BouncyCastleProvider
+33|Log.L.log 8/4/24 10:13:56 AM - FINER [ org.appwork.utils.logging2.extmanager.ExtLogManager(getLogger) ] -> Ignored: org.bouncycastle.crypto.CryptoServicesRegistrar
+
+THREAD: 27
+27|Log.L.log 8/4/24 10:13:56 AM - FINER [ org.appwork.utils.logging2.extmanager.ExtLogManager(getLogger) ] -> Ignored: de.javasoft.plaf.synthetica.painter.ImagePainter
+
+THREAD: 33
+33|Log.L.log 8/4/24 10:13:56 AM - FINER [ org.appwork.utils.logging2.extmanager.ExtLogManager(getLogger) ] -> Ignored: org.bouncycastle.jcajce.provider.drbg.EntropyDaemon
+33|Log.L.log 8/4/24 10:13:57 AM - INFO [ jd.SecondLevelLaunch$7(run) ] -> Use 'AUTO' for default SSLSocketStreamFactory because: JSSE missing TLSv1.3 support! Java-18181013
+33|Log.L.log 8/4/24 10:13:57 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.settings.GeneralSettings.browsercommandline.json
+33|Log.L.log 8/4/24 10:13:57 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.settings.InternetConnectionSettings.customproxylist.json
+Warning: the font "Times" is not available, so "Lucida Bright" has been substituted, but may have unexpected appearance or behavor. Re-enable the "Times" font to remove this warning.
+
+THREAD: 27
+27|Log.L.log 8/4/24 10:13:57 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> LAF Init duration: 1313ms
+27|Log.L.log 8/4/24 10:13:57 AM - INFO [ jd.gui.swing.laf.LookAndFeelController(setUIManager) ] -> LAF init: 1478
+27|Log.L.log 8/4/24 10:13:57 AM - INFO [ jd.SecondLevelLaunch$11(edtRun) ] -> InitGUI->3194
+27|Log.L.log 8/4/24 10:13:57 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/jd.controlling.captcha.CaptchaSettings.json
+27|Log.L.log 8/4/24 10:13:57 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.settings.GeneralSettings.domainrules.json
+27|Log.L.log 8/4/24 10:13:57 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/jd.controlling.reconnect.ReconnectConfig.json
+27|Log.L.log 8/4/24 10:13:57 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/jd.controlling.downloadcontroller.DownloadControllerConfig.json
+27|Log.L.log 8/4/24 10:13:58 AM - FINER [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Read Config: /Users/tnoguchi/bin/JDownloader 2.0/cfg/ExtTable_downloadstable3.json
+27|Log.L.log 8/4/24 10:13:58 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/menus_v2/DownloadTabBottomBar.json
+27|Log.L.log 8/4/24 10:13:58 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.gui.jdtrayicon.TrayExtension.json
+27|Log.L.log 8/4/24 10:13:58 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Load Translation file:/Users/tnoguchi/bin/JDownloader%202.0/translations/org/jdownloader/gui/jdtrayicon/translate/TrayiconTranslation.en.lng/null
+27|Log.L.log 8/4/24 10:13:58 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.controlling.filter.LinkFilterSettings.json
+27|Log.L.log 8/4/24 10:13:58 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.api.myjdownloader.MyJDownloaderSettings.json
+27|Log.L.log 8/4/24 10:13:58 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.settings.AccountSettings.json
+27|Log.L.log 8/4/24 10:13:58 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/jd.controlling.linkchecker.LinkCheckerConfig.json
+27|Log.L.log 8/4/24 10:13:58 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/jd.controlling.linkcrawler.LinkCrawlerConfig.json
+27|Log.L.log 8/4/24 10:13:58 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.gui.views.linkgrabber.addlinksdialog.LinkgrabberSettings.json
+27|Log.L.log 8/4/24 10:13:58 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/jd.controlling.linkcollector.LinkCollectorConfig.json
+27|Log.L.log 8/4/24 10:13:58 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.api.RemoteAPIConfig.json
+27|Log.L.log 8/4/24 10:13:58 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.controlling.packagizer.PackagizerSettings.json
+27|Log.L.log 8/4/24 10:13:58 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.controlling.ffmpeg.FFmpegSetup.json
+27|Log.L.log 8/4/24 10:13:58 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.gui.shortcuts.ShortcutSettings.json
+27|Log.L.log 8/4/24 10:13:58 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.updatev2.LastChanceSettings.json
+27|Log.L.log 8/4/24 10:13:58 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.appwork.utils.swing.dialog.ExtFileSystemViewSettings.json
+27|Log.L.log 8/4/24 10:13:58 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/jd.controlling.faviconcontroller.FavIconsConfig.json
+27|Log.L.log 8/4/24 10:13:58 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.settings.SoundSettings.json
+27|Log.L.log 8/4/24 10:13:58 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/containerconfig.json
+27|Log.L.log 8/4/24 10:13:58 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.gui.notify.gui.BubbleNotifyConfig.json
+27|Log.L.log 8/4/24 10:13:58 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Init StorageHandler for Interface:org.jdownloader.controlling.hosterrule.HosterRuleConfig|Path:null
+27|Log.L.log 8/4/24 10:13:58 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Load Translation file:/Users/tnoguchi/bin/JDownloader%202.0/translations/org/jdownloader/translate/JdownloaderTranslation.en.lng/null
+27|Log.L.log 8/4/24 10:13:58 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/jd.controlling.captcha.CaptchaSettings.qualityensurancerules.json
+27|Log.L.log 8/4/24 10:13:58 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Load Translation file:/Users/tnoguchi/bin/JDownloader%202.0/translations/org/appwork/utils/locale/AWUTranslation.en.lng/null
+27|Log.L.log 8/4/24 10:13:58 AM - INFO [ jd.SecondLevelLaunch$11(edtRun) ] -> GUIDONE->4211
+27|Log.L.log 8/4/24 10:13:58 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.settings.GraphicalUserInterfaceSettings.lastframestatus.json
+Set Frame size: 1336x1097
+
+THREAD: 1
+1|Log.L.log 8/4/24 10:13:59 AM - INFO [ org.jdownloader.crosssystem.macos.EAWTMacOSApplicationAdapter$1(run) ] -> MacOS FullScreen Support activated
+1|Log.L.log 8/4/24 10:13:59 AM - INFO [ jd.SecondLevelLaunch(go) ] -> Initialisation finished
+1|Log.L.log 8/4/24 10:13:59 AM - INFO [ jd.SecondLevelLaunch(go) ] -> fileChooserComboBoxFolders 13|1
+1|Log.L.log 8/4/24 10:13:59 AM - INFO [ org.jdownloader.update.launcher.SecondLevelLauncher(updateUninstallerCode) ] -> Fix Uninstaller
+
+THREAD: 52
+52|Log.L.log 8/4/24 10:13:59 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.settings.AccountSettings.accounts.ejs
+
+THREAD: 27
+27|Log.L.log 8/4/24 10:13:59 AM - FINER [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Read Config: /Users/tnoguchi/bin/JDownloader 2.0/cfg/ExtTable_LinkGrabberTableModel.json
+27|Log.L.log 8/4/24 10:13:59 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/menus_v2/LinkgrabberTabBottomBar.json
+27|Log.L.log 8/4/24 10:13:59 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.settings.GraphicalUserInterfaceSettings.overviewpositions.json
+27|Log.L.log 8/4/24 10:13:59 AM - FINER [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Read Config: /Users/tnoguchi/bin/JDownloader 2.0/cfg/FILECHOOSER.ejs
+27|Log.L.log 8/4/24 10:13:59 AM - FINER [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Read Config: /Users/tnoguchi/bin/JDownloader 2.0/cfg/ExtTable_FilterTableModel.json
+27|Log.L.log 8/4/24 10:13:59 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.controlling.filter.LinkFilterSettings.filterlist.json
+27|Log.L.log 8/4/24 10:13:59 AM - FINER [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Read Config: /Users/tnoguchi/bin/JDownloader 2.0/cfg/quickfilters.json
+27|Log.L.log 8/4/24 10:13:59 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/menus_v2/LinkgrabberContext.json
+New Window State (Normal): {
+ "extendedState"  : "NORMAL",
+ "height"         : 944,
+ "screenID"       : "Display 1",
+ "width"          : 1336,
+ "x"              : 176,
+ "y"              : 38,
+ "active"         : true,
+ "focus"          : true,
+ "locationSet"    : true,
+ "silentShutdown" : false,
+ "visible"        : true
+}
+
+THREAD: 24
+24|Log.L.log 8/4/24 10:14:00 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/HOSTER/send.cm.json
+24|Log.L.log 8/4/24 10:14:00 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/HOSTER/maxstream.video.json
+24|Log.L.log 8/4/24 10:14:00 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/HOSTER/proleech.link.json
+24|Log.L.log 8/4/24 10:14:00 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/HOSTER/1fichier.com.json
+24|Log.L.log 8/4/24 10:14:00 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/HOSTER/filemoon.sx.json
+24|Log.L.log 8/4/24 10:14:00 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/HOSTER/voe.sx.json
+24|Log.L.log 8/4/24 10:14:00 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/HOSTER/wolfstream.tv.json
+24|Log.L.log 8/4/24 10:14:00 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/HOSTER/fastream.to.json
+24|Log.L.log 8/4/24 10:14:00 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/HOSTER/deltabit.co.json
+24|Log.L.log 8/4/24 10:14:00 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/HOSTER/upstream.to.json
+24|Log.L.log 8/4/24 10:14:00 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/HOSTER/media.cm.json
+24|Log.L.log 8/4/24 10:14:00 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/HOSTER/drop.download.json
+24|Log.L.log 8/4/24 10:14:00 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/HOSTER/supervideo.tv.json
+24|Log.L.log 8/4/24 10:14:00 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/HOSTER/xvideosharing.com.json
+24|Log.L.log 8/4/24 10:14:00 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/HOSTER/ddownload.com.json
+24|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/HOSTER/hotlink.cc.json
+
+THREAD: 48
+48|Log.L.log 8/4/24 10:14:01 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.controlling.packagizer.PackagizerSettings.rulelist.json
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /session = interface org.appwork.utils.net.httpserver.session.LoginAPIInterface
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /events = interface org.appwork.remoteapi.events.EventsAPIInterface
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.api.captcha.CaptchaMyJDownloaderRemoteSolverSettings.json
+
+THREAD: 64
+64|Log.L.log 8/4/24 10:14:01 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.settings.GeneralSettings.urlorder.json
+64|Log.L.log 8/4/24 10:14:01 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.settings.GeneralSettings.urldisplayorder.json
+
+THREAD: 48
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /captcha = interface org.jdownloader.api.captcha.CaptchaAPI
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /captchaforward = interface org.jdownloader.captcha.api.CaptchaForwarderAPIInterface
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /jd = interface org.jdownloader.api.jd.JDAPI
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /downloads = interface org.jdownloader.api.downloads.DownloadsAPI
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /downloadsV2 = interface org.jdownloader.api.downloads.v2.DownloadsAPIV2
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /downloadcontroller = interface org.jdownloader.api.downloads.v2.DownloadWatchdogAPI
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /config = interface org.jdownloader.api.config.AdvancedConfigManagerAPI
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /toolbar = interface org.jdownloader.api.toolbar.JDownloaderToolBarAPI
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /accounts = interface org.jdownloader.api.accounts.AccountAPI
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /accountsV2 = interface org.jdownloader.api.accounts.v2.AccountAPIV2
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /system = interface org.jdownloader.api.system.SystemAPI
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /linkcollector = interface org.jdownloader.api.linkcollector.LinkCollectorAPI
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /linkgrabberv2 = interface org.jdownloader.api.linkcollector.v2.LinkCollectorAPIV2
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /content = interface org.jdownloader.api.content.ContentAPI
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /contentV2 = interface org.jdownloader.api.content.v2.ContentAPIV2
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /ui = interface org.jdownloader.api.ui.UIAPI
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /polling = interface org.jdownloader.api.polling.PollingAPI
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /extraction = interface org.jdownloader.api.extraction.ExtractionAPI
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /linkcrawler = interface org.jdownloader.api.linkcrawler.LinkCrawlerAPI
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /plugins = interface org.jdownloader.api.plugins.PluginsAPI
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace / = interface org.jdownloader.api.cnl2.Cnl2APIBasics
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /flash = interface org.jdownloader.api.cnl2.Cnl2APIFlash
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /downloadevents = interface org.jdownloader.api.downloads.DownloadControllerEventPublisherInterface
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /extensions = interface org.jdownloader.api.extensions.ExtensionsAPI
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /update = interface org.jdownloader.api.update.UpdateAPI
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /device = interface org.jdownloader.api.device.DeviceAPI
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /reconnect = interface org.jdownloader.api.reconnect.ReconnectAPI
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /log = interface org.jdownloader.api.logs.LogAPI
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /dialogs = interface org.jdownloader.api.dialog.DialogApiInterface
+
+THREAD: 66
+66|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace / = interface org.jdownloader.api.cnl2.Cnl2APIBasics
+66|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /flash = interface org.jdownloader.api.cnl2.Cnl2APIFlash
+
+THREAD: 72
+72|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.captcha.v2.solver.jac.JACSolverConfig.json
+
+THREAD: 48
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ jd.controlling.DelayWriteController(init) ] -> DelayWriteMode: AUTO
+48|Log.L.log 8/4/24 10:14:01 AM - INFO [ jd.controlling.DelayWriteController(init) ] -> DelayedWrites disabled!
+
+THREAD: 72
+72|Log.L.log 8/4/24 10:14:01 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.captcha.v2.solver.jac.JACSolverConfig.jacthreshold.json
+
+THREAD: 66
+66|Log.L.log 8/4/24 10:14:01 AM - FINE [ org.appwork.loggingv3.LogV3(fine) ] -> Start HTTP Server. 9666->9666|LocalHost:true
+
+THREAD: 72
+72|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.captcha.v2.solver.dbc.DeathByCaptchaSettings.json
+72|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.dbc.DeathByCaptchaSettings.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+72|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.captcha.v2.solver.imagetyperz.ImageTyperzConfigInterface.json
+72|Log.L.log 8/4/24 10:14:01 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.imagetyperz.ImageTyperzConfigInterface.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+
+THREAD: 67
+67|Log.L.log 8/4/24 10:14:02 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.extensions.antistandby.AntiStandbyExtension.json
+
+THREAD: 72
+72|Log.L.log 8/4/24 10:14:02 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.captcha.v2.solver.cheapcaptcha.CheapCaptchaConfigInterface.json
+72|Log.L.log 8/4/24 10:14:02 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.cheapcaptcha.CheapCaptchaConfigInterface.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+
+THREAD: 67
+67|Log.L.log 8/4/24 10:14:02 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Load Translation file:/Users/tnoguchi/bin/JDownloader%202.0/translations/org/jdownloader/extensions/antistandby/translate/AntistandbyTranslation.en.lng/null
+
+THREAD: 72
+72|Log.L.log 8/4/24 10:14:02 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.captcha.v2.solver.captchasolutions.CaptchaSolutionsConfigInterface.json
+72|Log.L.log 8/4/24 10:14:02 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.captchasolutions.CaptchaSolutionsConfigInterface.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+72|Log.L.log 8/4/24 10:14:02 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.captcha.v2.solver.twocaptcha.TwoCaptchaConfigInterface.json
+72|Log.L.log 8/4/24 10:14:02 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.twocaptcha.TwoCaptchaConfigInterface.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+72|Log.L.log 8/4/24 10:14:02 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.captcha.v2.solver.antiCaptchaCom.AntiCaptchaComConfigInterface.json
+72|Log.L.log 8/4/24 10:14:02 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.antiCaptchaCom.AntiCaptchaComConfigInterface.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+72|Log.L.log 8/4/24 10:14:02 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.captcha.v2.solver.endcaptcha.EndCaptchaConfigInterface.json
+72|Log.L.log 8/4/24 10:14:02 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.endcaptcha.EndCaptchaConfigInterface.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+72|Log.L.log 8/4/24 10:14:02 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.captcha.v2.solver.solver9kw.Captcha9kwSettings.json
+72|Log.L.log 8/4/24 10:14:02 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.solver9kw.Captcha9kwSettings.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+
+THREAD: 67
+67|Log.L.log 8/4/24 10:14:02 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.extensions.extraction.ExtractionExtension.json
+67|Log.L.log 8/4/24 10:14:02 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Load Translation file:/Users/tnoguchi/bin/JDownloader%202.0/translations/org/jdownloader/extensions/extraction/translate/ExtractionTranslation.en.lng/null
+
+THREAD: 72
+72|Log.L.log 8/4/24 10:14:02 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.captcha.v2.solver.gui.DialogCaptchaSolverConfig.json
+72|Log.L.log 8/4/24 10:14:02 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.captcha.v2.solver.browser.BrowserCaptchaSolverConfig.json
+
+THREAD: 65
+65|Log.L.log 8/4/24 10:14:02 AM - INFO [ org.jdownloader.plugins.controller.PluginClassLoader$PluginClassLoaderChild(mapStaticFields) ] -> Class jd.plugins.hoster.KemonoParty has static immutable field: PROPERTY_TITLE
+65|Log.L.log 8/4/24 10:14:02 AM - INFO [ org.jdownloader.plugins.controller.PluginClassLoader$PluginClassLoaderChild(mapStaticFields) ] -> Class jd.plugins.hoster.KemonoParty has static immutable field: PROPERTY_BETTER_FILENAME
+65|Log.L.log 8/4/24 10:14:02 AM - INFO [ org.jdownloader.plugins.controller.PluginClassLoader$PluginClassLoaderChild(mapStaticFields) ] -> Class jd.plugins.hoster.KemonoParty has static immutable field: PROPERTY_TEXT
+65|Log.L.log 8/4/24 10:14:02 AM - INFO [ org.jdownloader.plugins.controller.PluginClassLoader$PluginClassLoaderChild(mapStaticFields) ] -> Class jd.plugins.hoster.KemonoParty has static immutable field: PROPERTY_PORTAL
+65|Log.L.log 8/4/24 10:14:02 AM - INFO [ org.jdownloader.plugins.controller.PluginClassLoader$PluginClassLoaderChild(mapStaticFields) ] -> Class jd.plugins.hoster.KemonoParty has static immutable field: PROPERTY_USERID
+65|Log.L.log 8/4/24 10:14:02 AM - INFO [ org.jdownloader.plugins.controller.PluginClassLoader$PluginClassLoaderChild(mapStaticFields) ] -> Class jd.plugins.hoster.KemonoParty has static immutable field: PROPERTY_POSTID
+65|Log.L.log 8/4/24 10:14:02 AM - INFO [ org.jdownloader.plugins.controller.PluginClassLoader$PluginClassLoaderChild(mapStaticFields) ] -> Class jd.plugins.hoster.KemonoParty has static immutable field: PROPERTY_DATE
+65|Log.L.log 8/4/24 10:14:02 AM - INFO [ org.jdownloader.plugins.controller.PluginClassLoader$PluginClassLoaderChild(mapStaticFields) ] -> Class jd.plugins.hoster.KemonoParty has static immutable field: PROPERTY_POST_CONTENT_INDEX
+65|Log.L.log 8/4/24 10:14:03 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/youtube/Youtube.json
+
+THREAD: 64
+64|Log.L.log 8/4/24 10:14:03 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/youtube/Youtube.proxy.json
+
+THREAD: 44
+44|Log.L.log 8/4/24 10:14:03 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/jd.controlling.faviconcontroller.FavIconsConfig.failedhosts.json
+Warning: the font "Times" is not available, so "Lucida Bright" has been substituted, but may have unexpected appearance or behavor. Re-enable the "Times" font to remove this warning.
+
+THREAD: 67
+67|Log.L.log 8/4/24 10:14:03 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/menus_v2/DownloadTableContext.json
+67|Log.L.log 8/4/24 10:14:03 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/menus_v2/MainMenu.json
+67|Log.L.log 8/4/24 10:14:03 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/menus_v2/MainToolbar.json
+67|Log.L.log 8/4/24 10:14:03 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.extensions.growl.GrowlExtension.json
+67|Log.L.log 8/4/24 10:14:03 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Load Translation file:/Users/tnoguchi/bin/JDownloader%202.0/translations/org/jdownloader/extensions/growl/translate/GrowlTranslation.en.lng/null
+67|Log.L.log 8/4/24 10:14:03 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.extensions.shutdown.ShutdownExtension.json
+67|Log.L.log 8/4/24 10:14:03 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Load Translation file:/Users/tnoguchi/bin/JDownloader%202.0/translations/org/jdownloader/extensions/shutdown/translate/ShutdownTranslation.en.lng/null
+
+THREAD: 27
+27|Log.L.log 8/4/24 10:14:03 AM - FINER [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Read Config: /Users/tnoguchi/bin/JDownloader 2.0/cfg/ExtTable_ExtractionJobTableModel4.json
+27|Log.L.log 8/4/24 10:14:04 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.settings.GraphicalUserInterfaceSettings.downloadlistscrollposition.json
+Start Update
+
+THREAD: 92
+92|Log.L.log 8/4/24 10:14:04 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Load Translation file:/Users/tnoguchi/bin/JDownloader%202.0/translations/org/jdownloader/updatev2/UpdaterTranslation.en.lng/null
+
+THREAD: 27
+27|Log.L.log 8/4/24 10:14:04 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/menus_v2/MainMenu.menu.json
+
+THREAD: 92
+92|Log.L.log 8/4/24 10:14:04 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(URL): jar:file:/Users/tnoguchi/bin/JDownloader%202.0/JDownloader.jar!/cfg/updateclient/Setup.updateservers.json
+
+THREAD: 27
+27|Log.L.log 8/4/24 10:14:04 AM - INFO [ org.jdownloader.extensions.LazyExtension(_getClassLoader) ] -> Use /Users/tnoguchi/bin/JDownloader 2.0/extensions/AntiShutdown.jar classloader
+27|Log.L.log 8/4/24 10:14:04 AM - WARNING [ org.appwork.loggingv3.LogV3(warning) ] -> Default missing for: public abstract java.lang.String org.jdownloader.gui.translate.GuiTranslation.action_help_tooltip()
+27|Log.L.log 8/4/24 10:14:04 AM - WARNING [ org.appwork.loggingv3.LogV3(warning) ] -> Default missing for: public abstract java.lang.String org.jdownloader.gui.translate.GuiTranslation.action_changelog_tooltip()
+27|Log.L.log 8/4/24 10:14:04 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/menus_v2/MainToolbar.menu.json
+27|Log.L.log 8/4/24 10:14:05 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/menus_v2/DownloadTabBottomBar.menu.json
+27|Log.L.log 8/4/24 10:14:05 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/menus_v2/DownloadTableContext.menu.json
+27|Log.L.log 8/4/24 10:14:05 AM - WARNING [ org.appwork.loggingv3.LogV3(warning) ] -> Default missing for: public abstract java.lang.String org.jdownloader.gui.translate.GuiTranslation.action_addcontainer_tooltip()
+27|Log.L.log 8/4/24 10:14:05 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/menus_v2/LinkgrabberContext.menu.json
+27|Log.L.log 8/4/24 10:14:05 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/menus_v2/LinkgrabberTabBottomBar.menu.json
+New Window State (Normal): {
+ "extendedState"  : "NORMAL",
+ "height"         : 944,
+ "screenID"       : "Display 3",
+ "width"          : 1336,
+ "x"              : -1948,
+ "y"              : 175,
+ "active"         : true,
+ "focus"          : true,
+ "locationSet"    : true,
+ "silentShutdown" : false,
+ "visible"        : true
+}
+27|Log.L.log 8/4/24 10:14:18 AM - INFO [ org.appwork.utils.swing.dialog.AbstractDialog$8(runInEDT) ] -> Force Dummy Init
+27|Log.L.log 8/4/24 10:14:18 AM - INFO [ org.appwork.utils.swing.dialog.AbstractDialog$12(runInEDT) ] -> Reset Dummy Info
+27|Log.L.log 8/4/24 10:14:18 AM - INFO [ org.appwork.utils.swing.dialog.AbstractDialog(displayDialog) ] -> Display Dialog: org.jdownloader.gui.views.linkgrabber.addlinksdialog.AddLinksDialog: dialog_Analyse_and_Add_Links
+27|Log.L.log 8/4/24 10:14:18 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.gui.views.linkgrabber.addlinksdialog.LinkgrabberSettings.packagenamehistory.json
+27|Log.L.log 8/4/24 10:14:18 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.gui.views.linkgrabber.addlinksdialog.LinkgrabberSettings.downloaddestinationhistory.json
+27|Log.L.log 8/4/24 10:14:21 AM - FINE [ org.appwork.utils.swing.dialog.ConfirmDialog(<init>) ] -> Dialog    [null][null]
+flag:  110000
+title: Analyse and Add Links
+msg:   
+You really should know that...
+
+...JDownloader helps you to parse text or websites for links. Enter Links, URLs, Websites, or text below, 
+
+choose a Download Destination, and click 'Start Analyse'. 
+
+All 'downloadable' Files will be listed in the the Linkgrabber view afterwards.
+27|Log.L.log 8/4/24 10:14:21 AM - FINER [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Read Config: /Users/tnoguchi/bin/JDownloader 2.0/cfg/Dialogs.json
+27|Log.L.log 8/4/24 10:14:32 AM - FINE [ org.appwork.utils.swing.dialog.AbstractDialog(actionPerformed) ] -> Answer: Button<OK:Continue>
+
+THREAD: 107
+107|Log.L.log 8/4/24 10:14:32 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.settings.GeneralSettings.crawlerhostpluginblacklist.json
+107|Log.L.log 8/4/24 10:14:32 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.settings.GeneralSettings.crawlercrawlerpluginblacklist.json
+
+THREAD: 111
+111|Log.L.log 8/4/24 10:14:32 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/jd.controlling.linkcrawler.LinkCrawlerConfig.linkcrawlerrules.json
+
+THREAD: 105
+105|Log.L.log 8/4/24 10:14:32 AM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/HOSTER/e-hentai.org.json
+
+THREAD: 115
+115|Log.L.log 8/4/24 10:14:37 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/youtube/Youtube.disabledvariants.json
+115|Log.L.log 8/4/24 10:14:37 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/youtube/Youtube.blacklistedaudiobitrates.json
+115|Log.L.log 8/4/24 10:14:37 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/youtube/Youtube.blacklistedaudiocodecs.json
+115|Log.L.log 8/4/24 10:14:37 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/youtube/Youtube.blacklistedfilecontainers.json
+115|Log.L.log 8/4/24 10:14:37 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/youtube/Youtube.blacklistedgroups.json
+115|Log.L.log 8/4/24 10:14:37 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/youtube/Youtube.blacklistedprojections.json
+115|Log.L.log 8/4/24 10:14:37 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/youtube/Youtube.blacklistedresolutions.json
+115|Log.L.log 8/4/24 10:14:37 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/youtube/Youtube.blacklistedvideocodecs.json
+115|Log.L.log 8/4/24 10:14:37 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/youtube/Youtube.blacklistedvideoframerates.json
+115|Log.L.log 8/4/24 10:14:37 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/youtube/Youtube.collections.json
+115|Log.L.log 8/4/24 10:14:37 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/youtube/Youtube.extrasubtitles.json
+115|Log.L.log 8/4/24 10:14:37 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/youtube/Youtube.qualitysortidentifierorderresolution.json
+115|Log.L.log 8/4/24 10:14:37 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/youtube/Youtube.qualitysortidentifierordervideocodec.json
+115|Log.L.log 8/4/24 10:14:37 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/youtube/Youtube.qualitysortidentifierordervideoframerate.json
+115|Log.L.log 8/4/24 10:14:37 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/youtube/Youtube.qualitysortidentifierorderaudiobitrate.json
+115|Log.L.log 8/4/24 10:14:37 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/youtube/Youtube.qualitysortidentifierorderaudiocodec.json
+115|Log.L.log 8/4/24 10:14:37 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/youtube/Youtube.qualitysortidentifierorderfiletype.json
+115|Log.L.log 8/4/24 10:14:37 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/youtube/Youtube.qualitysortidentifierorder.json
+115|Log.L.log 8/4/24 10:14:37 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/plugins/youtube/Youtube.preferedsubtitlelanguages.json
+
+THREAD: 27
+27|Log.L.log 8/4/24 10:14:38 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.settings.GraphicalUserInterfaceSettings.linkgrabberlistscrollposition.json
+
+THREAD: 89
+89|Log.L.log 8/4/24 10:14:46 AM - INFO [ org.jdownloader.plugins.controller.PluginClassLoader$PluginClassLoaderChild(mapStaticFields) ] -> Class jd.plugins.hoster.KemonoParty has static immutable field: PROPERTY_TITLE
+89|Log.L.log 8/4/24 10:14:46 AM - INFO [ org.jdownloader.plugins.controller.PluginClassLoader$PluginClassLoaderChild(mapStaticFields) ] -> Class jd.plugins.hoster.KemonoParty has static immutable field: PROPERTY_BETTER_FILENAME
+89|Log.L.log 8/4/24 10:14:46 AM - INFO [ org.jdownloader.plugins.controller.PluginClassLoader$PluginClassLoaderChild(mapStaticFields) ] -> Class jd.plugins.hoster.KemonoParty has static immutable field: PROPERTY_TEXT
+89|Log.L.log 8/4/24 10:14:46 AM - INFO [ org.jdownloader.plugins.controller.PluginClassLoader$PluginClassLoaderChild(mapStaticFields) ] -> Class jd.plugins.hoster.KemonoParty has static immutable field: PROPERTY_PORTAL
+89|Log.L.log 8/4/24 10:14:46 AM - INFO [ org.jdownloader.plugins.controller.PluginClassLoader$PluginClassLoaderChild(mapStaticFields) ] -> Class jd.plugins.hoster.KemonoParty has static immutable field: PROPERTY_USERID
+89|Log.L.log 8/4/24 10:14:46 AM - INFO [ org.jdownloader.plugins.controller.PluginClassLoader$PluginClassLoaderChild(mapStaticFields) ] -> Class jd.plugins.hoster.KemonoParty has static immutable field: PROPERTY_POSTID
+89|Log.L.log 8/4/24 10:14:46 AM - INFO [ org.jdownloader.plugins.controller.PluginClassLoader$PluginClassLoaderChild(mapStaticFields) ] -> Class jd.plugins.hoster.KemonoParty has static immutable field: PROPERTY_DATE
+89|Log.L.log 8/4/24 10:14:46 AM - INFO [ org.jdownloader.plugins.controller.PluginClassLoader$PluginClassLoaderChild(mapStaticFields) ] -> Class jd.plugins.hoster.KemonoParty has static immutable field: PROPERTY_POST_CONTENT_INDEX
+
+THREAD: 40
+40|Log.L.log 8/4/24 10:14:49 AM - FINEST [ org.appwork.loggingv3.LogV3(finest) ] -> jd.controlling.downloadcontroller.DownloadWatchDog@11ae7472 State changed IDLE--1(1728416277) -> RUNNING--1(878219810)
+Sort: ASC
+
+THREAD: 27
+27|Log.L.log 8/4/24 10:15:17 AM - FINE [ org.appwork.utils.swing.dialog.ConfirmDialog(<init>) ] -> Dialog    [null][null]
+flag:  110000
+title: Sorted by 'Name'-Column
+msg:   
+You really should know that...
+
+...Your Download list is not in download order any more. 
+
+Click twice on the highlighted column header,
+
+to return to default (Top-Down) order.
+27|Log.L.log 8/4/24 10:15:17 AM - INFO [ org.appwork.utils.swing.dialog.AbstractDialog$8(runInEDT) ] -> Force Dummy Init
+27|Log.L.log 8/4/24 10:15:17 AM - INFO [ org.appwork.utils.swing.dialog.AbstractDialog$12(runInEDT) ] -> Reset Dummy Info
+27|Log.L.log 8/4/24 10:15:17 AM - INFO [ org.appwork.utils.swing.dialog.AbstractDialog$8(runInEDT) ] -> Force Dummy Init
+27|Log.L.log 8/4/24 10:15:17 AM - INFO [ org.appwork.utils.swing.dialog.AbstractDialog$12(runInEDT) ] -> Reset Dummy Info
+27|Log.L.log 8/4/24 10:15:17 AM - INFO [ org.appwork.utils.swing.dialog.AbstractDialog(displayDialog) ] -> Display Dialog: org.jdownloader.gui.helpdialogs.HelpDialog$1: dialog_Sorted_by__Name__Column_You_really_should_know_that__________Your_Download_list_is_not_in_download_order_any_more____Click_twice_on_the_highlighted_column_header___to_return_to_default__Top_Down__order_
+27|Log.L.log 8/4/24 10:15:17 AM - WARNING [ org.appwork.loggingv3.LogV3(warning) ] -> Modeless Dialog from EDT -> Not possible. Reset to Application_modal
+27|Log.L.log 8/4/24 10:15:20 AM - FINE [ org.appwork.utils.swing.dialog.AbstractDialog(actionPerformed) ] -> Answer: Button<OK:Ok>
+Start Update
+
+THREAD: 144
+144|Log.L.log 8/4/24 10:25:51 AM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /Users/tnoguchi/bin/JDownloader 2.0/cfg/org.jdownloader.controlling.ffmpeg.FFmpegSetup.muxtomp4command.json
+
+THREAD: 212
+212|Log.L.log 8/4/24 10:26:05 AM - FINEST [ org.appwork.loggingv3.LogV3(finest) ] -> jd.controlling.downloadcontroller.DownloadWatchDog@11ae7472 State changed RUNNING--1(878219810) -> STOPPING--1(2097331524)
+212|Log.L.log 8/4/24 10:26:05 AM - FINEST [ org.appwork.loggingv3.LogV3(finest) ] -> jd.controlling.downloadcontroller.DownloadWatchDog@11ae7472 State changed STOPPING--1(2097331524) -> STOPPED_STATE--1(1226641406)
+Start Update
+Start Update
+Start Update
+
+THREAD: 325
+325|Log.L.log 8/4/24 11:16:03 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> No Vetos
+325|Log.L.log 8/4/24 11:16:03 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Fire onShutDownEvents:4
+325|Log.L.log 8/4/24 11:16:03 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Call onShutdown: jd.controlling.downloadcontroller.DownloadWatchDog@11ae7472
+325|Log.L.log 8/4/24 11:16:03 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Call onShutdown done: jd.controlling.downloadcontroller.DownloadWatchDog@11ae7472
+325|Log.L.log 8/4/24 11:16:03 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Call onShutdown: jd.controlling.linkcollector.LinkCollector@65b71583
+325|Log.L.log 8/4/24 11:16:03 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Call onShutdown done: jd.controlling.linkcollector.LinkCollector@65b71583
+325|Log.L.log 8/4/24 11:16:03 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Call onShutdown: org.jdownloader.extensions.antistandby.AntiStandbyExtension@5d930f51
+325|Log.L.log 8/4/24 11:16:03 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Call onShutdown done: org.jdownloader.extensions.antistandby.AntiStandbyExtension@5d930f51
+325|Log.L.log 8/4/24 11:16:03 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Call onShutdown: org.jdownloader.extensions.extraction.ExtractionExtension$3@4378b671
+325|Log.L.log 8/4/24 11:16:03 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Call onShutdown done: org.jdownloader.extensions.extraction.ExtractionExtension$3@4378b671
+325|Log.L.log 8/4/24 11:16:03 AM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Create ExitThread

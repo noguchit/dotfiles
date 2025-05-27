@@ -1,0 +1,58 @@
+------------------------Thread: 27:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:27TS:1722780837792-8/4/24 10:13:57 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog(<init>)] -> USE_AVAILABLE_ACCOUNTS: true
+------------------------Thread: 40:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:40TS:1722780889667-8/4/24 10:14:49 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$25(execute)] -> DownloadWatchDog: start
+------------------------Thread: 139:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:139TS:1722780889726-8/4/24 10:14:49 AM -  [jd.controlling.downloadcontroller.DiskSpaceManager(handle)] -> DiskSpaceManager:Result:OK|File:/Users/tnoguchi/Downloads/【本編】『ぼくらの七日間戦争』＜2週間限定公開＞ (1080p_24fps_H264-128kbit_AAC).mp4.part|Root(s):[/]|Requestor:null|RequestedSpace:1.281 GB|UsableSpace:286.164 GB
+--ID:139TS:1722780889761-8/4/24 10:14:49 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog(attach)] -> Start new Download: Use Premium: true Host:DownloadCandidate:【本編】『ぼくらの七日間戦争』＜2週間限定公開＞ (1080p_24fps_H264-128kbit_AAC).mp4@youtube.com|Host youtube.com|Account:Plugin:youtube.com|Version:49344|Type:NONE|Account:null|Proxy:{
+ "proxy"   : {
+              "filter"                 : null,
+              "proxy"                  : {
+                                          "address"                    : null,
+                                          "password"                   : null,
+                                          "port"                       : 80,
+                                          "type"                       : "NONE",
+                                          "username"                   : null,
+                                          "connectMethodPrefered"      : false,
+                                          "preferNativeImplementation" : false,
+                                          "resolveHostName"            : false
+                                         },
+              "enabled"                : true,
+              "pac"                    : false,
+              "rangeRequestsSupported" : true,
+              "reconnectSupported"     : true
+             },
+ "banlist" : "[]",
+ "class"   : "jd.controlling.proxy.NoProxySelector"
+}
+------------------------Thread: 135:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:135TS:1722780889771-8/4/24 10:14:49 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$26(run)] -> Download To: /Users/tnoguchi/Downloads/【本編】『ぼくらの七日間戦争』＜2週間限定公開＞ (1080p_24fps_H264-128kbit_AAC).mp4
+------------------------Thread: 139:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:139TS:1722781560795-8/4/24 10:26:00 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog(setFinalLinkStatus)] -> DownloadCandidate:【本編】『ぼくらの七日間戦争』＜2週間限定公開＞ (1080p_24fps_H264-128kbit_AAC).mp4@youtube.com|Host youtube.com|Account:Plugin:youtube.com|Version:49344|Type:NONE|Account:null|Proxy:{
+ "proxy"   : {
+              "filter"                 : null,
+              "proxy"                  : {
+                                          "address"                    : null,
+                                          "password"                   : null,
+                                          "port"                       : 80,
+                                          "type"                       : "NONE",
+                                          "username"                   : null,
+                                          "connectMethodPrefered"      : false,
+                                          "preferNativeImplementation" : false,
+                                          "resolveHostName"            : false
+                                         },
+              "enabled"                : true,
+              "pac"                    : false,
+              "rangeRequestsSupported" : true,
+              "reconnectSupported"     : true
+             },
+ "banlist" : "[]",
+ "class"   : "jd.controlling.proxy.NoProxySelector"
+}->FINISHED
+--ID:139TS:1722781562081-8/4/24 10:26:02 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 3748 for new ActivationRequests
+--ID:139TS:1722781563334-8/4/24 10:26:03 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 2497 for new ActivationRequests
+--ID:139TS:1722781564586-8/4/24 10:26:04 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 1246 for new ActivationRequests
+--ID:139TS:1722781565839-8/4/24 10:26:05 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 0 for new ActivationRequests
+--ID:139TS:1722781565839-8/4/24 10:26:05 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Waited 5005 but no new ActivationRequests are available->Stop DownloadWatchDog
+--ID:139TS:1722781565846-8/4/24 10:26:05 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> DownloadWatchDog: stopping
+--ID:139TS:1722781565869-8/4/24 10:26:05 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> DownloadWatchDog: stopped

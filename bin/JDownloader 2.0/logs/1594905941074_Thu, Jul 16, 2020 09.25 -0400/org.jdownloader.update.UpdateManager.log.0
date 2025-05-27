@@ -1,0 +1,861 @@
+------------------------Thread: 1:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:1TS:1594905941739-7/16/20 9:25:41 AM -  [org.jdownloader.update.UpdateManager(<init>)] -> ClientSetup 8
+------------------------Thread: 31:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:31TS:1594905941783-7/16/20 9:25:41 AM -  [org.appwork.updatesys.client.extensions.ExtensionManager(init)] -> Installed Extensions: [ffmpeg_10.10+]
+--ID:31TS:1594905941783-7/16/20 9:25:41 AM -  [org.appwork.updatesys.client.extensions.ExtensionManager(init)] -> Requested Extension Installations: []
+--ID:31TS:1594905941783-7/16/20 9:25:41 AM -  [org.appwork.updatesys.client.extensions.ExtensionManager(init)] -> Requested Extension Uninstalls: []
+--ID:31TS:1594905941784-7/16/20 9:25:41 AM -  [org.jdownloader.update.JDUpdateClient$JDExtensionManager(init)] -> Installed Extensions: [ffmpeg_10.10+]
+--ID:31TS:1594905941785-7/16/20 9:25:41 AM -  [org.appwork.updatesys.client.FileList(<init>)] -> FileList at /Users/tnoguchi/bin/JDownloader 2.0/update/versioninfo/JD/filelist.txt Size: 528343
+------------------------Thread: 1:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:1TS:1594905941789-7/16/20 9:25:41 AM -  [org.jdownloader.update.UpdateManager(<init>)] -> Client 50
+------------------------Thread: 31:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:31TS:1594905941792-7/16/20 9:25:41 AM -  [org.appwork.updatesys.client.extensions.ExtensionManager(init)] -> Installed Extensions: []
+--ID:31TS:1594905941792-7/16/20 9:25:41 AM -  [org.appwork.updatesys.client.extensions.ExtensionManager(init)] -> Requested Extension Installations: []
+--ID:31TS:1594905941792-7/16/20 9:25:41 AM -  [org.appwork.updatesys.client.extensions.ExtensionManager(init)] -> Requested Extension Uninstalls: []
+--ID:31TS:1594905941793-7/16/20 9:25:41 AM -  [org.appwork.updatesys.client.FileList(<init>)] -> FileList at /Users/tnoguchi/bin/JDownloader 2.0/update/versioninfo/JDU/filelist.txt Size: 97
+------------------------Thread: 1:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:1TS:1594905941793-7/16/20 9:25:41 AM -  [org.jdownloader.update.UpdateManager(<init>)] -> selfUpdateClient 4
+--ID:1TS:1594905941793-7/16/20 9:25:41 AM -  [org.jdownloader.update.UpdateManager(<init>)] -> LastChanceInit 0
+--ID:1TS:1594905941793-7/16/20 9:25:41 AM -  [org.jdownloader.update.UpdateManager(<init>)] -> setUpdateOnExitFlag 0
+--ID:1TS:1594905941800-7/16/20 9:25:41 AM -  [org.jdownloader.update.UpdateManager(<init>)] -> CreateGui 7
+--ID:1TS:1594905941801-7/16/20 9:25:41 AM -  [org.jdownloader.update.UpdateManager(<init>)] -> DefaultHandler 1
+--ID:1TS:1594905941801-7/16/20 9:25:41 AM -  [org.jdownloader.update.UpdateManager(<init>)] -> SetDefaultHandler 0
+--ID:1TS:1594905941801-7/16/20 9:25:41 AM -  [org.jdownloader.update.UpdateManager(<init>)] -> ProxySelector 0
+--ID:1TS:1594905941801-7/16/20 9:25:41 AM -  [org.jdownloader.update.UpdateManager(finish)] -> Current State: 
+--ID:1TS:1594905941801-7/16/20 9:25:41 AM -  [org.jdownloader.update.UpdateManager(finish)] -> Do Not ask Flag: false
+--ID:1TS:1594905941803-7/16/20 9:25:41 AM -  [org.jdownloader.update.UpdateManager(finish)] -> Settings: {
+ "countdownforinstallupdatesonexitbubble"         : 10000,
+ "selftestwritetimeout"                           : 60000,
+ "autohideguiiftherearenoupdatesenabled"          : false,
+ "proxydialogonnoconnectionenabled"               : true,
+ "lastsuccessfulconnection"                       : 1594408066454,
+ "updateinterval"                                 : 600000,
+ "autohideguiifsilentupdateswereinstalledenabled" : false,
+ "doaskmebeforeinstallinganupdateenabled"         : false,
+ "updateguialwaysontop"                           : true,
+ "jardiffenabled"                                 : true,
+ "installupdatesonexitenabled"                    : true,
+ "doaskbeforedownloadinganupdate"                 : false,
+ "installupdatessilentlyifpossibleenabled"        : true,
+ "autoupdatecheckenabled"                         : true,
+ "selftestpolltimeout"                            : 60000,
+ "installupdatesonexitpanelvisible"               : true
+}
+--ID:1TS:1594905941804-7/16/20 9:25:41 AM -  [org.jdownloader.update.UpdateManager(finish)] -> Client Revision: 14042
+--ID:1TS:1594905941805-7/16/20 9:25:41 AM -  [org.jdownloader.update.UpdateManager(finish)] -> Client Revision incl. Pending Installpackages: 14042
+--ID:1TS:1594905941805-7/16/20 9:25:41 AM -  [org.jdownloader.update.UpdateManager(finish)] -> Updater Client Revision: 14074
+--ID:1TS:1594905941806-7/16/20 9:25:41 AM -  [org.jdownloader.update.UpdateManager(finish)] -> Updater Client Revision incl. Pending Installpackages: 14074
+--ID:1TS:1594905941806-7/16/20 9:25:41 AM -  [org.jdownloader.update.UpdateManager(finish)] -> AWF Packages pending: []
+--ID:1TS:1594905941806-7/16/20 9:25:41 AM -  [org.jdownloader.update.UpdateManager(finish)] -> SelfUpdate pending: false ([])
+--ID:1TS:1594905941810-7/16/20 9:25:41 AM -  [org.jdownloader.update.UpdateManager(setLaunchState)] -> Launchstate: LAUNCHING_JD
+--ID:1TS:1594905945832-7/16/20 9:25:45 AM -  [org.jdownloader.update.UpdateManager(setLaunchState)] -> Launchstate: JD_RUNNING
+------------------------Thread: 82:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:82TS:1594905947131-7/16/20 9:25:47 AM -  [org.appwork.updatesys.client.UpdateClient(getUpdateOptions)] -> org.jdownloader.update.JDUpdateClient:getDefaultUpdateOptions:{
+  "deduplicationMode" : "INTRA",
+  "exceptions" : null,
+  "jarDiffEnabled" : true
+}
+--ID:82TS:1594905947135-7/16/20 9:25:47 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> GET http://update.appwork.org/jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=9&cv=20190425001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=MAC&osr=MAC_CATALINA&arch=X86&os64=1&jvm64=1&java=18181013&uid=dnt_&urev=14074&srev=14042&surev=14074&ct=Normal&dedup=INTRA&awfcxz=1&eid=ffmpeg_10.10%2B&dst=-1&lng=en_US&chlg=0&jdiff=1&rev=14042&1594905947134 via [Direct]
+--ID:82TS:1594905947135-7/16/20 9:25:47 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Get Try with Proxy Direct
+--ID:82TS:1594905947473-7/16/20 9:25:47 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Connection OK: 10 Bytes loaded
+--ID:82TS:1594905947477-7/16/20 9:25:47 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Connection:
+----------------Request Information-------------
+URL: http://update.appwork.org/jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=9&cv=20190425001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=MAC&osr=MAC_CATALINA&arch=X86&os64=1&jvm64=1&java=18181013&uid=dnt_&urev=14074&srev=14042&surev=14074&ct=Normal&dedup=INTRA&awfcxz=1&eid=ffmpeg_10.10%2B&dst=-1&lng=en_US&chlg=0&jdiff=1&rev=14042&1594905947134
+URL-Parameters:
+   st     : 0
+   rt     : SO
+   jn     : JDownloader.jar
+   pv     : 9
+   cv     : 20190425001
+   pkh    : 12f1848a883e733ed40fffff0dae2f35
+   app    : JD
+   os     : MAC
+   osr    : MAC_CATALINA
+   arch   : X86
+   os64   : 1
+   jvm64  : 1
+   java   : 18181013
+   uid    : dnt_
+   urev   : 14074
+   srev   : 14042
+   surev  : 14074
+   ct     : Normal
+   dedup  : INTRA
+   awfcxz : 1
+   eid    : ffmpeg_10.10+
+   dst    : -1
+   lng    : en_US
+   chlg   : 0
+   jdiff  : 1
+   rev    : 14042
+          : 1594905947134
+ConnectIP: update.appwork.org/176.9.34.43:80
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=9&cv=20190425001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=MAC&osr=MAC_CATALINA&arch=X86&os64=1&jvm64=1&java=18181013&uid=dnt_&urev=14074&srev=14042&surev=14074&ct=Normal&dedup=INTRA&awfcxz=1&eid=ffmpeg_10.10%2B&dst=-1&lng=en_US&chlg=0&jdiff=1&rev=14042&1594905947134 HTTP/1.1
+Host: update.appwork.org
+Accept-Language: en_US
+User-Agent: JDownloader/201707061810
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+Cache-Control: no-cache, no-store
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Pragma: no-cache
+Connection: Close
+Accept-Encoding: gzip
+----------------Response Information------------
+Connection-Time: 139ms
+Request-Time: 139ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Date: Thu, 16 Jul 2020 13:25:47 GMT
+Content-Type: text/plain; charset=UTF-8
+Content-Length: 10
+Connection: close
+Server: AppWork GmbH FcgiServer
+JCGI: 1
+UPD_SRV: 1
+------------------------------------------------
+
+
+--ID:82TS:1594905947478-7/16/20 9:25:47 AM -  [org.appwork.updatesys.transport.Pkg(parseServerResponse)] -> SELFUPDATE
+--ID:82TS:1594905947482-7/16/20 9:25:47 AM -  [org.appwork.updatesys.client.UpdateClient(getUpdateOptions)] -> org.jdownloader.update.SelfUpdateClient:getDefaultUpdateOptions:{
+  "deduplicationMode" : "INTRA",
+  "exceptions" : null,
+  "jarDiffEnabled" : true
+}
+--ID:82TS:1594905947484-7/16/20 9:25:47 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> GET http://update.appwork.org/jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=9&cv=20190425001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JDU&os=MAC&osr=MAC_CATALINA&arch=X86&os64=1&jvm64=1&java=18181013&uid=dnt_&ct=Normal&dedup=INTRA&awfcxz=1&dst=-1&lng=en_US&chlg=0&jdiff=1&rev=14074&1594905947484 via [Direct, Direct]
+--ID:82TS:1594905947484-7/16/20 9:25:47 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Get Try with Proxy Direct
+--ID:82TS:1594905947763-7/16/20 9:25:47 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Connection OK: 166 Bytes loaded
+--ID:82TS:1594905947764-7/16/20 9:25:47 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Connection:
+----------------Request Information-------------
+URL: http://update.appwork.org/jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=9&cv=20190425001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JDU&os=MAC&osr=MAC_CATALINA&arch=X86&os64=1&jvm64=1&java=18181013&uid=dnt_&ct=Normal&dedup=INTRA&awfcxz=1&dst=-1&lng=en_US&chlg=0&jdiff=1&rev=14074&1594905947484
+URL-Parameters:
+   st     : 0
+   rt     : SO
+   jn     : JDownloader.jar
+   pv     : 9
+   cv     : 20190425001
+   pkh    : 12f1848a883e733ed40fffff0dae2f35
+   app    : JDU
+   os     : MAC
+   osr    : MAC_CATALINA
+   arch   : X86
+   os64   : 1
+   jvm64  : 1
+   java   : 18181013
+   uid    : dnt_
+   ct     : Normal
+   dedup  : INTRA
+   awfcxz : 1
+   dst    : -1
+   lng    : en_US
+   chlg   : 0
+   jdiff  : 1
+   rev    : 14074
+          : 1594905947484
+ConnectIP: update.appwork.org/176.9.34.43:80
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=9&cv=20190425001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JDU&os=MAC&osr=MAC_CATALINA&arch=X86&os64=1&jvm64=1&java=18181013&uid=dnt_&ct=Normal&dedup=INTRA&awfcxz=1&dst=-1&lng=en_US&chlg=0&jdiff=1&rev=14074&1594905947484 HTTP/1.1
+Host: update.appwork.org
+Accept-Language: en_US
+User-Agent: JDownloader/201707061810
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+Cache-Control: no-cache, no-store
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Pragma: no-cache
+Connection: Close
+Accept-Encoding: gzip
+----------------Response Information------------
+Connection-Time: 138ms
+Request-Time: 140ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Date: Thu, 16 Jul 2020 13:25:47 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 166
+Connection: close
+Server: AppWork GmbH FcgiServer
+JCGI: 1
+UPD_SRV: 1
+------------------------------------------------
+
+
+--ID:82TS:1594905947764-7/16/20 9:25:47 AM -  [org.appwork.updatesys.transport.Pkg(parseServerResponse)] -> {
+ "timeStamp"    : 1594905947720,
+ "uid"          : null,
+ "revisionName" : null,
+ "destRevision" : 14089,
+ "pong"         : null,
+ "status"       : "EMPTY"
+}
+------------------------Thread: 31:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:31TS:1594905947769-7/16/20 9:25:47 AM -  [org.appwork.updatesys.client.UpdateClient(internalWriteRevision)] -> Write Revision: 14089/null
+------------------------Thread: 82:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:82TS:1594905947785-7/16/20 9:25:47 AM -  [org.appwork.updatesys.client.UpdateClient(getUpdateOptions)] -> org.jdownloader.update.JDUpdateClient:getUpdateOptions:{
+  "deduplicationMode" : "INTRA",
+  "exceptions" : null,
+  "jarDiffEnabled" : true
+}
+--ID:82TS:1594905947786-7/16/20 9:25:47 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> GET http://update.appwork.org/jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=9&cv=20190425001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=MAC&osr=MAC_CATALINA&arch=X86&os64=1&jvm64=1&java=18181013&uid=dnt_&urev=2147483647&srev=14042&surev=14074&ct=Normal&dedup=INTRA&awfcxz=1&eid=ffmpeg_10.10%2B&dst=-1&lng=en_US&chlg=0&jdiff=1&rev=14042&1594905947786 via [Direct, Direct]
+--ID:82TS:1594905947786-7/16/20 9:25:47 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Get Try with Proxy Direct
+--ID:82TS:1594905948079-7/16/20 9:25:48 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Connection OK: 3406 Bytes loaded
+--ID:82TS:1594905948079-7/16/20 9:25:48 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Connection:
+----------------Request Information-------------
+URL: http://update.appwork.org/jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=9&cv=20190425001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=MAC&osr=MAC_CATALINA&arch=X86&os64=1&jvm64=1&java=18181013&uid=dnt_&urev=2147483647&srev=14042&surev=14074&ct=Normal&dedup=INTRA&awfcxz=1&eid=ffmpeg_10.10%2B&dst=-1&lng=en_US&chlg=0&jdiff=1&rev=14042&1594905947786
+URL-Parameters:
+   st     : 0
+   rt     : SO
+   jn     : JDownloader.jar
+   pv     : 9
+   cv     : 20190425001
+   pkh    : 12f1848a883e733ed40fffff0dae2f35
+   app    : JD
+   os     : MAC
+   osr    : MAC_CATALINA
+   arch   : X86
+   os64   : 1
+   jvm64  : 1
+   java   : 18181013
+   uid    : dnt_
+   urev   : 2147483647
+   srev   : 14042
+   surev  : 14074
+   ct     : Normal
+   dedup  : INTRA
+   awfcxz : 1
+   eid    : ffmpeg_10.10+
+   dst    : -1
+   lng    : en_US
+   chlg   : 0
+   jdiff  : 1
+   rev    : 14042
+          : 1594905947786
+ConnectIP: update.appwork.org/176.9.34.43:80
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=9&cv=20190425001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=MAC&osr=MAC_CATALINA&arch=X86&os64=1&jvm64=1&java=18181013&uid=dnt_&urev=2147483647&srev=14042&surev=14074&ct=Normal&dedup=INTRA&awfcxz=1&eid=ffmpeg_10.10%2B&dst=-1&lng=en_US&chlg=0&jdiff=1&rev=14042&1594905947786 HTTP/1.1
+Host: update.appwork.org
+Accept-Language: en_US
+User-Agent: JDownloader/201707061810
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+Cache-Control: no-cache, no-store
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Pragma: no-cache
+Connection: Close
+Accept-Encoding: gzip
+----------------Response Information------------
+Connection-Time: 140ms
+Request-Time: 152ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Date: Thu, 16 Jul 2020 13:25:48 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 3406
+Connection: close
+Server: AppWork GmbH FcgiServer
+JCGI: 1
+UPD_SRV: 1
+------------------------------------------------
+
+
+--ID:82TS:1594905948079-7/16/20 9:25:48 AM -  [org.appwork.updatesys.transport.Pkg(parseServerResponse)] -> {
+ "changeLogText"        : null,
+ "pong"                 : null,
+ "changeLogContentSize" : -1,
+ "diskSpaceChanges"     : {
+                           "" : {
+                                 "required" : 11843437,
+                                 "changed"  : 3969
+                                }
+                          },
+ "timeStamp"            : 1594905948036,
+ "uid"                  : null,
+ "urls"                 : [
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn9.appwork.org/JD/14057/15949020973450f9a55881d52366f7f121b978102052d_0f9e8fe966784c7392b4693be57a18c9a80415384-14042"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn7.appwork.org/JD/14057/15949020973450f9a55881d52366f7f121b978102052d_0f9e8fe966784c7392b4693be57a18c9a80415384-14042"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn1.appwork.org/JD/14057/15949020973450f9a55881d52366f7f121b978102052d_0f9e8fe966784c7392b4693be57a18c9a80415384-14042"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn4.appwork.org/JD/14057/15949020973450f9a55881d52366f7f121b978102052d_0f9e8fe966784c7392b4693be57a18c9a80415384-14042"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn6.appwork.org/JD/14057/15949020973450f9a55881d52366f7f121b978102052d_0f9e8fe966784c7392b4693be57a18c9a80415384-14042"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn8.appwork.org/JD/14057/15949020973450f9a55881d52366f7f121b978102052d_0f9e8fe966784c7392b4693be57a18c9a80415384-14042"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn10.appwork.org/JD/14057/15949020973450f9a55881d52366f7f121b978102052d_0f9e8fe966784c7392b4693be57a18c9a80415384-14042"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn11.appwork.org/JD/14057/15949020973450f9a55881d52366f7f121b978102052d_0f9e8fe966784c7392b4693be57a18c9a80415384-14042"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn12.appwork.org/JD/14057/15949020973450f9a55881d52366f7f121b978102052d_0f9e8fe966784c7392b4693be57a18c9a80415384-14042"
+                           }
+                          ],
+ "revisionName"         : null,
+ "destRevision"         : 14057,
+ "updateFlags"          : null,
+ "encrypted"            : true,
+ "size"                 : 381760,
+ "changeLogSize"        : -1,
+ "contentSize"          : 1096715,
+ "changeLogUrls"        : null,
+ "hash"                 : "28b655cee0d6a6263d8dbf6cfdf2e4987d45f0e4575e5bcad9554ed1b1862522",
+ "changeLogHash"        : null,
+ "status"               : "URL"
+}
+--ID:82TS:1594905948089-7/16/20 9:25:48 AM -  [org.jdownloader.update.UpdateManager(runUpdateLoop)] -> Create Packages
+--ID:82TS:1594905948091-7/16/20 9:25:48 AM -  [org.jdownloader.update.UpdateManager(runUpdateLoop)] -> Download Packages
+--ID:82TS:1594905948092-7/16/20 9:25:48 AM -  [org.appwork.updatesys.client.UpdateClient(download)] -> Download UpdatePackage 
+--ID:82TS:1594905948092-7/16/20 9:25:48 AM -  [org.appwork.updatesys.client.UpdateClient(download)] -> Local File: /Users/tnoguchi/bin/JDownloader 2.0/tmp/update/JD/updatePackage (FileSize: 0|PackageSize:381760)
+--ID:82TS:1594905948102-7/16/20 9:25:48 AM -  [org.appwork.updatesys.client.UpdateClient(download)] -> Download Round:1|Try:0/35|Mirror:http://cdn7.appwork.org/JD/14057/15949020973450f9a55881d52366f7f121b978102052d_0f9e8fe966784c7392b4693be57a18c9a80415384-14042|Priority:80
+--ID:82TS:1594905948102-7/16/20 9:25:48 AM -  [org.appwork.updatesys.client.UpdateClient(download)] -> Size is 0. Full Download.
+--ID:82TS:1594905948163-7/16/20 9:25:48 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> GET http://cdn7.appwork.org/JD/14057/15949020973450f9a55881d52366f7f121b978102052d_0f9e8fe966784c7392b4693be57a18c9a80415384-14042 via [Direct, Direct]
+--ID:82TS:1594905948163-7/16/20 9:25:48 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(internalDownloadWithProxy)] -> Try Proxy: Direct
+--ID:82TS:1594905948163-7/16/20 9:25:48 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Download to /Users/tnoguchi/bin/JDownloader 2.0/tmp/update/JD/updatePackage Size before: 0 bytes
+--ID:82TS:1594905948495-7/16/20 9:25:48 AM -  [org.appwork.updatesys.client.UpdateClient$13(onConnected)] -> CDNSignature:VALID (http://cdn7.appwork.org/JD/14057/15949020973450f9a55881d52366f7f121b978102052d_0f9e8fe966784c7392b4693be57a18c9a80415384-14042)
+--ID:82TS:1594905949191-7/16/20 9:25:49 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Connection:
+----------------Request Information-------------
+URL: http://cdn7.appwork.org/JD/14057/15949020973450f9a55881d52366f7f121b978102052d_0f9e8fe966784c7392b4693be57a18c9a80415384-14042
+ConnectIP: cdn7.appwork.org/148.251.68.18:80
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /JD/14057/15949020973450f9a55881d52366f7f121b978102052d_0f9e8fe966784c7392b4693be57a18c9a80415384-14042 HTTP/1.1
+Host: cdn7.appwork.org
+Accept-Language: en_US
+User-Agent: JDownloader/201707061810
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+Cache-Control: no-cache, no-store
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Pragma: no-cache
+Connection: Close
+X-CDN-SIGNATURE-CHALLENGE: 97f7a681ed243bb6c6e3cc7e802af6dc
+Accept-Encoding: identity
+----------------Response Information------------
+Connection-Time: 137ms
+Request-Time: 138ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Server: nginx/1.17.8
+Date: Thu, 16 Jul 2020 13:25:48 GMT
+Content-Type: application/octet-stream
+Content-Length: 381760
+Connection: close
+Last-Modified: Thu, 16 Jul 2020 12:21:37 GMT
+ETag: "5f104651-5d340"
+X-Cache: HIT
+X-CDN: 53_0_11_42
+X-CDN-SIGNATURE: 97f7a681ed243bb6c6e3cc7e802af6dc.Nanachi.97f7a681ed243bb6c6e3cc7e802af6dc
+Accept-Ranges: bytes
+------------------------------------------------
+
+
+--ID:82TS:1594905949191-7/16/20 9:25:49 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Connection ok. Downloaded /Users/tnoguchi/bin/JDownloader 2.0/tmp/update/JD/updatePackage: 381760 bytes
+--ID:82TS:1594905949191-7/16/20 9:25:49 AM -  [org.appwork.updatesys.client.UpdateClient(download)] -> local file seems to be finished (size check ok)
+--ID:82TS:1594905949192-7/16/20 9:25:49 AM -  [org.appwork.updatesys.client.UpdateClient(download)] -> ... and hash is ok as well. perfect!
+--ID:82TS:1594905949199-7/16/20 9:25:49 AM -  [org.appwork.updatesys.client.UpdateClient(runPackageExtraction)] -> Start Extracting:/Users/tnoguchi/bin/JDownloader 2.0/tmp/update/JD/updatePackage
+--ID:82TS:1594905949199-7/16/20 9:25:49 AM -  [org.appwork.updatesys.client.UpdateClient(runPackageExtraction)] -> Extracting to:/Users/tnoguchi/bin/JDownloader 2.0/tmp/update/JD/updatePackage.awf exists false
+--ID:82TS:1594905949199-7/16/20 9:25:49 AM -  [org.appwork.updatesys.client.UpdateClient(runPackageExtraction)] -> Free Space: 0
+--ID:82TS:1594905949199-7/16/20 9:25:49 AM -  [org.appwork.updatesys.client.UpdateClient(runPackageExtraction)] -> Pre Extract 
+--ID:82TS:1594905949269-7/16/20 9:25:49 AM -  [org.appwork.updatesys.client.UpdateClient(runPackageExtraction)] -> End Extracting 1104790
+--ID:82TS:1594905949274-7/16/20 9:25:49 AM -  [org.jdownloader.updatev2.UpdateController(onResults)] -> onResult
+--ID:82TS:1594905949293-7/16/20 9:25:49 AM -  [org.jdownloader.updatev2.UpdateController(onResults)] -> {
+  "sourcePackages" : [ "/Users/tnoguchi/bin/JDownloader 2.0/tmp/update/package_1594905949269.awf" ],
+  "modifiedFiles" : [ "jd/plugins/decrypter/PremiumizeMeZeveraFolder$2.class", "jd/plugins/decrypter/BlogJav4YouCom.class", "jd/plugins/hoster/ZeveraCore.class", "jd/plugins/hoster/PremiumizeMe$1.class", "jd/plugins/hoster/ImgurComHoster$2.class", "jd/plugins/decrypter/GldSlTo.class", "jd/plugins/hoster/SeedrCc$1.class", "jd/plugins/hoster/AnonFilesCom.class", "jd/plugins/hoster/PremiumizeMe.class", "jd/plugins/hoster/KernelVideoSharingCom.class", "jd/plugins/hoster/RapidekPl$1.class", "jd/plugins/hoster/DownsterNet.class", "jd/plugins/hoster/TurboBitNet.class", "jd/plugins/decrypter/PremiumizeMeZeveraFolder.class", "jd/plugins/hoster/DownsterNet$Hoster.class", "jd/plugins/decrypter/ShorteSt.class", "jd/plugins/hoster/ZeveraCom$ZeveraAccountFactory.class", "jd/plugins/hoster/PremiumizeMe$PremiumizeAccountFactory.class", "jd/plugins/hoster/ImgurComHoster.class", "jd/plugins/hoster/GoogleDrive.class", "jd/plugins/hoster/PremiumizeMe$PremiumizeMeConfigInterface.class", "jd/plugins/hoster/YouJizzCom$1.class", "Core.jar", "jd/plugins/decrypter/SeedrCc.class", "jd/plugins/decrypter/ImgurComGallery.class", "jd/plugins/decrypter/GoogleDriveDirectoryIndex.class", "jd/plugins/hoster/YouJizzCom.class", "jd/plugins/hoster/KamababaCom.class", "jd/plugins/hoster/SeedrCc.class", "jd/plugins/decrypter/PremiumizeMeZeveraFolder$1.class", "jd/plugins/decrypter/BadJoJoComDecrypter.class", "jd/plugins/decrypter/PruteklyncsXyz.class", "jd/plugins/hoster/RapidekPl.class", "jd/plugins/hoster/Offline.class", "translations/org/jdownloader/gui/translate/GuiTranslation.bs.lng", "jd/plugins/hoster/PremiumizeMe$PremiumizeAccountFactory$1.class", "jd/plugins/decrypter/AhMeComGallery.class", "jd/plugins/hoster/ZeveraCore$3.class", "jd/plugins/hoster/AparatCam.class", "jd/plugins/hoster/ScribdCom.class", "jd/plugins/decrypter/AmateurDumperCom.class", "translations/org/jdownloader/gui/translate/GuiTranslation.pt_BR.lng", "jd/plugins/decrypter/MirroredTo.class", "jd/plugins/hoster/FaceBookComVideos.class", "jd/plugins/hoster/PimpRollHostedTube.class", "jd/plugins/hoster/XunNiuCom.class", "jd/plugins/decrypter/ImageVenueComGallery.class", "jd/plugins/hoster/ZeveraCore$2.class", "jd/plugins/decrypter/KamababaComCrawler.class", "jd/plugins/hoster/OneloadXyz.class.removed", "jd/plugins/hoster/GfyCatCom.class", "jd/plugins/hoster/UsersdriveCom.class", "jd/plugins/decrypter/MightyScriptAdLinkFly.class", "jd/plugins/hoster/HomerjDe.class.removed", "jd/plugins/decrypter/PornHubCom.class", "jd/plugins/decrypter/NaughtyBlgOrg.class", "jd/plugins/hoster/AlotpornCom.class", "build.json", "jd/plugins/hoster/RapidGatorNet.class", "jd/plugins/hoster/PremiumizeMe$PremiumizeMeConfigInterface$Translation.class", "jd/plugins/hoster/InstaGramCom.class", "jd/plugins/hoster/DorauploadCom.class", "jd/plugins/hoster/ZeveraCom$ZeveraAccountFactory$1.class", "jd/plugins/hoster/HearthisAt.class", "jd/plugins/hoster/BbcCom.class", "jd/plugins/hoster/ImgurComHoster$1.class", "jd/plugins/hoster/ZeveraCom.class", "jd/plugins/hoster/TnaFlixCom.class", "jd/plugins/decrypter/BonBonmeCom.class.removed", "jd/plugins/hoster/MegagamesCom.class", "jd/plugins/hoster/ImgurComHoster$3.class", "jd/plugins/hoster/MyfileIs.class.removed", "jd/plugins/hoster/RedTubeCom.class", "jd/plugins/hoster/GooglePremium.class", "jd/plugins/decrypter/ScribdCom.class", "jd/plugins/hoster/ZeveraCore$1.class", "jd/plugins/decrypter/NaughtyBlgOrg$1.class", "jd/plugins/hoster/GoogleDriveDirectoryIndex.class" ],
+  "modifiedPlugins" : [ "jd/plugins/decrypter/PremiumizeMeZeveraFolder$2.class", "jd/plugins/decrypter/BlogJav4YouCom.class", "jd/plugins/hoster/ZeveraCore.class", "jd/plugins/hoster/PremiumizeMe$1.class", "jd/plugins/hoster/ImgurComHoster$2.class", "jd/plugins/decrypter/GldSlTo.class", "jd/plugins/hoster/SeedrCc$1.class", "jd/plugins/hoster/AnonFilesCom.class", "jd/plugins/hoster/PremiumizeMe.class", "jd/plugins/hoster/KernelVideoSharingCom.class", "jd/plugins/hoster/RapidekPl$1.class", "jd/plugins/hoster/DownsterNet.class", "jd/plugins/hoster/TurboBitNet.class", "jd/plugins/decrypter/PremiumizeMeZeveraFolder.class", "jd/plugins/hoster/DownsterNet$Hoster.class", "jd/plugins/decrypter/ShorteSt.class", "jd/plugins/hoster/ZeveraCom$ZeveraAccountFactory.class", "jd/plugins/hoster/PremiumizeMe$PremiumizeAccountFactory.class", "jd/plugins/hoster/ImgurComHoster.class", "jd/plugins/hoster/GoogleDrive.class", "jd/plugins/hoster/PremiumizeMe$PremiumizeMeConfigInterface.class", "jd/plugins/hoster/YouJizzCom$1.class", "jd/plugins/decrypter/SeedrCc.class", "jd/plugins/decrypter/ImgurComGallery.class", "jd/plugins/decrypter/GoogleDriveDirectoryIndex.class", "jd/plugins/hoster/YouJizzCom.class", "jd/plugins/hoster/KamababaCom.class", "jd/plugins/hoster/SeedrCc.class", "jd/plugins/decrypter/PremiumizeMeZeveraFolder$1.class", "jd/plugins/decrypter/BadJoJoComDecrypter.class", "jd/plugins/decrypter/PruteklyncsXyz.class", "jd/plugins/hoster/RapidekPl.class", "jd/plugins/hoster/Offline.class", "jd/plugins/hoster/PremiumizeMe$PremiumizeAccountFactory$1.class", "jd/plugins/decrypter/AhMeComGallery.class", "jd/plugins/hoster/ZeveraCore$3.class", "jd/plugins/hoster/AparatCam.class", "jd/plugins/hoster/ScribdCom.class", "jd/plugins/decrypter/AmateurDumperCom.class", "jd/plugins/decrypter/MirroredTo.class", "jd/plugins/hoster/FaceBookComVideos.class", "jd/plugins/hoster/PimpRollHostedTube.class", "jd/plugins/hoster/XunNiuCom.class", "jd/plugins/decrypter/ImageVenueComGallery.class", "jd/plugins/hoster/ZeveraCore$2.class", "jd/plugins/decrypter/KamababaComCrawler.class", "jd/plugins/hoster/OneloadXyz.class.removed", "jd/plugins/hoster/GfyCatCom.class", "jd/plugins/hoster/UsersdriveCom.class", "jd/plugins/decrypter/MightyScriptAdLinkFly.class", "jd/plugins/hoster/HomerjDe.class.removed", "jd/plugins/decrypter/PornHubCom.class", "jd/plugins/decrypter/NaughtyBlgOrg.class", "jd/plugins/hoster/AlotpornCom.class", "jd/plugins/hoster/RapidGatorNet.class", "jd/plugins/hoster/PremiumizeMe$PremiumizeMeConfigInterface$Translation.class", "jd/plugins/hoster/InstaGramCom.class", "jd/plugins/hoster/DorauploadCom.class", "jd/plugins/hoster/ZeveraCom$ZeveraAccountFactory$1.class", "jd/plugins/hoster/HearthisAt.class", "jd/plugins/hoster/BbcCom.class", "jd/plugins/hoster/ImgurComHoster$1.class", "jd/plugins/hoster/ZeveraCom.class", "jd/plugins/hoster/TnaFlixCom.class", "jd/plugins/decrypter/BonBonmeCom.class.removed", "jd/plugins/hoster/MegagamesCom.class", "jd/plugins/hoster/ImgurComHoster$3.class", "jd/plugins/hoster/MyfileIs.class.removed", "jd/plugins/hoster/RedTubeCom.class", "jd/plugins/hoster/GooglePremium.class", "jd/plugins/decrypter/ScribdCom.class", "jd/plugins/hoster/ZeveraCore$1.class", "jd/plugins/decrypter/NaughtyBlgOrg$1.class", "jd/plugins/hoster/GoogleDriveDirectoryIndex.class" ],
+  "modifiedDirects" : [ "translations/org/jdownloader/gui/translate/GuiTranslation.pt_BR.lng", "build.json", "translations/org/jdownloader/gui/translate/GuiTranslation.bs.lng" ],
+  "modifiedRestartRequiredFiles" : [ "Core.jar" ],
+  "modifiedExtensionFiles" : [ ]
+}
+------------------------Thread: 28:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:28TS:1594906001625-7/16/20 9:26:41 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> GET http://update.appwork.org/jcgi/lastchance?app=JD&pkh=12f1848a883e733ed40fffff0dae2f35&jh=639413f876d12587d99aa3b432f827c7&rev=14057&srev=14042&urev=14089&surev=14089 via [Direct, Direct]
+--ID:28TS:1594906001625-7/16/20 9:26:41 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(internalDownloadWithProxy)] -> Try Proxy: Direct
+--ID:28TS:1594906001625-7/16/20 9:26:41 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Download to /var/folders/gj/cwrfmk9d22l6j37y4vf92g2m0000gn/T/lastChanceSrc15949060016026219912927404079531lch Size before: 0 bytes
+--ID:28TS:1594906001902-7/16/20 9:26:41 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Connection:
+----------------Request Information-------------
+URL: http://update.appwork.org/jcgi/lastchance?app=JD&pkh=12f1848a883e733ed40fffff0dae2f35&jh=639413f876d12587d99aa3b432f827c7&rev=14057&srev=14042&urev=14089&surev=14089
+URL-Parameters:
+   app   : JD
+   pkh   : 12f1848a883e733ed40fffff0dae2f35
+   jh    : 639413f876d12587d99aa3b432f827c7
+   rev   : 14057
+   srev  : 14042
+   urev  : 14089
+   surev : 14089
+ConnectIP: update.appwork.org/176.9.34.43:80
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /jcgi/lastchance?app=JD&pkh=12f1848a883e733ed40fffff0dae2f35&jh=639413f876d12587d99aa3b432f827c7&rev=14057&srev=14042&urev=14089&surev=14089 HTTP/1.1
+Host: update.appwork.org
+Accept-Language: en_US
+User-Agent: JDownloader/201707061810
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+Cache-Control: no-cache, no-store
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Pragma: no-cache
+Connection: Close
+----------------Response Information------------
+Connection-Time: 137ms
+Request-Time: 138ms
+----------------Response------------------------
+HTTP/1.1 404 Not Found
+Date: Thu, 16 Jul 2020 13:26:41 GMT
+Content-Length: 0
+Connection: close
+Server: AppWork GmbH FcgiServer
+JCGI: 1
+UPD_SRV: 1
+------------------------------------------------
+
+
+--ID:28TS:1594906001903-7/16/20 9:26:41 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> No Last Chance Found. Good!
+--ID:28TS:1594906001903-7/16/20 9:26:41 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(checkTryNextProxyOrGiveUp)] -> Check if we can leave 
+--ID:28TS:1594906001903-7/16/20 9:26:41 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(checkTryNextProxyOrGiveUp)] -> Invalid Response Code: org.appwork.utils.net.BasicHTTP.InvalidResponseCode: Invalid ResponseCode: 404
+--ID:28TS:1594906001903-7/16/20 9:26:41 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(throwServerExceptions)] -> Handle BasicHTTPException org.appwork.utils.net.BasicHTTP.BasicHTTPException: org.appwork.utils.net.BasicHTTP.ReadIOException: org.appwork.utils.net.BasicHTTP.InvalidResponseCode: Invalid ResponseCode: 404
+------------------------Thread: 162:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:162TS:1594906546736-7/16/20 9:35:46 AM -  [org.appwork.updatesys.client.UpdateClient(getUpdateOptions)] -> org.jdownloader.update.JDUpdateClient:getUpdateOptions:{
+  "deduplicationMode" : "INTRA",
+  "exceptions" : null,
+  "jarDiffEnabled" : true
+}
+--ID:162TS:1594906546737-7/16/20 9:35:46 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> GET http://update.appwork.org/jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=9&cv=20190425001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=MAC&osr=MAC_CATALINA&arch=X86&os64=1&jvm64=1&java=18181013&uid=dnt_&urev=14089&srev=14042&surev=14089&ct=Normal&dedup=INTRA&awfcxz=1&eid=ffmpeg_10.10%2B&dst=-1&lng=en_US&chlg=0&jdiff=1&rev=14057&1594906546693 via [Direct, Direct]
+--ID:162TS:1594906546737-7/16/20 9:35:46 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Get Try with Proxy Direct
+--ID:162TS:1594906547011-7/16/20 9:35:47 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Connection OK: 10 Bytes loaded
+--ID:162TS:1594906547011-7/16/20 9:35:47 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Connection:
+----------------Request Information-------------
+URL: http://update.appwork.org/jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=9&cv=20190425001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=MAC&osr=MAC_CATALINA&arch=X86&os64=1&jvm64=1&java=18181013&uid=dnt_&urev=14089&srev=14042&surev=14089&ct=Normal&dedup=INTRA&awfcxz=1&eid=ffmpeg_10.10%2B&dst=-1&lng=en_US&chlg=0&jdiff=1&rev=14057&1594906546693
+URL-Parameters:
+   st     : 0
+   rt     : SO
+   jn     : JDownloader.jar
+   pv     : 9
+   cv     : 20190425001
+   pkh    : 12f1848a883e733ed40fffff0dae2f35
+   app    : JD
+   os     : MAC
+   osr    : MAC_CATALINA
+   arch   : X86
+   os64   : 1
+   jvm64  : 1
+   java   : 18181013
+   uid    : dnt_
+   urev   : 14089
+   srev   : 14042
+   surev  : 14089
+   ct     : Normal
+   dedup  : INTRA
+   awfcxz : 1
+   eid    : ffmpeg_10.10+
+   dst    : -1
+   lng    : en_US
+   chlg   : 0
+   jdiff  : 1
+   rev    : 14057
+          : 1594906546693
+ConnectIP: update.appwork.org/176.9.34.43:80
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=9&cv=20190425001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=MAC&osr=MAC_CATALINA&arch=X86&os64=1&jvm64=1&java=18181013&uid=dnt_&urev=14089&srev=14042&surev=14089&ct=Normal&dedup=INTRA&awfcxz=1&eid=ffmpeg_10.10%2B&dst=-1&lng=en_US&chlg=0&jdiff=1&rev=14057&1594906546693 HTTP/1.1
+Host: update.appwork.org
+Accept-Language: en_US
+User-Agent: JDownloader/201707061810
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+Cache-Control: no-cache, no-store
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Pragma: no-cache
+Connection: Close
+Accept-Encoding: gzip
+----------------Response Information------------
+Connection-Time: 138ms
+Request-Time: 135ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Date: Thu, 16 Jul 2020 13:35:46 GMT
+Content-Type: text/plain; charset=UTF-8
+Content-Length: 10
+Connection: close
+Server: AppWork GmbH FcgiServer
+JCGI: 1
+UPD_SRV: 1
+------------------------------------------------
+
+
+--ID:162TS:1594906547011-7/16/20 9:35:47 AM -  [org.appwork.updatesys.transport.Pkg(parseServerResponse)] -> SELFUPDATE
+--ID:162TS:1594906547011-7/16/20 9:35:47 AM -  [org.appwork.updatesys.client.UpdateClient(getUpdateOptions)] -> org.jdownloader.update.SelfUpdateClient:getUpdateOptions:{
+  "deduplicationMode" : "INTRA",
+  "exceptions" : null,
+  "jarDiffEnabled" : true
+}
+--ID:162TS:1594906547012-7/16/20 9:35:47 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> GET http://update.appwork.org/jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=9&cv=20190425001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JDU&os=MAC&osr=MAC_CATALINA&arch=X86&os64=1&jvm64=1&java=18181013&uid=dnt_&ct=Normal&dedup=INTRA&awfcxz=1&dst=-1&lng=en_US&chlg=0&jdiff=1&rev=14089&1594906546966 via [Direct, Direct]
+--ID:162TS:1594906547012-7/16/20 9:35:47 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Get Try with Proxy Direct
+--ID:162TS:1594906547290-7/16/20 9:35:47 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Connection OK: 166 Bytes loaded
+--ID:162TS:1594906547290-7/16/20 9:35:47 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Connection:
+----------------Request Information-------------
+URL: http://update.appwork.org/jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=9&cv=20190425001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JDU&os=MAC&osr=MAC_CATALINA&arch=X86&os64=1&jvm64=1&java=18181013&uid=dnt_&ct=Normal&dedup=INTRA&awfcxz=1&dst=-1&lng=en_US&chlg=0&jdiff=1&rev=14089&1594906546966
+URL-Parameters:
+   st     : 0
+   rt     : SO
+   jn     : JDownloader.jar
+   pv     : 9
+   cv     : 20190425001
+   pkh    : 12f1848a883e733ed40fffff0dae2f35
+   app    : JDU
+   os     : MAC
+   osr    : MAC_CATALINA
+   arch   : X86
+   os64   : 1
+   jvm64  : 1
+   java   : 18181013
+   uid    : dnt_
+   ct     : Normal
+   dedup  : INTRA
+   awfcxz : 1
+   dst    : -1
+   lng    : en_US
+   chlg   : 0
+   jdiff  : 1
+   rev    : 14089
+          : 1594906546966
+ConnectIP: update.appwork.org/176.9.34.43:80
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=9&cv=20190425001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JDU&os=MAC&osr=MAC_CATALINA&arch=X86&os64=1&jvm64=1&java=18181013&uid=dnt_&ct=Normal&dedup=INTRA&awfcxz=1&dst=-1&lng=en_US&chlg=0&jdiff=1&rev=14089&1594906546966 HTTP/1.1
+Host: update.appwork.org
+Accept-Language: en_US
+User-Agent: JDownloader/201707061810
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+Cache-Control: no-cache, no-store
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Pragma: no-cache
+Connection: Close
+Accept-Encoding: gzip
+----------------Response Information------------
+Connection-Time: 140ms
+Request-Time: 138ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Date: Thu, 16 Jul 2020 13:35:47 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 166
+Connection: close
+Server: AppWork GmbH FcgiServer
+JCGI: 1
+UPD_SRV: 1
+------------------------------------------------
+
+
+--ID:162TS:1594906547290-7/16/20 9:35:47 AM -  [org.appwork.updatesys.transport.Pkg(parseServerResponse)] -> {
+ "timeStamp"    : 1594906547228,
+ "uid"          : null,
+ "revisionName" : null,
+ "destRevision" : 14090,
+ "pong"         : null,
+ "status"       : "EMPTY"
+}
+------------------------Thread: 164:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:164TS:1594906547292-7/16/20 9:35:47 AM -  [org.appwork.updatesys.client.UpdateClient(internalWriteRevision)] -> Write Revision: 14090/null
+------------------------Thread: 162:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:162TS:1594906547294-7/16/20 9:35:47 AM -  [org.appwork.updatesys.client.UpdateClient(getUpdateOptions)] -> org.jdownloader.update.JDUpdateClient:getUpdateOptions:{
+  "deduplicationMode" : "INTRA",
+  "exceptions" : null,
+  "jarDiffEnabled" : true
+}
+--ID:162TS:1594906547295-7/16/20 9:35:47 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> GET http://update.appwork.org/jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=9&cv=20190425001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=MAC&osr=MAC_CATALINA&arch=X86&os64=1&jvm64=1&java=18181013&uid=dnt_&urev=2147483647&srev=14042&surev=14089&ct=Normal&dedup=INTRA&awfcxz=1&eid=ffmpeg_10.10%2B&dst=-1&lng=en_US&chlg=0&jdiff=1&rev=14057&1594906547251 via [Direct, Direct]
+--ID:162TS:1594906547295-7/16/20 9:35:47 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Get Try with Proxy Direct
+--ID:162TS:1594906547574-7/16/20 9:35:47 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Connection OK: 3402 Bytes loaded
+--ID:162TS:1594906547574-7/16/20 9:35:47 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Connection:
+----------------Request Information-------------
+URL: http://update.appwork.org/jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=9&cv=20190425001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=MAC&osr=MAC_CATALINA&arch=X86&os64=1&jvm64=1&java=18181013&uid=dnt_&urev=2147483647&srev=14042&surev=14089&ct=Normal&dedup=INTRA&awfcxz=1&eid=ffmpeg_10.10%2B&dst=-1&lng=en_US&chlg=0&jdiff=1&rev=14057&1594906547251
+URL-Parameters:
+   st     : 0
+   rt     : SO
+   jn     : JDownloader.jar
+   pv     : 9
+   cv     : 20190425001
+   pkh    : 12f1848a883e733ed40fffff0dae2f35
+   app    : JD
+   os     : MAC
+   osr    : MAC_CATALINA
+   arch   : X86
+   os64   : 1
+   jvm64  : 1
+   java   : 18181013
+   uid    : dnt_
+   urev   : 2147483647
+   srev   : 14042
+   surev  : 14089
+   ct     : Normal
+   dedup  : INTRA
+   awfcxz : 1
+   eid    : ffmpeg_10.10+
+   dst    : -1
+   lng    : en_US
+   chlg   : 0
+   jdiff  : 1
+   rev    : 14057
+          : 1594906547251
+ConnectIP: update.appwork.org/176.9.34.43:80
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=9&cv=20190425001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=MAC&osr=MAC_CATALINA&arch=X86&os64=1&jvm64=1&java=18181013&uid=dnt_&urev=2147483647&srev=14042&surev=14089&ct=Normal&dedup=INTRA&awfcxz=1&eid=ffmpeg_10.10%2B&dst=-1&lng=en_US&chlg=0&jdiff=1&rev=14057&1594906547251 HTTP/1.1
+Host: update.appwork.org
+Accept-Language: en_US
+User-Agent: JDownloader/201707061810
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+Cache-Control: no-cache, no-store
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Pragma: no-cache
+Connection: Close
+Accept-Encoding: gzip
+----------------Response Information------------
+Connection-Time: 139ms
+Request-Time: 140ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Date: Thu, 16 Jul 2020 13:35:47 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 3402
+Connection: close
+Server: AppWork GmbH FcgiServer
+JCGI: 1
+UPD_SRV: 1
+------------------------------------------------
+
+
+--ID:162TS:1594906547574-7/16/20 9:35:47 AM -  [org.appwork.updatesys.transport.Pkg(parseServerResponse)] -> {
+ "changeLogText"        : null,
+ "pong"                 : null,
+ "changeLogContentSize" : -1,
+ "diskSpaceChanges"     : {
+                           "" : {
+                                 "required" : 10862362,
+                                 "changed"  : 419
+                                }
+                          },
+ "timeStamp"            : 1594906547512,
+ "uid"                  : null,
+ "urls"                 : [
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn9.appwork.org/JD/14058/15949060467283a1139abb9b7f94e68b72f01e27a1556_0ba8236e5f5f3ecd56b08a30c6361589bafffda2f-14057"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn7.appwork.org/JD/14058/15949060467283a1139abb9b7f94e68b72f01e27a1556_0ba8236e5f5f3ecd56b08a30c6361589bafffda2f-14057"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn1.appwork.org/JD/14058/15949060467283a1139abb9b7f94e68b72f01e27a1556_0ba8236e5f5f3ecd56b08a30c6361589bafffda2f-14057"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn4.appwork.org/JD/14058/15949060467283a1139abb9b7f94e68b72f01e27a1556_0ba8236e5f5f3ecd56b08a30c6361589bafffda2f-14057"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn6.appwork.org/JD/14058/15949060467283a1139abb9b7f94e68b72f01e27a1556_0ba8236e5f5f3ecd56b08a30c6361589bafffda2f-14057"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn8.appwork.org/JD/14058/15949060467283a1139abb9b7f94e68b72f01e27a1556_0ba8236e5f5f3ecd56b08a30c6361589bafffda2f-14057"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn10.appwork.org/JD/14058/15949060467283a1139abb9b7f94e68b72f01e27a1556_0ba8236e5f5f3ecd56b08a30c6361589bafffda2f-14057"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn11.appwork.org/JD/14058/15949060467283a1139abb9b7f94e68b72f01e27a1556_0ba8236e5f5f3ecd56b08a30c6361589bafffda2f-14057"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn12.appwork.org/JD/14058/15949060467283a1139abb9b7f94e68b72f01e27a1556_0ba8236e5f5f3ecd56b08a30c6361589bafffda2f-14057"
+                           }
+                          ],
+ "revisionName"         : null,
+ "destRevision"         : 14058,
+ "updateFlags"          : null,
+ "encrypted"            : true,
+ "size"                 : 13424,
+ "changeLogSize"        : -1,
+ "contentSize"          : 28901,
+ "changeLogUrls"        : null,
+ "hash"                 : "02b7cc008d4d2ce64337cab0edc03037f17e913abf516964372a55cd9fdf8a7a",
+ "changeLogHash"        : null,
+ "status"               : "URL"
+}
+--ID:162TS:1594906547576-7/16/20 9:35:47 AM -  [org.jdownloader.update.UpdateManager(runUpdateLoop)] -> Create Packages
+--ID:162TS:1594906547577-7/16/20 9:35:47 AM -  [org.jdownloader.update.UpdateManager(runUpdateLoop)] -> Download Packages
+--ID:162TS:1594906547577-7/16/20 9:35:47 AM -  [org.appwork.updatesys.client.UpdateClient(download)] -> Download UpdatePackage 
+--ID:162TS:1594906547577-7/16/20 9:35:47 AM -  [org.appwork.updatesys.client.UpdateClient(download)] -> Local File: /Users/tnoguchi/bin/JDownloader 2.0/tmp/update/JD/updatePackage (FileSize: 0|PackageSize:13424)
+--ID:162TS:1594906547580-7/16/20 9:35:47 AM -  [org.appwork.updatesys.client.UpdateClient(download)] -> Download Round:1|Try:0/35|Mirror:http://cdn1.appwork.org/JD/14058/15949060467283a1139abb9b7f94e68b72f01e27a1556_0ba8236e5f5f3ecd56b08a30c6361589bafffda2f-14057|Priority:80
+--ID:162TS:1594906547580-7/16/20 9:35:47 AM -  [org.appwork.updatesys.client.UpdateClient(download)] -> Size is 0. Full Download.
+--ID:162TS:1594906547626-7/16/20 9:35:47 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> GET http://cdn1.appwork.org/JD/14058/15949060467283a1139abb9b7f94e68b72f01e27a1556_0ba8236e5f5f3ecd56b08a30c6361589bafffda2f-14057 via [Direct, Direct]
+--ID:162TS:1594906547626-7/16/20 9:35:47 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(internalDownloadWithProxy)] -> Try Proxy: Direct
+--ID:162TS:1594906547626-7/16/20 9:35:47 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Download to /Users/tnoguchi/bin/JDownloader 2.0/tmp/update/JD/updatePackage Size before: 0 bytes
+--ID:162TS:1594906547943-7/16/20 9:35:47 AM -  [org.appwork.updatesys.client.UpdateClient$13(onConnected)] -> CDNSignature:VALID (http://cdn1.appwork.org/JD/14058/15949060467283a1139abb9b7f94e68b72f01e27a1556_0ba8236e5f5f3ecd56b08a30c6361589bafffda2f-14057)
+--ID:162TS:1594906547944-7/16/20 9:35:47 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Connection:
+----------------Request Information-------------
+URL: http://cdn1.appwork.org/JD/14058/15949060467283a1139abb9b7f94e68b72f01e27a1556_0ba8236e5f5f3ecd56b08a30c6361589bafffda2f-14057
+ConnectIP: cdn1.appwork.org/176.9.63.17:80
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /JD/14058/15949060467283a1139abb9b7f94e68b72f01e27a1556_0ba8236e5f5f3ecd56b08a30c6361589bafffda2f-14057 HTTP/1.1
+Host: cdn1.appwork.org
+Accept-Language: en_US
+User-Agent: JDownloader/201707061810
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+Cache-Control: no-cache, no-store
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Pragma: no-cache
+Connection: Close
+X-CDN-SIGNATURE-CHALLENGE: 31d106d37fe5e162915a6d89d628e290
+Accept-Encoding: identity
+----------------Response Information------------
+Connection-Time: 135ms
+Request-Time: 135ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Server: nginx/1.17.8
+Date: Thu, 16 Jul 2020 13:35:47 GMT
+Content-Type: application/octet-stream
+Content-Length: 13424
+Connection: close
+Last-Modified: Thu, 16 Jul 2020 13:27:27 GMT
+ETag: "5f1055bf-3470"
+X-Cache: HIT
+X-CDN: 123_0_61_62
+X-CDN-SIGNATURE: 31d106d37fe5e162915a6d89d628e290.Nanachi.31d106d37fe5e162915a6d89d628e290
+Accept-Ranges: bytes
+------------------------------------------------
+
+
+--ID:162TS:1594906547944-7/16/20 9:35:47 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Connection ok. Downloaded /Users/tnoguchi/bin/JDownloader 2.0/tmp/update/JD/updatePackage: 13424 bytes
+--ID:162TS:1594906547944-7/16/20 9:35:47 AM -  [org.appwork.updatesys.client.UpdateClient(download)] -> local file seems to be finished (size check ok)
+--ID:162TS:1594906547944-7/16/20 9:35:47 AM -  [org.appwork.updatesys.client.UpdateClient(download)] -> ... and hash is ok as well. perfect!
+--ID:162TS:1594906547946-7/16/20 9:35:47 AM -  [org.appwork.updatesys.client.UpdateClient(runPackageExtraction)] -> Start Extracting:/Users/tnoguchi/bin/JDownloader 2.0/tmp/update/JD/updatePackage
+--ID:162TS:1594906547946-7/16/20 9:35:47 AM -  [org.appwork.updatesys.client.UpdateClient(runPackageExtraction)] -> Extracting to:/Users/tnoguchi/bin/JDownloader 2.0/tmp/update/JD/updatePackage.awf exists false
+--ID:162TS:1594906547946-7/16/20 9:35:47 AM -  [org.appwork.updatesys.client.UpdateClient(runPackageExtraction)] -> Free Space: 0
+--ID:162TS:1594906547946-7/16/20 9:35:47 AM -  [org.appwork.updatesys.client.UpdateClient(runPackageExtraction)] -> Pre Extract 
+--ID:162TS:1594906547949-7/16/20 9:35:47 AM -  [org.appwork.updatesys.client.UpdateClient(runPackageExtraction)] -> End Extracting 29182
+--ID:162TS:1594906547953-7/16/20 9:35:47 AM -  [org.jdownloader.updatev2.UpdateController(onResults)] -> onResult
+--ID:162TS:1594906547956-7/16/20 9:35:47 AM -  [org.jdownloader.updatev2.UpdateController(onResults)] -> {
+  "sourcePackages" : [ "/Users/tnoguchi/bin/JDownloader 2.0/tmp/update/package_1594905949269.awf", "/Users/tnoguchi/bin/JDownloader 2.0/tmp/update/package_1594906547950.awf" ],
+  "modifiedFiles" : [ "jd/plugins/decrypter/PremiumizeMeZeveraFolder$2.class", "jd/plugins/decrypter/BlogJav4YouCom.class", "jd/plugins/hoster/ZeveraCore.class", "jd/plugins/hoster/PremiumizeMe$1.class", "jd/plugins/hoster/ImgurComHoster$2.class", "jd/plugins/decrypter/GldSlTo.class", "jd/plugins/hoster/SeedrCc$1.class", "jd/plugins/hoster/AnonFilesCom.class", "jd/plugins/hoster/PremiumizeMe.class", "jd/plugins/hoster/KernelVideoSharingCom.class", "jd/plugins/decrypter/PornRabbitComDecrypter.class", "jd/plugins/hoster/RapidekPl$1.class", "jd/plugins/hoster/DownsterNet.class", "jd/plugins/hoster/TurboBitNet.class", "jd/plugins/decrypter/PremiumizeMeZeveraFolder.class", "jd/plugins/hoster/DownsterNet$Hoster.class", "jd/plugins/decrypter/ShorteSt.class", "jd/plugins/hoster/ZeveraCom$ZeveraAccountFactory.class", "jd/plugins/hoster/PremiumizeMe$PremiumizeAccountFactory.class", "jd/plugins/hoster/ImgurComHoster.class", "jd/plugins/hoster/GoogleDrive.class", "jd/plugins/hoster/PremiumizeMe$PremiumizeMeConfigInterface.class", "jd/plugins/hoster/YouJizzCom$1.class", "Core.jar", "jd/plugins/decrypter/SeedrCc.class", "jd/plugins/decrypter/ImgurComGallery.class", "jd/plugins/decrypter/GoogleDriveDirectoryIndex.class", "jd/plugins/hoster/YouJizzCom.class", "jd/plugins/hoster/KamababaCom.class", "jd/plugins/hoster/SeedrCc.class", "jd/plugins/decrypter/PremiumizeMeZeveraFolder$1.class", "jd/plugins/decrypter/BadJoJoComDecrypter.class", "jd/plugins/decrypter/PruteklyncsXyz.class", "jd/plugins/hoster/RapidekPl.class", "jd/plugins/hoster/Offline.class", "translations/org/jdownloader/gui/translate/GuiTranslation.bs.lng", "jd/plugins/hoster/PremiumizeMe$PremiumizeAccountFactory$1.class", "jd/plugins/decrypter/AhMeComGallery.class", "jd/plugins/hoster/ZeveraCore$3.class", "jd/plugins/hoster/AparatCam.class", "jd/plugins/hoster/ScribdCom.class", "jd/plugins/decrypter/AmateurDumperCom.class", "translations/org/jdownloader/gui/translate/GuiTranslation.pt_BR.lng", "jd/plugins/decrypter/MirroredTo.class", "jd/plugins/hoster/FaceBookComVideos.class", "jd/plugins/hoster/PimpRollHostedTube.class", "jd/plugins/hoster/XunNiuCom.class", "jd/plugins/decrypter/ImageVenueComGallery.class", "jd/plugins/hoster/ZeveraCore$2.class", "jd/plugins/decrypter/KamababaComCrawler.class", "jd/plugins/hoster/OneloadXyz.class.removed", "jd/plugins/hoster/GfyCatCom.class", "jd/plugins/hoster/UsersdriveCom.class", "jd/plugins/decrypter/MightyScriptAdLinkFly.class", "jd/plugins/hoster/HomerjDe.class.removed", "jd/plugins/decrypter/PornHubCom.class", "jd/plugins/decrypter/NaughtyBlgOrg.class", "jd/plugins/hoster/AlotpornCom.class", "build.json", "jd/plugins/hoster/RapidGatorNet.class", "jd/plugins/hoster/PremiumizeMe$PremiumizeMeConfigInterface$Translation.class", "jd/plugins/hoster/InstaGramCom.class", "jd/plugins/hoster/DorauploadCom.class", "jd/plugins/hoster/ZeveraCom$ZeveraAccountFactory$1.class", "jd/plugins/hoster/HearthisAt.class", "jd/plugins/hoster/BbcCom.class", "jd/plugins/hoster/ImgurComHoster$1.class", "jd/plugins/hoster/ZeveraCom.class", "jd/plugins/hoster/TnaFlixCom.class", "jd/plugins/decrypter/BonBonmeCom.class.removed", "jd/plugins/hoster/MegagamesCom.class", "jd/plugins/hoster/ImgurComHoster$3.class", "jd/plugins/hoster/MyfileIs.class.removed", "jd/plugins/hoster/RedTubeCom.class", "jd/plugins/hoster/GooglePremium.class", "jd/plugins/decrypter/ScribdCom.class", "jd/plugins/hoster/ZeveraCore$1.class", "jd/plugins/decrypter/NaughtyBlgOrg$1.class", "jd/plugins/hoster/GoogleDriveDirectoryIndex.class" ],
+  "modifiedPlugins" : [ "jd/plugins/decrypter/PremiumizeMeZeveraFolder$2.class", "jd/plugins/decrypter/BlogJav4YouCom.class", "jd/plugins/hoster/ZeveraCore.class", "jd/plugins/hoster/PremiumizeMe$1.class", "jd/plugins/hoster/ImgurComHoster$2.class", "jd/plugins/decrypter/GldSlTo.class", "jd/plugins/hoster/SeedrCc$1.class", "jd/plugins/hoster/AnonFilesCom.class", "jd/plugins/hoster/PremiumizeMe.class", "jd/plugins/hoster/KernelVideoSharingCom.class", "jd/plugins/decrypter/PornRabbitComDecrypter.class", "jd/plugins/hoster/RapidekPl$1.class", "jd/plugins/hoster/DownsterNet.class", "jd/plugins/hoster/TurboBitNet.class", "jd/plugins/decrypter/PremiumizeMeZeveraFolder.class", "jd/plugins/hoster/DownsterNet$Hoster.class", "jd/plugins/decrypter/ShorteSt.class", "jd/plugins/hoster/ZeveraCom$ZeveraAccountFactory.class", "jd/plugins/hoster/PremiumizeMe$PremiumizeAccountFactory.class", "jd/plugins/hoster/ImgurComHoster.class", "jd/plugins/hoster/GoogleDrive.class", "jd/plugins/hoster/PremiumizeMe$PremiumizeMeConfigInterface.class", "jd/plugins/hoster/YouJizzCom$1.class", "jd/plugins/decrypter/SeedrCc.class", "jd/plugins/decrypter/ImgurComGallery.class", "jd/plugins/decrypter/GoogleDriveDirectoryIndex.class", "jd/plugins/hoster/YouJizzCom.class", "jd/plugins/hoster/KamababaCom.class", "jd/plugins/hoster/SeedrCc.class", "jd/plugins/decrypter/PremiumizeMeZeveraFolder$1.class", "jd/plugins/decrypter/BadJoJoComDecrypter.class", "jd/plugins/decrypter/PruteklyncsXyz.class", "jd/plugins/hoster/RapidekPl.class", "jd/plugins/hoster/Offline.class", "jd/plugins/hoster/PremiumizeMe$PremiumizeAccountFactory$1.class", "jd/plugins/decrypter/AhMeComGallery.class", "jd/plugins/hoster/ZeveraCore$3.class", "jd/plugins/hoster/AparatCam.class", "jd/plugins/hoster/ScribdCom.class", "jd/plugins/decrypter/AmateurDumperCom.class", "jd/plugins/decrypter/MirroredTo.class", "jd/plugins/hoster/FaceBookComVideos.class", "jd/plugins/hoster/PimpRollHostedTube.class", "jd/plugins/hoster/XunNiuCom.class", "jd/plugins/decrypter/ImageVenueComGallery.class", "jd/plugins/hoster/ZeveraCore$2.class", "jd/plugins/decrypter/KamababaComCrawler.class", "jd/plugins/hoster/OneloadXyz.class.removed", "jd/plugins/hoster/GfyCatCom.class", "jd/plugins/hoster/UsersdriveCom.class", "jd/plugins/decrypter/MightyScriptAdLinkFly.class", "jd/plugins/hoster/HomerjDe.class.removed", "jd/plugins/decrypter/PornHubCom.class", "jd/plugins/decrypter/NaughtyBlgOrg.class", "jd/plugins/hoster/AlotpornCom.class", "jd/plugins/hoster/RapidGatorNet.class", "jd/plugins/hoster/PremiumizeMe$PremiumizeMeConfigInterface$Translation.class", "jd/plugins/hoster/InstaGramCom.class", "jd/plugins/hoster/DorauploadCom.class", "jd/plugins/hoster/ZeveraCom$ZeveraAccountFactory$1.class", "jd/plugins/hoster/HearthisAt.class", "jd/plugins/hoster/BbcCom.class", "jd/plugins/hoster/ImgurComHoster$1.class", "jd/plugins/hoster/ZeveraCom.class", "jd/plugins/hoster/TnaFlixCom.class", "jd/plugins/decrypter/BonBonmeCom.class.removed", "jd/plugins/hoster/MegagamesCom.class", "jd/plugins/hoster/ImgurComHoster$3.class", "jd/plugins/hoster/MyfileIs.class.removed", "jd/plugins/hoster/RedTubeCom.class", "jd/plugins/hoster/GooglePremium.class", "jd/plugins/decrypter/ScribdCom.class", "jd/plugins/hoster/ZeveraCore$1.class", "jd/plugins/decrypter/NaughtyBlgOrg$1.class", "jd/plugins/hoster/GoogleDriveDirectoryIndex.class" ],
+  "modifiedDirects" : [ "translations/org/jdownloader/gui/translate/GuiTranslation.pt_BR.lng", "build.json", "translations/org/jdownloader/gui/translate/GuiTranslation.bs.lng" ],
+  "modifiedRestartRequiredFiles" : [ "Core.jar" ],
+  "modifiedExtensionFiles" : [ ]
+}
+------------------------Thread: 195:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:195TS:1594907146743-7/16/20 9:45:46 AM -  [org.appwork.updatesys.client.UpdateClient(getUpdateOptions)] -> org.jdownloader.update.JDUpdateClient:getUpdateOptions:{
+  "deduplicationMode" : "INTRA",
+  "exceptions" : null,
+  "jarDiffEnabled" : true
+}
+--ID:195TS:1594907146744-7/16/20 9:45:46 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> GET http://update.appwork.org/jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=9&cv=20190425001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=MAC&osr=MAC_CATALINA&arch=X86&os64=1&jvm64=1&java=18181013&uid=dnt_&urev=14090&srev=14042&surev=14090&ct=Normal&dedup=INTRA&awfcxz=1&eid=ffmpeg_10.10%2B&dst=-1&lng=en_US&chlg=0&jdiff=1&rev=14058&1594907146682 via [Direct, Direct]
+--ID:195TS:1594907146744-7/16/20 9:45:46 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Get Try with Proxy Direct
+--ID:195TS:1594907147051-7/16/20 9:45:47 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Connection OK: 163 Bytes loaded
+--ID:195TS:1594907147051-7/16/20 9:45:47 AM -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Connection:
+----------------Request Information-------------
+URL: http://update.appwork.org/jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=9&cv=20190425001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=MAC&osr=MAC_CATALINA&arch=X86&os64=1&jvm64=1&java=18181013&uid=dnt_&urev=14090&srev=14042&surev=14090&ct=Normal&dedup=INTRA&awfcxz=1&eid=ffmpeg_10.10%2B&dst=-1&lng=en_US&chlg=0&jdiff=1&rev=14058&1594907146682
+URL-Parameters:
+   st     : 0
+   rt     : SO
+   jn     : JDownloader.jar
+   pv     : 9
+   cv     : 20190425001
+   pkh    : 12f1848a883e733ed40fffff0dae2f35
+   app    : JD
+   os     : MAC
+   osr    : MAC_CATALINA
+   arch   : X86
+   os64   : 1
+   jvm64  : 1
+   java   : 18181013
+   uid    : dnt_
+   urev   : 14090
+   srev   : 14042
+   surev  : 14090
+   ct     : Normal
+   dedup  : INTRA
+   awfcxz : 1
+   eid    : ffmpeg_10.10+
+   dst    : -1
+   lng    : en_US
+   chlg   : 0
+   jdiff  : 1
+   rev    : 14058
+          : 1594907146682
+ConnectIP: update.appwork.org/176.9.34.43:80
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=9&cv=20190425001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=MAC&osr=MAC_CATALINA&arch=X86&os64=1&jvm64=1&java=18181013&uid=dnt_&urev=14090&srev=14042&surev=14090&ct=Normal&dedup=INTRA&awfcxz=1&eid=ffmpeg_10.10%2B&dst=-1&lng=en_US&chlg=0&jdiff=1&rev=14058&1594907146682 HTTP/1.1
+Host: update.appwork.org
+Accept-Language: en_US
+User-Agent: JDownloader/201707061810
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+Cache-Control: no-cache, no-store
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Pragma: no-cache
+Connection: Close
+Accept-Encoding: gzip
+----------------Response Information------------
+Connection-Time: 136ms
+Request-Time: 137ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Date: Thu, 16 Jul 2020 13:45:47 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 163
+Connection: close
+Server: AppWork GmbH FcgiServer
+JCGI: 1
+UPD_SRV: 1
+------------------------------------------------
+
+
+--ID:195TS:1594907147051-7/16/20 9:45:47 AM -  [org.appwork.updatesys.transport.Pkg(parseServerResponse)] -> {
+ "timeStamp"    : 1594907146999,
+ "uid"          : null,
+ "revisionName" : null,
+ "destRevision" : 14058,
+ "pong"         : null,
+ "status"       : "OK"
+}
+--ID:195TS:1594907147053-7/16/20 9:45:47 AM -  [org.jdownloader.updatev2.UpdateController(onResults)] -> onResult
+--ID:195TS:1594907147055-7/16/20 9:45:47 AM -  [org.jdownloader.updatev2.UpdateController(onResults)] -> {
+  "sourcePackages" : [ "/Users/tnoguchi/bin/JDownloader 2.0/tmp/update/package_1594905949269.awf", "/Users/tnoguchi/bin/JDownloader 2.0/tmp/update/package_1594906547950.awf" ],
+  "modifiedFiles" : [ "jd/plugins/decrypter/PremiumizeMeZeveraFolder$2.class", "jd/plugins/decrypter/BlogJav4YouCom.class", "jd/plugins/hoster/ZeveraCore.class", "jd/plugins/hoster/PremiumizeMe$1.class", "jd/plugins/hoster/ImgurComHoster$2.class", "jd/plugins/decrypter/GldSlTo.class", "jd/plugins/hoster/SeedrCc$1.class", "jd/plugins/hoster/AnonFilesCom.class", "jd/plugins/hoster/PremiumizeMe.class", "jd/plugins/hoster/KernelVideoSharingCom.class", "jd/plugins/decrypter/PornRabbitComDecrypter.class", "jd/plugins/hoster/RapidekPl$1.class", "jd/plugins/hoster/DownsterNet.class", "jd/plugins/hoster/TurboBitNet.class", "jd/plugins/decrypter/PremiumizeMeZeveraFolder.class", "jd/plugins/hoster/DownsterNet$Hoster.class", "jd/plugins/decrypter/ShorteSt.class", "jd/plugins/hoster/ZeveraCom$ZeveraAccountFactory.class", "jd/plugins/hoster/PremiumizeMe$PremiumizeAccountFactory.class", "jd/plugins/hoster/ImgurComHoster.class", "jd/plugins/hoster/GoogleDrive.class", "jd/plugins/hoster/PremiumizeMe$PremiumizeMeConfigInterface.class", "jd/plugins/hoster/YouJizzCom$1.class", "Core.jar", "jd/plugins/decrypter/SeedrCc.class", "jd/plugins/decrypter/ImgurComGallery.class", "jd/plugins/decrypter/GoogleDriveDirectoryIndex.class", "jd/plugins/hoster/YouJizzCom.class", "jd/plugins/hoster/KamababaCom.class", "jd/plugins/hoster/SeedrCc.class", "jd/plugins/decrypter/PremiumizeMeZeveraFolder$1.class", "jd/plugins/decrypter/BadJoJoComDecrypter.class", "jd/plugins/decrypter/PruteklyncsXyz.class", "jd/plugins/hoster/RapidekPl.class", "jd/plugins/hoster/Offline.class", "translations/org/jdownloader/gui/translate/GuiTranslation.bs.lng", "jd/plugins/hoster/PremiumizeMe$PremiumizeAccountFactory$1.class", "jd/plugins/decrypter/AhMeComGallery.class", "jd/plugins/hoster/ZeveraCore$3.class", "jd/plugins/hoster/AparatCam.class", "jd/plugins/hoster/ScribdCom.class", "jd/plugins/decrypter/AmateurDumperCom.class", "translations/org/jdownloader/gui/translate/GuiTranslation.pt_BR.lng", "jd/plugins/decrypter/MirroredTo.class", "jd/plugins/hoster/FaceBookComVideos.class", "jd/plugins/hoster/PimpRollHostedTube.class", "jd/plugins/hoster/XunNiuCom.class", "jd/plugins/decrypter/ImageVenueComGallery.class", "jd/plugins/hoster/ZeveraCore$2.class", "jd/plugins/decrypter/KamababaComCrawler.class", "jd/plugins/hoster/OneloadXyz.class.removed", "jd/plugins/hoster/GfyCatCom.class", "jd/plugins/hoster/UsersdriveCom.class", "jd/plugins/decrypter/MightyScriptAdLinkFly.class", "jd/plugins/hoster/HomerjDe.class.removed", "jd/plugins/decrypter/PornHubCom.class", "jd/plugins/decrypter/NaughtyBlgOrg.class", "jd/plugins/hoster/AlotpornCom.class", "build.json", "jd/plugins/hoster/RapidGatorNet.class", "jd/plugins/hoster/PremiumizeMe$PremiumizeMeConfigInterface$Translation.class", "jd/plugins/hoster/InstaGramCom.class", "jd/plugins/hoster/DorauploadCom.class", "jd/plugins/hoster/ZeveraCom$ZeveraAccountFactory$1.class", "jd/plugins/hoster/HearthisAt.class", "jd/plugins/hoster/BbcCom.class", "jd/plugins/hoster/ImgurComHoster$1.class", "jd/plugins/hoster/ZeveraCom.class", "jd/plugins/hoster/TnaFlixCom.class", "jd/plugins/decrypter/BonBonmeCom.class.removed", "jd/plugins/hoster/MegagamesCom.class", "jd/plugins/hoster/ImgurComHoster$3.class", "jd/plugins/hoster/MyfileIs.class.removed", "jd/plugins/hoster/RedTubeCom.class", "jd/plugins/hoster/GooglePremium.class", "jd/plugins/decrypter/ScribdCom.class", "jd/plugins/hoster/ZeveraCore$1.class", "jd/plugins/decrypter/NaughtyBlgOrg$1.class", "jd/plugins/hoster/GoogleDriveDirectoryIndex.class" ],
+  "modifiedPlugins" : [ "jd/plugins/decrypter/PremiumizeMeZeveraFolder$2.class", "jd/plugins/decrypter/BlogJav4YouCom.class", "jd/plugins/hoster/ZeveraCore.class", "jd/plugins/hoster/PremiumizeMe$1.class", "jd/plugins/hoster/ImgurComHoster$2.class", "jd/plugins/decrypter/GldSlTo.class", "jd/plugins/hoster/SeedrCc$1.class", "jd/plugins/hoster/AnonFilesCom.class", "jd/plugins/hoster/PremiumizeMe.class", "jd/plugins/hoster/KernelVideoSharingCom.class", "jd/plugins/decrypter/PornRabbitComDecrypter.class", "jd/plugins/hoster/RapidekPl$1.class", "jd/plugins/hoster/DownsterNet.class", "jd/plugins/hoster/TurboBitNet.class", "jd/plugins/decrypter/PremiumizeMeZeveraFolder.class", "jd/plugins/hoster/DownsterNet$Hoster.class", "jd/plugins/decrypter/ShorteSt.class", "jd/plugins/hoster/ZeveraCom$ZeveraAccountFactory.class", "jd/plugins/hoster/PremiumizeMe$PremiumizeAccountFactory.class", "jd/plugins/hoster/ImgurComHoster.class", "jd/plugins/hoster/GoogleDrive.class", "jd/plugins/hoster/PremiumizeMe$PremiumizeMeConfigInterface.class", "jd/plugins/hoster/YouJizzCom$1.class", "jd/plugins/decrypter/SeedrCc.class", "jd/plugins/decrypter/ImgurComGallery.class", "jd/plugins/decrypter/GoogleDriveDirectoryIndex.class", "jd/plugins/hoster/YouJizzCom.class", "jd/plugins/hoster/KamababaCom.class", "jd/plugins/hoster/SeedrCc.class", "jd/plugins/decrypter/PremiumizeMeZeveraFolder$1.class", "jd/plugins/decrypter/BadJoJoComDecrypter.class", "jd/plugins/decrypter/PruteklyncsXyz.class", "jd/plugins/hoster/RapidekPl.class", "jd/plugins/hoster/Offline.class", "jd/plugins/hoster/PremiumizeMe$PremiumizeAccountFactory$1.class", "jd/plugins/decrypter/AhMeComGallery.class", "jd/plugins/hoster/ZeveraCore$3.class", "jd/plugins/hoster/AparatCam.class", "jd/plugins/hoster/ScribdCom.class", "jd/plugins/decrypter/AmateurDumperCom.class", "jd/plugins/decrypter/MirroredTo.class", "jd/plugins/hoster/FaceBookComVideos.class", "jd/plugins/hoster/PimpRollHostedTube.class", "jd/plugins/hoster/XunNiuCom.class", "jd/plugins/decrypter/ImageVenueComGallery.class", "jd/plugins/hoster/ZeveraCore$2.class", "jd/plugins/decrypter/KamababaComCrawler.class", "jd/plugins/hoster/OneloadXyz.class.removed", "jd/plugins/hoster/GfyCatCom.class", "jd/plugins/hoster/UsersdriveCom.class", "jd/plugins/decrypter/MightyScriptAdLinkFly.class", "jd/plugins/hoster/HomerjDe.class.removed", "jd/plugins/decrypter/PornHubCom.class", "jd/plugins/decrypter/NaughtyBlgOrg.class", "jd/plugins/hoster/AlotpornCom.class", "jd/plugins/hoster/RapidGatorNet.class", "jd/plugins/hoster/PremiumizeMe$PremiumizeMeConfigInterface$Translation.class", "jd/plugins/hoster/InstaGramCom.class", "jd/plugins/hoster/DorauploadCom.class", "jd/plugins/hoster/ZeveraCom$ZeveraAccountFactory$1.class", "jd/plugins/hoster/HearthisAt.class", "jd/plugins/hoster/BbcCom.class", "jd/plugins/hoster/ImgurComHoster$1.class", "jd/plugins/hoster/ZeveraCom.class", "jd/plugins/hoster/TnaFlixCom.class", "jd/plugins/decrypter/BonBonmeCom.class.removed", "jd/plugins/hoster/MegagamesCom.class", "jd/plugins/hoster/ImgurComHoster$3.class", "jd/plugins/hoster/MyfileIs.class.removed", "jd/plugins/hoster/RedTubeCom.class", "jd/plugins/hoster/GooglePremium.class", "jd/plugins/decrypter/ScribdCom.class", "jd/plugins/hoster/ZeveraCore$1.class", "jd/plugins/decrypter/NaughtyBlgOrg$1.class", "jd/plugins/hoster/GoogleDriveDirectoryIndex.class" ],
+  "modifiedDirects" : [ "translations/org/jdownloader/gui/translate/GuiTranslation.pt_BR.lng", "build.json", "translations/org/jdownloader/gui/translate/GuiTranslation.bs.lng" ],
+  "modifiedRestartRequiredFiles" : [ "Core.jar" ],
+  "modifiedExtensionFiles" : [ ]
+}

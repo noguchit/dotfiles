@@ -1,0 +1,121 @@
+[ {
+  "enabled" : true,
+  "groupingID" : "DESCRIPTION",
+  "name" : "Best Description",
+  "variants" : null,
+  "dropdown" : null
+}, {
+  "enabled" : true,
+  "groupingID" : "SUBTITLES",
+  "name" : "Best Subtitles",
+  "variants" : null,
+  "dropdown" : null
+}, {
+  "enabled" : true,
+  "groupingID" : "IMAGE",
+  "name" : "Best Images",
+  "variants" : null,
+  "dropdown" : null
+}, {
+  "enabled" : true,
+  "groupingID" : "VIDEO_SPHERICAL_3D",
+  "name" : "Best 3D 360° Video",
+  "variants" : null,
+  "dropdown" : null
+}, {
+  "enabled" : true,
+  "groupingID" : "VIDEO_SPHERICAL",
+  "name" : "Best 360° Video",
+  "variants" : null,
+  "dropdown" : null
+}, {
+  "enabled" : true,
+  "groupingID" : "VIDEO_NORMAL",
+  "name" : "Best 2D Video",
+  "variants" : null,
+  "dropdown" : null
+}, {
+  "enabled" : true,
+  "groupingID" : "VIDEO_ANAGLYPH_3D",
+  "name" : "Best 3D Video",
+  "variants" : null,
+  "dropdown" : null
+}, {
+  "enabled" : true,
+  "groupingID" : "AUDIO",
+  "name" : "Best Audio",
+  "variants" : null,
+  "dropdown" : null
+}, {
+  "enabled" : false,
+  "groupingID" : "MP4",
+  "name" : "Best mp4",
+  "variants" : null,
+  "dropdown" : null
+}, {
+  "enabled" : false,
+  "groupingID" : "WEBM",
+  "name" : "Best webm",
+  "variants" : null,
+  "dropdown" : null
+}, {
+  "enabled" : false,
+  "groupingID" : "FLV",
+  "name" : "Best flv",
+  "variants" : null,
+  "dropdown" : null
+}, {
+  "enabled" : false,
+  "groupingID" : "THREEGP",
+  "name" : "Best 3gp",
+  "variants" : null,
+  "dropdown" : null
+}, {
+  "enabled" : false,
+  "groupingID" : "MKV",
+  "name" : "Best mkv",
+  "variants" : null,
+  "dropdown" : null
+}, {
+  "enabled" : false,
+  "groupingID" : "MP3",
+  "name" : "Best mp3",
+  "variants" : null,
+  "dropdown" : null
+}, {
+  "enabled" : false,
+  "groupingID" : "M4A",
+  "name" : "Best m4a",
+  "variants" : null,
+  "dropdown" : null
+}, {
+  "enabled" : false,
+  "groupingID" : "AAC",
+  "name" : "Best aac",
+  "variants" : null,
+  "dropdown" : null
+}, {
+  "enabled" : false,
+  "groupingID" : "OGG",
+  "name" : "Best ogg",
+  "variants" : null,
+  "dropdown" : null
+}, {
+  "enabled" : false,
+  "groupingID" : "JPG",
+  "name" : "Best jpg",
+  "variants" : null,
+  "dropdown" : null
+}, {
+  "enabled" : false,
+  "groupingID" : "SRT",
+  "name" : "Best srt",
+  "variants" : null,
+  "dropdown" : null
+}, {
+  "enabled" : false,
+  "groupingID" : "TXT",
+  "name" : "Best txt",
+  "variants" : null,
+  "dropdown" : null
+} ]

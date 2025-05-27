@@ -1,0 +1,6 @@
+------------------------Thread: 70:ExtractionExtension.log-----------------------
+--ID:70TS:1594905946552-7/16/20 9:25:46 AM -  [org.jdownloader.extensions.extraction.multi.Multi(checkLibraries)] -> Try Lib IDs: [Mac-x86_64]
+--ID:70TS:1594905946552-7/16/20 9:25:46 AM -  [org.jdownloader.extensions.extraction.multi.Multi(initLibrary)] -> Try Lib ID: Mac-x86_64
+--ID:70TS:1594905946553-7/16/20 9:25:46 AM -  [org.jdownloader.extensions.extraction.multi.Multi(initLibrary)] -> Try Lib Path: /Users/tnoguchi/bin/JDownloader 2.0/tmp/7zip->true
+--ID:70TS:1594905946706-7/16/20 9:25:46 AM -  [org.jdownloader.extensions.extraction.multi.Multi(isAvailable)] -> Supported SevenZipJBinding|Version=4.65|RAR5=false|CPU_ARCH=X86|OS_FAM=MAC|OS=MAC_CATALINA|64Bit_JVM=true|64Bit_ARCH=true
+--ID:70TS:1594905946714-7/16/20 9:25:46 AM -  [org.jdownloader.extensions.AbstractExtension(init)] -> Init Duration: 187

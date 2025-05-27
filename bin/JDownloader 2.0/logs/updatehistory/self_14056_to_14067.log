@@ -1,0 +1,20 @@
+Thu Jul 09 10:15:08 EDT 2020
+Package: updatePackage.awf
+   JD: JDownloader.jar/org/appwork/storage/simplejson/mapper/ClassCache.class
+   JD: JDownloader.jar/org/appwork/updatesys/service/ConnectService$1.class
+   JD: JDownloader.jar/org/appwork/updatesys/service/ConnectService.class
+   JD: JDownloader.jar/org/appwork/updatesys/service/ServiceExecuter.class
+   JD: JDownloader.jar/org/appwork/updatesys/service/ServiceInstallation.class
+   JD: JDownloader.jar/org/appwork/updatesys/transport/exchange/Constants.class
+   JD: JDownloader.jar/org/appwork/utils/StringUtils.class
+   JD: JDownloader.jar/org/appwork/utils/net/BasicHTTP/BasicHTTP$1.class
+   JD: JDownloader.jar/org/appwork/utils/net/BasicHTTP/BasicHTTP.class
+   JD: JDownloader.jar/org/appwork/utils/os/CrossSystem$1.class
+   JD: JDownloader.jar/org/appwork/utils/os/CrossSystem$2.class
+   JD: JDownloader.jar/org/appwork/utils/os/CrossSystem$3.class
+   JD: JDownloader.jar/org/appwork/utils/os/CrossSystem$ARCHFamily.class
+   JD: JDownloader.jar/org/appwork/utils/os/CrossSystem$OSFamily.class
+   JD: JDownloader.jar/org/appwork/utils/os/CrossSystem$OperatingSystem.class
+   JD: JDownloader.jar/org/appwork/utils/os/CrossSystem.class
+   JD: JDownloader.jar/org/appwork/utils/os/DesktopSupportWindows$1.class
+   JD: JDownloader.jar/org/appwork/utils/os/DesktopSupportWindows.class

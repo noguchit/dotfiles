@@ -1,0 +1,697 @@
+[INFO] logger started at Sun Apr 19 09:09:40 EDT 2020
+[INFO] executable name: /Volumes/jd2/JDownloader Installer.app
+[INFO] install4j version: 7.0.7 (build 7204)
+[INFO] Properties: 
+-- listing properties --
+java.runtime.name=Java(TM) SE Runtime Environment
+exe4j.moduleName=/Volumes/jd2/JDownloader Installer.app
+sun.boot.library.path=/private/var/folders/gj/cwrfmk9d22l6j...
+java.vm.version=25.181-b13
+i4j.jreBundle=/var/folders/gj/cwrfmk9d22l6j37y4vf92...
+gopherProxySet=false
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+path.separator=:
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+user.country=US
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+install4j.exeDir=/Volumes/jd2/
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/Volumes/jd2/JDownloader Installer.ap...
+java.runtime.version=1.8.0_181-b13
+java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+i4j.ownBundlePath=/Volumes/jd2/JDownloader Installer.app
+java.endorsed.dirs=/private/var/folders/gj/cwrfmk9d22l6j...
+os.arch=x86_64
+java.io.tmpdir=/var/folders/gj/cwrfmk9d22l6j37y4vf92...
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+os.name=Mac OS X
+sun.java2d.noddraw=true
+sun.jnu.encoding=UTF-8
+java.library.path=/Users/tnoguchi/Library/Java/Extensio...
+sun.awt.enableExtraMouseButtons=true
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+os.version=10.15.4
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+user.home=/Users/tnoguchi
+user.timezone=America/Indiana/Indianapolis
+java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+java.specification.version=1.8
+file.encoding=UTF-8
+user.name=tnoguchi
+java.class.path=/Volumes/jd2/JDownloader Installer.ap...
+java.vm.specification.version=1.8
+sun.arch.data.model=64
+java.home=/private/var/folders/gj/cwrfmk9d22l6j...
+sun.java.command=com.install4j.runtime.launcher.MacLau...
+java.specification.vendor=Oracle Corporation
+user.language=en
+awt.toolkit=sun.lwawt.macosx.LWCToolkit
+java.vm.info=mixed mode
+java.version=1.8.0_181
+java.ext.dirs=/Users/tnoguchi/Library/Java/Extensio...
+sun.boot.class.path=/private/var/folders/gj/cwrfmk9d22l6j...
+java.vendor=Oracle Corporation
+i4j.tarFile=/Volumes/jd2/JDownloader Installer.ap...
+install4j.appDir=/Volumes/jd2/JDownloader Installer.ap...
+file.separator=/
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+sun.cpu.endian=little
+sun.io.unicode.encoding=UnicodeBig
+sun.font.fontmanager=sun.font.CFontManager
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+sun.cpu.isalist=
+[INFO] Variable changed: sys.resolveUserSpecificInstallationDir=false[class java.lang.String]
+[INFO] com.install4j.runtime.installer.platform.macos.VolumeInfo: image: /Users/tnoguchi/Downloads/JD2Setup_bundledjre.dmg, mountPoint: /Volumes/jd2
+[INFO] System language 'en'
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 6690]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_355
+       Property rollbackSupported: false
+       Execute action successful after 3 ms
+[INFO] com.install4j.runtime.beans.actions.misc.RequestPrivilegesAction [ID 13]: Execute action
+       Property allRequested: false
+       Property failIfNotObtainedMac: true
+       Property failIfNotObtainedWin: true
+       Property failIfNotRootUnix: false
+       Property obtainIfAdminMac: false
+       Property obtainIfAdminWin: true
+       Property obtainIfNormalMac: false
+       Property obtainIfNormalWin: true
+       Property rollbackSupported: false
+       Property updateInstallationDirectory: true
+       Execute action successful after 21 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 6619]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_356
+       Property rollbackSupported: false
+       Variable changed: proxylist=[][class java.util.ArrayList]
+       Execute action successful after 15 ms
+[INFO] org.appwork.install4j.DebugSupportAction [ID 8047]: Execute action
+       Property rollbackSupported: true
+       Execute action successful after 0 ms
+[INFO] org.appwork.install4j.ReadVarFileAction [ID 8048]: Execute action
+       Property rollbackSupported: true
+[ERROR] org.appwork.install4j.ReadVarFileAction [ID 8048]: Execute action not successful after 1 ms
+[INFO] org.appwork.install4j.AutosetInstallDirAction [ID 5591]: Execute action
+       Property folderName: null
+       Property rollbackSupported: true
+       Variable changed: createDesktopLinkAction=false[class java.lang.Boolean]
+       Variable changed: createQuicklaunchIconAction=false[class java.lang.Boolean]
+       Variable changed: executeLauncherAction=false[class java.lang.Boolean]
+       Variable changed: sys.fileAssociation.extensions=[][class [Ljava.lang.String;]
+       Variable changed: sys.fileAssociation.launchers=[][class [Ljava.lang.String;]
+       Variable changed: sys.installationDir=/Users/tnoguchi/bin/JDownloader 2.0[class java.lang.String]
+       Execute action successful after 1 ms
+[INFO] org.appwork.install4j.WebLogger [ID 7215]: Execute action
+       Property action: No Ads/started
+       Property path: null
+       Property proxyVoleEnabled: true
+       Property rollbackSupported: true
+       Variable changed: logID=76a4a7b11c49f2ad97b355aede6a6312[class java.lang.String]
+       Execute action successful after 13 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 8046]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_358
+       Property rollbackSupported: false
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 1]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: Show screen
+[INFO] org.appwork.install4j.WebLogger [ID 7218]: Execute action
+       Property action: No Ads/gui
+       Property path: null
+       Property proxyVoleEnabled: true
+       Property rollbackSupported: true
+       Variable changed: logID=34da8590c1b7f97c9a459744d2b22ba5[class java.lang.String]
+       Execute action successful after 3 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 9374]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_360
+       Property rollbackSupported: false
+[INFO] com.install4j.script.I4jScript_Internal_360: Started Installer Build 20180927122925 - _with_jre(No Ads)
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 9374]: Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 1214]: Show screen
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 1214]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 6099]: Show screen
+       checking writable with maximum
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 6099]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.AdditionalConfirmationsScreen [ID 980]: Show screen
+       Variable changed: createDesktopLinkAction=false[class java.lang.Boolean]
+       Variable changed: addToDockAction=false[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.actions.finish.ShowURLAction [ID 9110]: Execute action
+       Property urlSpec: https://my.jdownloader.org/contribute/#/?ref=presetup
+       Property rollbackSupported: false
+       Execute action successful after 24 ms
+[INFO] com.install4j.runtime.beans.screens.AdditionalConfirmationsScreen [ID 980]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Show screen
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction [ID 9]: Execute action
+       Property directoryResolverScript: null
+       Property fileFilterScript: null
+       Property sizeCalculatorScript: null
+       Property checkFreeSpace: true
+       Property delay: false
+       Property installRuntime: true
+       Property rollbackSupported: true
+       Property saveDownloadedFiles: false
+       Property showFileNames: true
+       Property triggerReboot: true
+       Property updateBundledJre: true
+       Property validateApplicationId: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/LICENSE; size: 40 bytes; exists: false
+       File options set to: [fileTime: Sun Apr 19 09:09:36 EDT 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/bin/unpack200; size: 116640 bytes; exists: false
+       File options set to: [fileTime: Sun Apr 19 09:09:37 EDT 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/bin/rmid; size: 103440 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/bin/rmiregistry; size: 103440 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/bin/java; size: 103376 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/bin/servertool; size: 103440 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/bin/orbd; size: 103440 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/bin/keytool; size: 103440 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/bin/policytool; size: 103440 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/bin/pack200; size: 103440 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/bin/jjs; size: 103440 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/bin/tnameserv; size: 103440 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/THIRDPARTYLICENSEREADME.txt; size: 154222 bytes; exists: false
+       File options set to: [fileTime: Sun Apr 19 09:09:36 EDT 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/THIRDPARTYLICENSEREADME-JAVAFX.txt; size: 106782 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/README; size: 46 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/Welcome.html; size: 955 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libnet.dylib; size: 90300 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libnio.dylib; size: 61524 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libinstrument.dylib; size: 142140 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libjavafx_iio.dylib; size: 242856 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libzip.dylib; size: 36680 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/cmm/sRGB.pf; size: 3144 bytes; exists: false
+       File options set to: [fileTime: Sun Apr 19 09:09:37 EDT 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/cmm/CIEXYZ.pf; size: 51236 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/cmm/PYCC.pf; size: 274474 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/cmm/GRAY.pf; size: 632 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/cmm/LINEAR_RGB.pf; size: 1044 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/psfontj2d.properties; size: 10393 bytes; exists: false
+       File options set to: [fileTime: Sun Apr 19 09:09:36 EDT 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/fontconfig.properties.src; size: 8087 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libresource.dylib; size: 10104 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/logging.properties; size: 2455 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/sound.properties; size: 1210 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libjava_crw_demo.dylib; size: 28896 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/currency.data; size: 4134 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libjavafx_font_t2k.dylib; size: 723732 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libsplashscreen.dylib; size: 344632 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libdt_socket.dylib; size: 25624 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libj2pkcs11.dylib; size: 70692 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/calendars.properties; size: 1378 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/jvm.cfg; size: 624 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/hijrah-config-umalqura.properties; size: 13962 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/jli/libjli.dylib; size: 61428 bytes; exists: false
+       File options set to: [fileTime: Sun Apr 19 09:09:37 EDT 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/security/trusted.libraries; size: 0 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/security/blacklisted.certs; size: 1273 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/security/java.security; size: 41565 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/security/blacklist; size: 4054 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/security/java.policy; size: 2466 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/security/cacerts; size: 114757 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/security/policy/unlimited/local_policy.jar; size: 3035 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/security/policy/unlimited/US_export_policy.jar; size: 3023 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/security/policy/limited/local_policy.jar; size: 3527 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/security/policy/limited/US_export_policy.jar; size: 3026 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libjfxmedia_avf.dylib; size: 200256 bytes; exists: false
+       File options set to: [fileTime: Sun Apr 19 09:09:36 EDT 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/jfr/default.jfc; size: 20109 bytes; exists: false
+       File options set to: [fileTime: Sun Apr 19 09:09:37 EDT 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/jfr/profile.jfc; size: 20065 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/images/cursors/cursors.properties; size: 1274 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/images/cursors/motif_LinkDrop32x32.gif; size: 162 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/images/cursors/motif_CopyDrop32x32.gif; size: 158 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/images/cursors/motif_LinkNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/images/cursors/invalid32x32.gif; size: 153 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/images/cursors/motif_MoveNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/images/cursors/motif_CopyNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/images/cursors/motif_MoveDrop32x32.gif; size: 141 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libjfr.dylib; size: 25328 bytes; exists: false
+       File options set to: [fileTime: Sun Apr 19 09:09:36 EDT 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libhprof.dylib; size: 217048 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libosxkrb5.dylib; size: 14424 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/net.properties; size: 4464 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/rt.jar; size: 66946447 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/javafx.properties; size: 56 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libosxui.dylib; size: 36068 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libglib-lite.dylib; size: 1058056 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/tzdb.dat; size: 105882 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/ext/sunec.jar; size: 41672 bytes; exists: false
+       File options set to: [fileTime: Sun Apr 19 09:09:37 EDT 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/ext/nashorn.jar; size: 2023885 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/ext/cldrdata.jar; size: 3860502 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/ext/jfxrt.jar; size: 18599673 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/ext/dnsns.jar; size: 8286 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/ext/localedata.jar; size: 1178932 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/ext/sunjce_provider.jar; size: 277834 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/ext/meta-index; size: 1269 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/ext/sunpkcs11.jar; size: 250131 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/ext/jaccess.jar; size: 44516 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/ext/zipfs.jar; size: 68963 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libjdwp.dylib; size: 304464 bytes; exists: false
+       File options set to: [fileTime: Sun Apr 19 09:09:36 EDT 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/deploy.jar; size: 2237780 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/management/jmxremote.access; size: 3998 bytes; exists: false
+       File options set to: [fileTime: Sun Apr 19 09:09:37 EDT 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/management/snmp.acl.template; size: 3376 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/management/management.properties; size: 14630 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/management/jmxremote.password.template; size: 2856 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libsunec.dylib; size: 161704 bytes; exists: false
+       File options set to: [fileTime: Sun Apr 19 09:09:36 EDT 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libawt_lwawt.dylib; size: 744444 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libfxplugins.dylib; size: 170096 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/jfr.jar; size: 560713 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libt2k.dylib; size: 314584 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/server/libjvm.dylib; size: 16243516 bytes; exists: false
+       File options set to: [fileTime: Sun Apr 19 09:09:37 EDT 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/server/Xusage.txt; size: 1423 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/server/libjsig.dylib; size: 15744 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/jsse.jar; size: 660664 bytes; exists: false
+       File options set to: [fileTime: Sun Apr 19 09:09:36 EDT 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/plugin.jar; size: 942431 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libglass.dylib; size: 356044 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/jfxswt.jar; size: 33930 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libmlib_image.dylib; size: 834796 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libjavafx_font.dylib; size: 39304 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libmanagement.dylib; size: 53616 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libjaas_unix.dylib; size: 8852 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libgstreamer-lite.dylib; size: 1366536 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libjsound.dylib; size: 74872 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libjfxwebkit.dylib; size: 62433016 bytes; exists: false
+       File options set to: [fileTime: Sun Apr 19 09:09:37 EDT 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/charsets.jar; size: 3135615 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/resources.jar; size: 3505346 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libnpt.dylib; size: 15700 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libbci.dylib; size: 9164 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libj2pcsc.dylib; size: 15092 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libjsig.dylib; size: 15744 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/jvm.hprof.txt; size: 4226 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libjawt.dylib; size: 8652 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libattach.dylib; size: 16140 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libprism_common.dylib; size: 46668 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/content-types.properties; size: 5916 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libprism_es2.dylib; size: 58012 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libfontmanager.dylib; size: 419440 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/fontconfig.bfc; size: 3058 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libkcms.dylib; size: 374428 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/jspawnhelper; size: 15136 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/meta-index; size: 2107 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/management-agent.jar; size: 381 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libjpeg.dylib; size: 184652 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/jce.jar; size: 115651 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/flavormap.properties; size: 4211 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libdecora_sse.dylib; size: 66964 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libjsdt.dylib; size: 14636 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/liblcms.dylib; size: 346512 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libdeploy.dylib; size: 167416 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libAppleScriptEngine.dylib; size: 45120 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libverify.dylib; size: 49480 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/psfont.properties.ja; size: 2796 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libj2gss.dylib; size: 41124 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libdcpr.dylib; size: 186456 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libsaproc.dylib; size: 77044 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/fonts/LucidaSansRegular.ttf; size: 698236 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/fonts/LucidaTypewriterRegular.ttf; size: 242700 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/fonts/fonts.dir; size: 4041 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/fonts/LucidaBrightDemiBold.ttf; size: 75144 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/fonts/LucidaSansDemiBold.ttf; size: 317896 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/fonts/LucidaBrightRegular.ttf; size: 344908 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/fonts/LucidaBrightItalic.ttf; size: 80856 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/fonts/LucidaBrightDemiItalic.ttf; size: 75124 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/fonts/LucidaTypewriterBold.ttf; size: 234068 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/classlist; size: 72450 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libjava.dylib; size: 217444 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libawt.dylib; size: 557060 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libunpack.dylib; size: 102212 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libosx.dylib; size: 55576 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libjfxmedia.dylib; size: 212420 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libprism_sw.dylib; size: 68088 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/lib/libosxapp.dylib; size: 111084 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Home/jre/COPYRIGHT; size: 3244 bytes; exists: false
+       File options set to: [fileTime: Sun Apr 19 09:09:36 EDT 2020, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/jre.bundle/Contents/Info.plist; size: 1581 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/64d41994.lprop; size: 76 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 27 06:29:24 EDT 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/Messages.bundle/Contents/Resources/de.lproj/Localizable.strings; size: 506 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/Messages.bundle/Contents/Resources/en.lproj/Localizable.strings; size: 416 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/uninstall; size: 14309 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 27 06:29:24 EDT 2018, mode: 755, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader Uninstaller.app/Contents/Info.plist; size: 2114 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 27 06:29:24 EDT 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader Uninstaller.app/Contents/MacOS/JavaApplicationStub; size: 84976 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 27 06:29:24 EDT 2018, mode: 755, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader Uninstaller.app/Contents/PkgInfo; size: 8 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 27 06:29:24 EDT 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader Uninstaller.app/Contents/Resources/app.icns; size: 378914 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader Uninstaller.app/Contents/Resources/de.lproj/InfoPlist.strings; size: 242 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader Uninstaller.app/Contents/Resources/en.lproj/InfoPlist.strings; size: 230 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader Uninstaller.app/Contents/Resources/i4jlauncher.config; size: 2400 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader Uninstaller.app/Contents/_CodeSignature/CodeResources; size: 3486 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader.jar; size: 3399710 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app/Contents/Info.plist; size: 3542 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app/Contents/MacOS/JavaApplicationStub; size: 84976 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 27 06:29:24 EDT 2018, mode: 755, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app/Contents/PkgInfo; size: 8 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 27 06:29:24 EDT 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app/Contents/Resources/app.icns; size: 378914 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app/Contents/Resources/i4jlauncher.config; size: 2447 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app/Contents/_CodeSignature/CodeResources; size: 3006 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/inst_jre.cfg; size: 145 bytes; exists: false
+       File options set to: [fileTime: Sun Apr 19 09:10:03 EDT 2020, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/pref_jre.cfg; size: 58 bytes; exists: false
+       File options set to: [fileTime: Sun Apr 19 09:10:03 EDT 2020, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/i4jruntime.jar; size: 1862982 bytes; exists: false
+       File options set to: [fileTime: Sun Apr 19 09:10:03 EDT 2020, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/MessagesDefault; size: 33678 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/i4jparams.conf; size: 118760 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/stats.properties; size: 340 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/user.jar; size: 99681 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/user/add.png; size: 601 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/user/tafel_herz.png; size: 67374 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/user/add.png; size: 601 bytes; exists: true
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/user/tafel_herz.png; size: 67374 bytes; exists: true
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/install4j; size: 30528 bytes; exists: false
+       File options set to: [fileTime: Sun Apr 19 09:10:03 EDT 2020, mode: 755, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/i4j_extf_0_69g5ss.utf8; size: 33678 bytes; exists: false
+       File options set to: [fileTime: Sun Apr 19 09:10:03 EDT 2020, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/i4j_extf_10_69g5ss_18gg8kx.png; size: 9202 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/i4j_extf_10_69g5ss_18gg8kx@2x.png; size: 15419 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/i4j_extf_11_69g5ss_yklgyb.png; size: 9749 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/i4j_extf_1_69g5ss.utf8; size: 4818 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/i4j_extf_2_69g5ss.utf8; size: 36087 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/i4j_extf_3_69g5ss.utf8; size: 4322 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/i4j_extf_4_69g5ss_14qfchv.png; size: 3683 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/i4j_extf_5_69g5ss_1jb375m.png; size: 3064 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/i4j_extf_6_69g5ss_1pcd4ys.png; size: 6081 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/i4j_extf_7_69g5ss_jbdzbb.png; size: 2037 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/i4j_extf_8_69g5ss_1kdboqw.ico; size: 187105 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/i4j_extf_9_69g5ss_11sudsr.png; size: 67374 bytes; exists: false
+       Install file: /Users/tnoguchi/bin/JDownloader 2.0/.install4j/libi4jinst.dylib; size: 93108 bytes; exists: false
+       Execute action successful after 5829 ms
+[INFO] org.appwork.install4j.WebLogger [ID 7072]: Execute action
+       Property action: No Ads/installed
+       Property path: null
+       Property proxyVoleEnabled: true
+       Property rollbackSupported: true
+       Variable changed: logID=c1909ec80340cdb5311073341c157800[class java.lang.String]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetProgressAction [ID 6890]: Execute action
+       Property percentValue: -1
+       Property progressChangeType: Set indeterminate state
+       Property timerMaxPercentValue: 100
+       Property timerPeriod: 1000
+       Property rollbackSupported: false
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetMessageAction [ID 7781]: Execute action
+       Property detailMessage: 
+       Property statusMessage: Search old Installations
+       Property rollbackSupported: false
+       Property useDetail: false
+       Property useStatus: true
+       Execute action successful after 0 ms
+[INFO] org.appwork.install4j.SearchJD1Installation [ID 7779]: Execute action
+       Property rollbackSupported: true
+       Preset Config null
+       Search in Folder: /Users/tnoguchi/bin/JDownloader 2.0
+       Search in Folder: /Users/tnoguchi/bin/JDownloader 2.0/.install4j
+       Search in Folder: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app
+       Search in Folder: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader Uninstaller.app
+       Search in Folder: /Users/tnoguchi/bin/JDownloader 2.0/.install4j
+       Search in Folder: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader2.app
+       Search in Folder: /Users/tnoguchi/bin/JDownloader 2.0/JDownloader Uninstaller.app
+       Search in Folder: /Users/tnoguchi/hoge
+       Search in Folder: /Users/tnoguchi/.config
+       Search in Folder: /Users/tnoguchi/Music
+       Search in Folder: /Users/tnoguchi/.docker
+       Search in Folder: /Users/tnoguchi/Databases
+       Search in Folder: /Users/tnoguchi/.vim
+       Search in Folder: /Users/tnoguchi/Box
+       Search in Folder: /Users/tnoguchi/.Box_UIServer
+       Search in Folder: /Users/tnoguchi/Quiver.wiki
+       Search in Folder: /Users/tnoguchi/bin
+       Search in Folder: /Users/tnoguchi/taskpaper.vim
+       Search in Folder: /Users/tnoguchi/.subversion
+       Search in Folder: /Users/tnoguchi/.vnc
+       Search in Folder: /Users/tnoguchi/.thinlinc
+       Search in Folder: /Users/tnoguchi/Creative Cloud Files
+       Search in Folder: /Users/tnoguchi/Pictures
+       Search in Folder: /Users/tnoguchi/.pylint.d
+       Search in Folder: /Users/tnoguchi/.atom
+       Search in Folder: /Users/tnoguchi/node_modules
+       Search in Folder: /Users/tnoguchi/.Box_SyncToStreem
+       Search in Folder: /Users/tnoguchi/.ipython
+       Search in Folder: /Users/tnoguchi/Desktop
+       Search in Folder: /Users/tnoguchi/Library
+       Search in Folder: /Users/tnoguchi/docs
+       Search in Folder: /Users/tnoguchi/.oracle_jre_usage
+       Search in Folder: /Users/tnoguchi/Calibre Library
+       Search in Folder: /Users/tnoguchi/.cups
+       Search in Folder: /Users/tnoguchi/Public
+       Search in Folder: /Users/tnoguchi/.dropbox
+       Search in Folder: /Users/tnoguchi/.ssh
+       Search in Folder: /Users/tnoguchi/Movies
+       Search in Folder: /Users/tnoguchi/Applications
+       Search in Folder: /Users/tnoguchi/Dropbox
+       Search in Folder: /Users/tnoguchi/.Box_EngineServer
+       Search in Folder: /Users/tnoguchi/.Trash
+       Search in Folder: /Users/tnoguchi/.jupyter
+       Search in Folder: /Users/tnoguchi/.zprezto
+       Search in Folder: /Users/tnoguchi/.npm
+       Search in Folder: /Users/tnoguchi/Documents
+       Search in Folder: /Users/tnoguchi/.rstudio-desktop
+       Search in Folder: /Users/tnoguchi/.vscode
+       Search in Folder: /Users/tnoguchi/.spss
+       Search in Folder: /Users/tnoguchi/Downloads
+       Search in Folder: /Users/tnoguchi/.Box_StreemToSync
+       Search in Folder: /Applications/Perculia.app
+       Search in Folder: /Applications/Visual Studio Code.app
+       Search in Folder: /Applications/VLC.app
+       Search in Folder: /Applications/BusyCal.app
+       Search in Folder: /Applications/Bartender 3.app
+       Search in Folder: /Applications/OpenInCotEditor.app
+       Search in Folder: /Applications/ラジリンガル.app
+       Search in Folder: /Applications/Image2Icon.app
+       Search in Folder: /Applications/Gyazo GIF.app
+       Search in Folder: /Applications/Mathematica.app
+       Search in Folder: /Applications/Google Chrome.app
+       Search in Folder: /Applications/Numbers.app
+       Search in Folder: /Applications/Dropbox.app
+       Search in Folder: /Applications/Snappy.app
+       Search in Folder: /Applications/Adobe Photoshop 2020
+       Search in Folder: /Applications/Reeder.app
+       Search in Folder: /Applications/Adobe Audition 2020
+       Search in Folder: /Applications/Day One.app
+       Search in Folder: /Applications/Adobe Creative Cloud
+       Search in Folder: /Applications/OneDrive.app
+       Search in Folder: /Applications/Maple 2019
+       Search in Folder: /Applications/Drafts.app
+       Search in Folder: /Applications/iMovie.app
+       Search in Folder: /Applications/NightOwl.app
+       Search in Folder: /Applications/DaisyDisk.app
+       Search in Folder: /Applications/Microsoft Word.app
+       Search in Folder: /Applications/OmniFocus.app
+       Search in Folder: /Applications/Spectacle.app
+       Search in Folder: /Applications/DEVONthink Pro.app
+       Search in Folder: /Applications/Docker.app
+       Search in Folder: /Applications/Grammarly for Safari.app
+       Search in Folder: /Applications/Gyazo.app
+       Search in Folder: /Applications/Safari.app
+       Search in Folder: /Applications/Amphetamine.app
+       Search in Folder: /Applications/IBM
+       Search in Folder: /Applications/Kindle.app
+       Search in Folder: /Applications/Microsoft Excel.app
+       Search in Folder: /Applications/Utilities
+       Search in Folder: /Applications/URL Manager Pro.app
+       Search in Folder: /Applications/calibre.app
+       Search in Folder: /Applications/zoom.us.app
+       Search in Folder: /Applications/Marked 2.app
+       Search in Folder: /Applications/WinArchiver Lite.app
+       Search in Folder: /Applications/Keynote.app
+       Search in Folder: /Applications/Drobo Dashboard.app
+       Search in Folder: /Applications/iStat Menus.app
+       Search in Folder: /Applications/Quiver.app
+       Search in Folder: /Applications/LanScan.app
+       Search in Folder: /Applications/Pages.app
+       Search in Folder: /Applications/GarageBand.app
+       Search in Folder: /Applications/Tunnelblick.app
+       Search in Folder: /Applications/1Password 7.app
+       Search in Folder: /Applications/Box.app
+       Search in Folder: /Applications/Paprika Recipe Manager 3.app
+       Search in Folder: /Applications/R.app
+       Search in Folder: /Applications/Adobe Lightroom Classic
+       Search in Folder: /Applications/CotEditor.app
+       Search in Folder: /Applications/nvALT.app
+       Search in Folder: /Applications/Adobe Bridge 2020
+       Search in Folder: /Applications/Pulse Secure.app
+       Search in Folder: /Applications/Final Cut Pro.app
+       Search in Folder: /Applications/iTerm.app
+       Search in Folder: /Applications/OmniOutliner.app
+       Search in Folder: /Applications/Copied.app
+       Search in Folder: /Applications/⌘英かな.app
+       Search in Folder: /Applications/Alfred 4.app
+       Search in Folder: /Applications/Notability.app
+       Search in Folder: /Applications/Skitch.app
+       Search in Folder: /Applications/Adobe Acrobat DC
+       Search in Folder: /Applications/Microsoft Teams.app
+       Search in Folder: /Applications/JMP Pro 15.app
+       Search in Folder: /Applications/Compressor.app
+       Search in Folder: /Applications/Yoink.app
+       Search in Folder: /Applications/ThinLinc Client.app
+       Search in Folder: /Applications/RStudio.app
+       Search in Folder: /Applications/Motion.app
+       Search in Folder: /Applications/Logic Pro X.app
+       Search in Folder: /Applications/Stata
+       Search in Folder: /Users/tnoguchi/Applications/Chrome Apps.localized
+       Search in Folder: /Users/tnoguchi/Applications/TextExpander.app
+       Scripts found []
+       Best null
+       Variable changed: JD09_CONFIG=null
+       Execute action successful after 35 ms
+[INFO] org.appwork.install4j.updatesys.Webinstaller [ID 6420]: Execute action
+       Property appID: JD
+       Property publicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxKoqP5C4dw4Q+Tck6k+ib3Mi3GbkTKOc1mU+LhuBItSpMrc1HfCamEuL2KHl/S7vuh7Q2zi+xZWAkg/Nm2IK650/PMeDYMrsfwIJJNVtJbDUwr65W5Fu/Smn9CvOoo3+UYd+UVRdfjv81BRlPEudWjZUkJAwZV72hOcpAhmj1Y26RVuUk513EfFTTAXEbePwIPvUuzdSIFq2jH87ZDCVNebYUXOqHdNZVGlX93ipnXlYxs6Nlp84N7RtXIbtohGD/1FvCRy0vK+zXrNtOkHrVfBWCy/d9bnWSOGJ5qgFKp9yxRGQWz1fnr5uOjBhc07IpCGUfmW545GIFV/PJ1E37wIDAQAB
+       Property updaterID: JDU
+       Property askTOKeepSettingsOnUninstall: true
+       Property proxyVoleEnabled: true
+       Property rollbackSupported: true
+[INFO] org.appwork.install4j.updatesys.Webinstaller$WebinstallerUpdateClient: Storage Path /var/folders/gj/cwrfmk9d22l6j37y4vf92g2m0000gn/T/JDownloaderSetup/update/versioninfo/JDU/org.appwork.updatesys.client.tracker.TrackConfig
+[INFO] org.appwork.install4j.updatesys.Webinstaller$WebinstallerUpdateClient: Storage Path /var/folders/gj/cwrfmk9d22l6j37y4vf92g2m0000gn/T/JDownloaderSetup/update/versioninfo/JD/org.appwork.updatesys.client.tracker.TrackConfig
+[INFO] org.appwork.install4j.updatesys.Webinstaller [ID 6420]: Variable changed: proxy=org.appwork.utils.net.httpconnection.HTTPProxyStorable@2f112965[class org.appwork.utils.net.httpconnection.HTTPProxyStorable]
+       Execute action successful after 624953 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetProgressAction [ID 6889]: Execute action
+       Property percentValue: -1
+       Property progressChangeType: Set percentage value
+       Property timerMaxPercentValue: 100
+       Property timerPeriod: 1000
+       Property rollbackSupported: false
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 6886]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_369
+       Property rollbackSupported: false
+       Variable changed: proxylist=[][class java.util.ArrayList]
+       Execute action successful after 2 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 6552]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_370
+       Property rollbackSupported: false
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 6231]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_371
+       Property rollbackSupported: false
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.files.AddWindowsFileRightsAction [ID 351]: Execute action
+       Property files: [.]
+       Property group: Authenticated users
+       Property sidOrAccountName: null
+       Property all: true
+       Property execute: true
+       Property read: true
+       Property rollbackSupported: false
+       Property write: true
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.files.AddWindowsFileRightsAction [ID 352]: Execute action
+       Property files: [.]
+       Property group: World
+       Property sidOrAccountName: null
+       Property all: true
+       Property execute: true
+       Property read: true
+       Property rollbackSupported: false
+       Property write: true
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.files.AddWindowsFileRightsAction [ID 353]: Execute action
+       Property files: [.]
+       Property group: Administrators
+       Property sidOrAccountName: null
+       Property all: true
+       Property execute: true
+       Property read: true
+       Property rollbackSupported: false
+       Property write: true
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.files.AddWindowsFileRightsAction [ID 354]: Execute action
+       Property files: [.]
+       Property group: Users
+       Property sidOrAccountName: null
+       Property all: true
+       Property execute: true
+       Property read: true
+       Property rollbackSupported: false
+       Property write: true
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetProgressAction [ID 5702]: Execute action
+       Property percentValue: 0
+       Property progressChangeType: Set indeterminate state
+       Property timerMaxPercentValue: 100
+       Property timerPeriod: 1000
+       Property rollbackSupported: false
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetMessageAction [ID 5704]: Execute action
+       Property detailMessage: 
+       Property statusMessage: Please wait. Completing Systemintegration.
+       Property rollbackSupported: false
+       Property useDetail: false
+       Property useStatus: true
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 10]: Execute action
+       Property categories: Network;Application
+       Property linkDirectory: 
+       Property programGroupEntryConfigs: []
+       Property programGroupName: JDownloader
+       Property uninstallerMenuName: JDownloader 2 Uninstaller
+       Property addDefaultLauncherLinks: true
+       Property addUninstaller: true
+       Property allUsers: false
+       Property failForSymlinksNotCreated: false
+       Property rollbackSupported: true
+       Property unixMenuEntries: true
+       Property unixSymlinks: true
+       Variable changed: sys.programGroupName=JDownloader[class java.lang.String]
+       Variable changed: sys.symlinkDir=/usr/local/bin[class java.lang.String]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction [ID 11]: Execute action
+       Property icon: null
+       Property iconSource: Installer icon
+       Property itemName: JDownloader 2
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.misc.AddVmOptionsAction [ID 8294]: Execute action
+       Property launcherId: 7561
+       Property macosVmOptionsType: Contained in the application bundle
+       Property vmOptions: [-Xmx512m]
+       Property rollbackSupported: true
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.files.CreateSymlinkAction [ID 7419]: Execute action
+       Property file: JDownloader2.app
+       Property linkFile: /Users/tnoguchi/Applications/JDownloader2.app
+       Property removeOnUninstall: true
+       Property rollbackSupported: true
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.files.CreateSymlinkAction [ID 7595]: Execute action
+       Property file: JDownloader2.app
+       Property linkFile: /Applications/JDownloader2.app
+       Property removeOnUninstall: true
+       Property rollbackSupported: true
+       Execute action successful after 0 ms
+[INFO] org.appwork.install4j.MoveOldInstallation [ID 7965]: Execute action
+       Property rollbackSupported: true
+       Preset Config null
+[ERROR] org.appwork.install4j.MoveOldInstallation [ID 7965]: Execute action not successful after 0 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Rollback barrier reached
+       command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: Show screen
+       Variable changed: executeLauncherAction=true[class java.lang.Boolean]
+       cleaning up
+       Finished
