@@ -125,4 +125,6 @@ if [ `uname` = "Darwin" ]; then
     fi
 fi
 
+export EDITOR=nvim
+
 alias vim=nvim
