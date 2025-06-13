@@ -2,10 +2,17 @@
 
 set -euo pipefail
 
+# Load configuration
+CONFIG_FILE="config.sh"
+if [[ ! -f "$CONFIG_FILE" ]]; then
+  echo "Error: Configuration file '$CONFIG_FILE' not found."
+  exit 1
+fi
+source "$CONFIG_FILE"
+
 # Define variables for paths and settings
 AUDIBLE_CLI="audible"
 AAXTOMP3_PATH="/Users/tnoguchi/AAXtoMP3/AAXtoMP3"
-AUTHCODE="4e712234"
 OUTPUT_DIR="$HOME/Documents/Audiobooks"
 INPUT_FILE="asin.txt"
 LOG_FILE="$OUTPUT_DIR/process.log"
@@ -56,10 +63,10 @@ while read -r line; do
       if "$AAXTOMP3_PATH" --authcode "$AUTHCODE" -c -e:m4b --use-audible-cli-data "$file"; then
         rm -f "$file"
         echo "$(date): Conversion successful for $file" >>"$LOG_FILE"
-        find . -maxdepth 1 -type f -delete
+        find . -maxdepth 1 -type f -name "*.aaxc" -delete
       else
         echo "$(date): Error: Conversion failed for $file" >>"$LOG_FILE"
-        find . -maxdepth 1 -type f -delete
+        find . -maxdepth 1 -type f -name "*.aaxc" -delete
       fi
       
     done
