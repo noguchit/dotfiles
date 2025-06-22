@@ -128,3 +128,4 @@ fi
 export EDITOR=nvim
 
 alias vim=nvim
+eval "$(zoxide init zsh)"
