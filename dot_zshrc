@@ -129,3 +129,5 @@ export EDITOR=nvim
 
 alias vim=nvim
 eval "$(zoxide init --cmd cd zsh)"
+alias marked='open -a "Marked 2"'
+
