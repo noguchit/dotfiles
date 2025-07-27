@@ -131,6 +131,3 @@ alias vim=nvim
 eval "$(zoxide init --cmd cd zsh)"
 alias marked='open -a "Marked 2"'
 
-export SCHWAB_APP_KEY="WGADWkqV31L4R53WC1rACSwnWRjflbZ3"
-export SCHWAB_APP_SECRET="F5z8YNUIJVWy9Upu"
-
